@@ -1276,6 +1276,7 @@ Division As screen:
 
                         StarVisible1 As label:
                             Align: =Align.Center
+                            Color: =RGBA(255, 0, 0, 1)
                             Height: =DataCardKey1.Height
                             Text: ="*"
                             Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -1346,6 +1347,7 @@ Division As screen:
 
                         StarVisible2 As label:
                             Align: =Align.Center
+                            Color: =RGBA(255, 0, 0, 1)
                             Height: =DataCardKey2.Height
                             Text: ="*"
                             Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -1413,6 +1415,7 @@ Division As screen:
 
                         StarVisible5 As label:
                             Align: =Align.Center
+                            Color: =RGBA(255, 0, 0, 1)
                             Height: =DataCardKey5.Height
                             Text: ="*"
                             Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -1480,6 +1483,7 @@ Division As screen:
 
                         StarVisible6 As label:
                             Align: =Align.Center
+                            Color: =RGBA(255, 0, 0, 1)
                             Height: =DataCardKey6.Height
                             Text: ="*"
                             Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -1547,6 +1551,7 @@ Division As screen:
 
                         StarVisible7 As label:
                             Align: =Align.Center
+                            Color: =RGBA(255, 0, 0, 1)
                             Height: =DataCardKey7.Height
                             Text: ="*"
                             Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -1572,8 +1577,8 @@ Division As screen:
 
                         DataCardKey8 As label:
                             FontWeight: =FontWeight.Semibold
-                            Height: =33
-                            PaddingBottom: =15
+                            Height: =37
+                            PaddingBottom: =0
                             PaddingTop: =0
                             Size: =15
                             Text: =Parent.DisplayName
@@ -1615,6 +1620,7 @@ Division As screen:
 
                         StarVisible8 As label:
                             Align: =Align.Center
+                            Color: =RGBA(255, 0, 0, 1)
                             Height: =DataCardKey8.Height
                             Text: ="*"
                             Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -1838,6 +1844,8 @@ Division As screen:
 
                 Button4 As button:
                     DisplayMode: =If(Form1.Valid,DisplayMode.Edit,DisplayMode.Disabled)
+                    Fill: =RGBA(54, 176, 75, 1)
+                    HoverFill: =Self.Fill
                     OnSelect: |
                         =SubmitForm(Form1);
                         NewForm(Form1);
@@ -1847,12 +1855,18 @@ Division As screen:
                             NotificationType.Success
                         );
                         ResetForm(Form1);
+                    PressedColor: =Self.Color
+                    PressedFill: =Self.Fill
                     Text: ="Save"
                     ZIndex: =1
 
                 Button4_1 As button:
+                    Fill: =RGBA(54, 176, 75, 1)
+                    HoverFill: =Self.Fill
                     OnSelect: |-
                         =UpdateContext({showpopup:false})
+                    PressedColor: =Self.Color
+                    PressedFill: =Self.Fill
                     Text: ="Cancel"
                     ZIndex: =2
 
