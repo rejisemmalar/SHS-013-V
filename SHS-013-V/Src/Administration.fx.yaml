@@ -1,0 +1,11 @@
+Administration As screen:
+
+    Component1_3 As Component1:
+        CurrentScreen: ="Administration"
+        Height: =768
+
+    "'Administration(com)_3' As 'Administration(com)'":
+        X: =370
+        Y: =136
+        ZIndex: =3
+

@@ -1,0 +1,6 @@
+"'MyProfile(Admin)' As screen":
+
+    Component1_21 As Component1:
+        CurrentScreen: ="MyProfile(Admin)"
+        Height: =768
+

@@ -1,0 +1,128 @@
+{
+  "5d809d0c-f856-4cdc-aac2-b07088dcc01c": {
+    "appActions": [
+      "providers/PowerPlatform.Governance/Operations/Read",
+      "providers/PowerPlatform.Governance/Operations/Write",
+      "providers/PowerPlatform.Governance/Operations/Delete"
+    ],
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1664/1.0.1664.3477/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "https://y00q1.sharepoint.com/sites/SHS-V07": {
+        "dataSources": {
+          "Division_1": {
+            "tableName": "31c2a3e9-f68d-48d7-8542-64b5ae49d126"
+          },
+          "Factor": {
+            "tableName": "ccf22452-b069-45bd-b208-f2aa065409b8"
+          },
+          "HACT Config": {
+            "tableName": "9ad76def-8225-4d10-b26c-5f26e0dea15b"
+          },
+          "Login Details": {
+            "tableName": "329e5a5f-1293-4368-a3f2-67d91be2f1bb"
+          },
+          "MapDiv(Factors)": {
+            "tableName": "7c9532c9-2b3f-403d-8751-a103f5d56d8a"
+          },
+          "MapDiv(subfactors)": {
+            "tableName": "78bd54fc-50a9-4feb-be61-c1cbf23a2256"
+          },
+          "MapDiv(subfactors)_1": {
+            "tableName": "78bd54fc-50a9-4feb-be61-c1cbf23a2256"
+          },
+          "Options_1": {
+            "tableName": "ff92d1af-76aa-4b93-b5d2-32c44708555d"
+          },
+          "Questions_1": {
+            "tableName": "0e1ff4d4-cf16-4a4d-a9c2-72e1895e767e"
+          },
+          "Questions_2": {
+            "tableName": "0e1ff4d4-cf16-4a4d-a9c2-72e1895e767e"
+          },
+          "Segment Member_1": {
+            "tableName": "169efd9a-a110-4b87-ab7c-1f2ae93a572f"
+          },
+          "Segment_2": {
+            "tableName": "cb41dfdc-4f53-481c-a28c-447c0a602d55"
+          },
+          "SHS-Users": {
+            "tableName": "991d0732-9a71-4950-acc8-5bd703252f59"
+          },
+          "Study(Administration)": {
+            "tableName": "0da238b4-bd26-4820-b5b3-69ad1dba3af9"
+          },
+          "Subfactors_1": {
+            "tableName": "7da5b8f9-b3f5-4d8c-a9cb-1bfcd3707ba1"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "Division_1",
+      "SHS-Users",
+      "Segment_2",
+      "Segment Member_1",
+      "Factor",
+      "Subfactors_1",
+      "Questions_1",
+      "Questions_2",
+      "Options_1",
+      "Study(Administration)",
+      "Login Details",
+      "MapDiv(Factors)",
+      "MapDiv(subfactors)_1",
+      "MapDiv(subfactors)",
+      "HACT Config"
+    ],
+    "dependencies": {},
+    "dependents": [
+      "ebdacf61-1238-42db-9f3b-ceeda7d8f8f8"
+    ],
+    "id": "5d809d0c-f856-4cdc-aac2-b07088dcc01c"
+  },
+  "ebdacf61-1238-42db-9f3b-ceeda7d8f8f8": {
+    "appActions": [
+      "Run"
+    ],
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "Logic flows",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1664/1.0.1664.3477/logicflows/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
+      "parameterHints": {
+        "5d809d0c-f856-4cdc-aac2-b07088dcc01c": {
+          "value": "shared_sharepointonline"
+        },
+        "workflowEntityId": {},
+        "workflowName": {
+          "value": "06935f9b-6cb1-4d79-9677-ee2fdf2c7572"
+        }
+      },
+      "parameterHintsV2": {
+        "shared_sharepointonline": {
+          "value": "5d809d0c-f856-4cdc-aac2-b07088dcc01c"
+        },
+        "workflowEntityId": {},
+        "workflowName": {
+          "value": "06935f9b-6cb1-4d79-9677-ee2fdf2c7572"
+        }
+      }
+    },
+    "datasets": {},
+    "dataSources": [
+      "Exportflow"
+    ],
+    "dependencies": {
+      "shared_sharepointonline": "5d809d0c-f856-4cdc-aac2-b07088dcc01c"
+    },
+    "dependents": [],
+    "id": "ebdacf61-1238-42db-9f3b-ceeda7d8f8f8"
+  }
+}

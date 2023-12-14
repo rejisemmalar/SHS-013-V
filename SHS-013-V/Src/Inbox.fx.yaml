@@ -1,0 +1,34 @@
+Inbox As screen:
+
+    Component1_2 As Component1:
+        CurrentScreen: ="Inbox"
+        Height: =768
+
+    CanVasContainer_1 As groupContainer.manualLayoutContainer:
+        Height: =App.Height-compDB.ComHeaderHeight
+        Width: =App.Width-compDB.VarMenuWidth
+        X: =Component1_2.VarMenuWidth
+        Y: =compDB.ComHeaderHeight
+        ZIndex: =3
+
+        "'Inbox(com)_2' As 'Inbox(com)'":
+            Height: =598
+            inbox_menu: |-
+                =Table(
+                    {
+                        Title: "All Study",
+                        TargetScreen: 'All Study'
+                    },
+                    {
+                        Title: "All Initiatives",
+                        TargetScreen: 'All Initiatives'
+                    },
+                    {
+                        Title: "For Admin Action",
+                        TargetScreen: 'For Admin Action'
+                    }
+                )
+            Width: =378
+            X: =CanVasContainer_1.X
+            Y: =47
+
