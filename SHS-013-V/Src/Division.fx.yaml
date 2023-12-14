@@ -1164,7 +1164,8 @@ Division As screen:
 
         Container27_2 As groupContainer.verticalAutoLayoutContainer:
             AlignInContainer: =AlignInContainer.SetByContainer
-            Fill: =Color.AliceBlue
+            DropShadow: =DropShadow.Bold
+            Fill: =RGBA(255, 255, 255, 1)
             FillPortions: =0
             Height: =550
             LayoutAlignItems: =LayoutAlignItems.Center
@@ -1177,11 +1178,12 @@ Division As screen:
 
             Icon28_2 As icon.Cancel:
                 AlignInContainer: =AlignInContainer.End
-                Height: =50
+                Color: =RGBA(255, 0, 0, 1)
+                Height: =30
                 Icon: =Icon.Cancel
                 OnSelect: |-
                     =UpdateContext({showpopup:false})
-                Width: =50
+                Width: =30
                 ZIndex: =1
 
             Label22_1 As label:
@@ -1196,6 +1198,7 @@ Division As screen:
                 ZIndex: =2
 
             Container28_4 As groupContainer.horizontalAutoLayoutContainer:
+                DropShadow: =DropShadow.None
                 LayoutAlignItems: =LayoutAlignItems.Center
                 LayoutGap: =50
                 LayoutJustifyContent: =LayoutJustifyContent.Center
@@ -1229,7 +1232,9 @@ Division As screen:
 
                         DataCardKey1 As label:
                             AutoHeight: =true
+                            FontWeight: =FontWeight.Semibold
                             Height: =34
+                            Size: =15
                             Text: =Parent.DisplayName
                             Width: =Parent.Width - 60
                             Wrap: =false
@@ -1297,7 +1302,9 @@ Division As screen:
 
                         DataCardKey2 As label:
                             AutoHeight: =true
+                            FontWeight: =FontWeight.Semibold
                             Height: =34
+                            Size: =15
                             Text: =Parent.DisplayName
                             Width: =Parent.Width - 60
                             Wrap: =false
@@ -1364,7 +1371,9 @@ Division As screen:
 
                         DataCardKey5 As label:
                             AutoHeight: =true
+                            FontWeight: =FontWeight.Semibold
                             Height: =34
+                            Size: =15
                             Text: =Parent.DisplayName
                             Width: =Parent.Width - 60
                             Wrap: =false
@@ -1429,7 +1438,9 @@ Division As screen:
 
                         DataCardKey6 As label:
                             AutoHeight: =true
+                            FontWeight: =FontWeight.Semibold
                             Height: =34
+                            Size: =15
                             Text: =Parent.DisplayName
                             Width: =Parent.Width - 60
                             Wrap: =false
@@ -1494,7 +1505,9 @@ Division As screen:
 
                         DataCardKey7 As label:
                             AutoHeight: =true
+                            FontWeight: =FontWeight.Semibold
                             Height: =34
+                            Size: =15
                             Text: =Parent.DisplayName
                             Width: =Parent.Width - 60
                             Wrap: =false
@@ -1549,7 +1562,7 @@ Division As screen:
                         DisplayMode: =Parent.DisplayMode
                         DisplayName: =DataSourceInfo([@Division_1],DataSourceInfo.DisplayName,"FirstApprover")
                         Fill: =RGBA(0, 0, 0, 0)
-                        Height: =50
+                        Height: =112
                         Required: =true
                         Update: =DataCardValue8.SelectedItems
                         Width: =300
@@ -1558,8 +1571,11 @@ Division As screen:
                         ZIndex: =2
 
                         DataCardKey8 As label:
-                            AutoHeight: =true
-                            Height: =34
+                            FontWeight: =FontWeight.Semibold
+                            Height: =33
+                            PaddingBottom: =15
+                            PaddingTop: =0
+                            Size: =15
                             Text: =Parent.DisplayName
                             Width: =Parent.Width - 60
                             Wrap: =false
@@ -1579,7 +1595,7 @@ Division As screen:
                             Tooltip: =Parent.DisplayName
                             Width: =Parent.Width - 60
                             X: =30
-                            Y: =DataCardKey8.Y + DataCardKey8.Height + 5
+                            Y: =53
                             ZIndex: =2
 
                         ErrorMessage8 As label:
@@ -1624,7 +1640,9 @@ Division As screen:
 
                         DataCardKey9 As label:
                             AutoHeight: =true
+                            FontWeight: =FontWeight.Semibold
                             Height: =34
+                            Size: =15
                             Text: =Parent.DisplayName
                             Width: =Parent.Width - 60
                             Wrap: =false
@@ -1689,7 +1707,9 @@ Division As screen:
 
                         DataCardKey10 As label:
                             AutoHeight: =true
+                            FontWeight: =FontWeight.Semibold
                             Height: =34
+                            Size: =15
                             Text: =Parent.DisplayName
                             Width: =Parent.Width - 60
                             Wrap: =false
@@ -1754,7 +1774,9 @@ Division As screen:
 
                         DataCardKey12 As label:
                             AutoHeight: =true
+                            FontWeight: =FontWeight.Semibold
                             Height: =34
+                            Size: =15
                             Text: =Parent.DisplayName
                             Width: =Parent.Width - 60
                             Wrap: =false
