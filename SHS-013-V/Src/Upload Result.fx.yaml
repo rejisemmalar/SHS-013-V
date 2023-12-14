@@ -462,6 +462,43 @@
                 ZIndex: =2
 
             Button8_1 As button:
+                OnSelect: |-
+                    =If(
+                        Not(
+                            EndsWith(
+                                First(DataCardValue82_1.Attachments).Name,
+                                ".xlsx"
+                            )
+                        ),
+                        Notify(
+                            "Only xlsx files are allowed",
+                            NotificationType.Error
+                        ),
+                        Set(
+                            Data,
+                            ImportAndRead.Run(
+                                Gallery_study_1.Selected.ID,
+                                First(DataCardValue82_1.Attachments).Name,
+                                {
+                                    file: {
+                                        contentBytes: First(DataCardValue82_1.Attachments).Value,
+                                        name: First(DataCardValue82_1.Attachments).Name
+                                    }
+                                }
+                            ).outputfornotification
+                        );
+                        If(
+                            Data = "True",
+                            Notify(
+                                "Imported",
+                                NotificationType.Success
+                            ),
+                            Notify(
+                                "Enter VAlid File",
+                                NotificationType.Warning
+                            )
+                        )
+                    )
                 Text: ="Import"
                 Visible: =If(IsBlank(First(DataCardValue82_1.Attachments).Name),false,true)
                 Width: =150
