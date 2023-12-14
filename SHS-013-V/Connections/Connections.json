@@ -40,6 +40,35 @@
     "dependents": [],
     "id": "49c4aad0-ccc6-4d1c-931a-dff6eb9bbc67"
   },
+  "59a2ab0d-4d3f-4ce9-a357-01f7e2cf4bb1": {
+    "connectionRef": {
+      "displayName": "Logic flows",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1664/1.0.1664.3477/logicflows/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
+      "parameterHints": {
+        "workflowEntityId": {},
+        "workflowName": {
+          "value": "08ca7b6f-47fb-4b30-9fdc-67199148d5c2"
+        }
+      },
+      "parameterHintsV2": {
+        "workflowEntityId": {},
+        "workflowName": {
+          "value": "08ca7b6f-47fb-4b30-9fdc-67199148d5c2"
+        }
+      }
+    },
+    "datasets": {},
+    "dataSources": [
+      "Copyof-ImportAndRead2nd"
+    ],
+    "dependencies": {
+      "shared_excelonlinebusiness": "da177838-88fa-4a66-a120-227ac5e014a3",
+      "shared_sharepointonline": "5d809d0c-f856-4cdc-aac2-b07088dcc01c"
+    },
+    "dependents": [],
+    "id": "59a2ab0d-4d3f-4ce9-a357-01f7e2cf4bb1"
+  },
   "5d809d0c-f856-4cdc-aac2-b07088dcc01c": {
     "appActions": [
       "providers/PowerPlatform.Governance/Operations/Read",
@@ -125,7 +154,8 @@
     "dependencies": {},
     "dependents": [
       "49c4aad0-ccc6-4d1c-931a-dff6eb9bbc67",
-      "7c17fedf-c9ff-47a9-a8ad-97a6e1d07f55"
+      "7c17fedf-c9ff-47a9-a8ad-97a6e1d07f55",
+      "59a2ab0d-4d3f-4ce9-a357-01f7e2cf4bb1"
     ],
     "id": "5d809d0c-f856-4cdc-aac2-b07088dcc01c"
   },
@@ -173,7 +203,8 @@
     "dataSources": [],
     "dependencies": {},
     "dependents": [
-      "49c4aad0-ccc6-4d1c-931a-dff6eb9bbc67"
+      "49c4aad0-ccc6-4d1c-931a-dff6eb9bbc67",
+      "59a2ab0d-4d3f-4ce9-a357-01f7e2cf4bb1"
     ],
     "id": "da177838-88fa-4a66-a120-227ac5e014a3"
   }
