@@ -462,7 +462,7 @@
 
             Button8_1 As button:
                 Text: ="Import"
-                Visible: =If(First(DataCardValue82_1.Attachments).Name="",false,true)
+                Visible: =If(IsBlank(First(DataCardValue82_1.Attachments).Name),false,true)
                 Width: =150
                 ZIndex: =3
 
