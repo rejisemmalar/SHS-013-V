@@ -1247,6 +1247,8 @@ Division As screen:
                             Default: =Parent.Default
                             DelayOutput: =true
                             DisplayMode: =Parent.DisplayMode
+                            HoverBorderColor: =RGBA(0, 0, 0, 1)
+                            HoverFill: =RGBA(255, 255, 255, 1)
                             MaxLength: =Parent.MaxLength
                             PaddingLeft: =5
                             RadiusBottomLeft: =0
@@ -1318,6 +1320,8 @@ Division As screen:
                             Default: =Parent.Default
                             DelayOutput: =true
                             DisplayMode: =Parent.DisplayMode
+                            HoverBorderColor: =RGBA(0, 0, 0, 1)
+                            HoverFill: =RGBA(255, 255, 255, 1)
                             MaxLength: =Parent.MaxLength
                             PaddingLeft: =5
                             RadiusBottomLeft: =0
@@ -1385,9 +1389,12 @@ Division As screen:
 
                         DataCardValue5 As combobox:
                             BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                            ChevronBackground: =RGBA(255, 255, 255, 1)
+                            ChevronFill: =RGBA(160, 168, 165, 1)
                             DefaultSelectedItems: =Parent.Default
                             DisplayFields: =["Value"]
                             DisplayMode: =Parent.DisplayMode
+                            HoverFill: =RGBA(255, 255, 255, 1)
                             Items: =Choices([@Division_1].Admin)
                             PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                             SearchFields: =["Value"]
@@ -1453,6 +1460,8 @@ Division As screen:
 
                         DataCardValue6 As combobox:
                             BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                            ChevronBackground: =RGBA(255, 255, 255, 1)
+                            ChevronFill: =RGBA(160, 168, 165, 1)
                             DefaultSelectedItems: =Parent.Default
                             DisplayFields: =["Value"]
                             DisplayMode: =Parent.DisplayMode
@@ -1521,6 +1530,8 @@ Division As screen:
 
                         DataCardValue7 As combobox:
                             BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                            ChevronBackground: =RGBA(255, 255, 255, 1)
+                            ChevronFill: =RGBA(160, 168, 165, 1)
                             DefaultSelectedItems: =Parent.Default
                             DisplayFields: =["Value"]
                             DisplayMode: =Parent.DisplayMode
@@ -1590,6 +1601,8 @@ Division As screen:
 
                         DataCardValue8 As combobox:
                             BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                            ChevronBackground: =RGBA(255, 255, 255, 1)
+                            ChevronFill: =RGBA(160, 168, 165, 1)
                             DefaultSelectedItems: =Parent.Default
                             DisplayFields: =["Value"]
                             DisplayMode: =Parent.DisplayMode
@@ -1658,6 +1671,8 @@ Division As screen:
 
                         DataCardValue9 As combobox:
                             BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                            ChevronBackground: =RGBA(255, 255, 255, 1)
+                            ChevronFill: =RGBA(160, 168, 165, 1)
                             DefaultSelectedItems: =Parent.Default
                             DisplayFields: =["Value"]
                             DisplayMode: =Parent.DisplayMode
@@ -1725,6 +1740,8 @@ Division As screen:
 
                         DataCardValue10 As combobox:
                             BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                            ChevronBackground: =RGBA(255, 255, 255, 1)
+                            ChevronFill: =RGBA(160, 168, 165, 1)
                             DefaultSelectedItems: =Parent.Default
                             DisplayFields: =["Value"]
                             DisplayMode: =Parent.DisplayMode
@@ -1792,6 +1809,8 @@ Division As screen:
 
                         DataCardValue12 As combobox:
                             BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                            ChevronBackground: =RGBA(255, 255, 255, 1)
+                            ChevronFill: =RGBA(160, 168, 165, 1)
                             DefaultSelectedItems: =Parent.Default
                             DisplayFields: =["Value"]
                             DisplayMode: =Parent.DisplayMode
