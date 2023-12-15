@@ -221,7 +221,7 @@
             ZIndex: =15
 
         Label59 As label:
-            Text: ="Text"
+            Text: ="PR"
             X: =15
             Y: =508
             ZIndex: =16
