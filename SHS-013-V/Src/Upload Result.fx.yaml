@@ -310,7 +310,7 @@
 
             Gallery_study_1 As gallery.galleryVertical:
                 DelayItemLoading: =true
-                Items: =Filter('Study(Administration)',StartsWith('Study Code',searchStudylist.Text)||StartsWith('Study Name',searchStudylist.Text))
+                Items: =Filter('Study(Administration)','Perfomance Year'.Value=VarCurrentYear.Value,StartsWith('Study Code',searchStudylist.Text)||StartsWith('Study Name',searchStudylist.Text))
                 Layout: =Layout.Vertical
                 LayoutMinHeight: =287
                 LayoutMinWidth: =320
