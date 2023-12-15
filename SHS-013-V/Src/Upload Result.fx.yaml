@@ -843,6 +843,9 @@
             ZIndex: =1
 
         Label40 As label:
+            Align: =Align.Center
+            Size: =30
             Text: ="No Matching Items Found"
+            Width: =500
             ZIndex: =2
 
