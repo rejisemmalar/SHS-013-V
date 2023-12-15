@@ -30,8 +30,15 @@
             ZIndex: =2
 
         Label26 As label:
-            Text: ="Text"
+            Text: ="admin"
             X: =184
             Y: =82
             ZIndex: =3
+
+        Icon16 As icon.HorizontalLine:
+            Height: =0
+            Icon: =Icon.HorizontalLine
+            Width: =574
+            Y: =55
+            ZIndex: =4
 
