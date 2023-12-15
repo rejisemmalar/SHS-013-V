@@ -125,3 +125,9 @@
         Y: =141
         ZIndex: =3
 
+        Label41 As label:
+            Text: ="Text"
+            X: =15
+            Y: =9
+            ZIndex: =1
+
