@@ -159,7 +159,13 @@
             ZIndex: =5
 
         Label49 As label:
-            Text: ="Text"
+            Text: ="Display name"
             Y: =195
             ZIndex: =6
+
+        Label50 As label:
+            Text: ="Text"
+            X: =206
+            Y: =195
+            ZIndex: =7
 
