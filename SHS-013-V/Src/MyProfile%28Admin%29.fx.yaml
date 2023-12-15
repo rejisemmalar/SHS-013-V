@@ -213,7 +213,9 @@
             ZIndex: =14
 
         Label58 As label:
-            Text: ="Text"
+            FontWeight: =FontWeight.Bold
+            Text: ="Supplier Happiness Survey"
+            Width: =258
             X: =218
             Y: =444
             ZIndex: =15
