@@ -175,3 +175,9 @@
             Y: =250
             ZIndex: =8
 
+        Label52 As label:
+            Text: ="admin@dewa"
+            X: =218
+            Y: =250
+            ZIndex: =9
+
