@@ -183,7 +183,13 @@
             ZIndex: =9
 
         Label53 As label:
-            Text: ="Text"
+            Text: ="Designation"
             Y: =308
             ZIndex: =10
+
+        Label54 As label:
+            Text: ="Text"
+            X: =241
+            Y: =308
+            ZIndex: =11
 
