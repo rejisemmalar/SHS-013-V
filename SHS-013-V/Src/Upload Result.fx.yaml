@@ -842,3 +842,7 @@
             Width: =250
             ZIndex: =1
 
+        Label40 As label:
+            Text: ="No Matching Items Found"
+            ZIndex: =2
+
