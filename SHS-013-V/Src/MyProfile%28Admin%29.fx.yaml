@@ -135,8 +135,13 @@
             ZIndex: =1
 
         Label45 As label:
-            Text: |-
-                ="Username :"
+            Text: ="Username "
             Y: =72
             ZIndex: =2
+
+        Label46 As label:
+            Text: ="Text"
+            X: =241
+            Y: =72
+            ZIndex: =3
 
