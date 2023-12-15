@@ -200,7 +200,8 @@
             ZIndex: =12
 
         Label56 As label:
-            Text: ="Text"
+            FontWeight: =FontWeight.Bold
+            Text: ="sadmin"
             X: =218
             Y: =362
             ZIndex: =13
