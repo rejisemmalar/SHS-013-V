@@ -656,7 +656,7 @@
                                 NotificationType.Success
                             ),
                             Notify(
-                                "Enter Valid File",
+                                "Enter VAlid File",
                                 NotificationType.Warning
                             )
                         )
