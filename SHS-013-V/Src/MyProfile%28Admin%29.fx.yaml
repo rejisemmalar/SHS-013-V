@@ -22,9 +22,16 @@
 
         Label20 As label:
             Height: =34
-            Text: ="Text"
+            Text: |-
+                ="Designation :"
             Width: =134
             X: =9
             Y: =82
             ZIndex: =2
+
+        Label26 As label:
+            Text: ="Text"
+            X: =184
+            Y: =82
+            ZIndex: =3
 
