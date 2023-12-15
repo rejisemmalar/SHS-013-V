@@ -94,7 +94,11 @@
             ZIndex: =11
 
         Label38 As label:
-            Text: ="Text"
+            FontWeight: =FontWeight.Bold
+            Height: =48
+            Text: |-
+                ="Stakeholder Access :"
+            Width: =246
             X: =9
             Y: =312
             ZIndex: =12
