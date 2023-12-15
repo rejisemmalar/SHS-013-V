@@ -831,6 +831,7 @@
         LayoutDirection: =LayoutDirection.Vertical
         LayoutJustifyContent: =LayoutJustifyContent.Center
         LayoutMode: =LayoutMode.Auto
+        Visible: =If(Gallery_study_1.AllItemsCount=0,true,false)
         Width: =App.Width-UploadResultComp.VarMenuWidth
         X: =UploadResultComp.VarMenuWidth
         Y: =316
