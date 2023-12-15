@@ -227,7 +227,8 @@
             ZIndex: =16
 
         Label60 As label:
-            Text: ="Text"
+            FontWeight: =FontWeight.Bold
+            Text: ="25305"
             X: =218
             Y: =508
             ZIndex: =17
