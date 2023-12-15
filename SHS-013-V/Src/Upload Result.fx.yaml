@@ -825,11 +825,19 @@
                 ZIndex: =3
 
     Container16 As groupContainer.verticalAutoLayoutContainer:
+        Fill: =RGBA(166, 215, 153, 1)
         Height: =452
+        LayoutAlignItems: =LayoutAlignItems.Center
         LayoutDirection: =LayoutDirection.Vertical
+        LayoutJustifyContent: =LayoutJustifyContent.Center
         LayoutMode: =LayoutMode.Auto
         Width: =App.Width-UploadResultComp.VarMenuWidth
-        X: =273
+        X: =UploadResultComp.VarMenuWidth
         Y: =316
         ZIndex: =4
+
+        Image5 As image:
+            Image: ='Not found'
+            Width: =250
+            ZIndex: =1
 
