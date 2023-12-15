@@ -152,7 +152,8 @@
             ZIndex: =4
 
         Label48 As label:
-            Text: ="Text"
+            FontWeight: =FontWeight.Bold
+            Text: ="admin"
             X: =218
             Y: =134
             ZIndex: =5
