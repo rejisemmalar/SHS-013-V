@@ -195,7 +195,13 @@
             ZIndex: =11
 
         Label55 As label:
-            Text: ="Text"
+            Text: ="Use Type"
             Y: =362
             ZIndex: =12
+
+        Label56 As label:
+            Text: ="Text"
+            X: =218
+            Y: =362
+            ZIndex: =13
 
