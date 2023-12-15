@@ -1,0 +1,249 @@
+"'MyProfile(Champion)' As screen":
+
+    Component1_22 As Component1:
+        Adminicon_menu: |-
+            =Table(
+                {
+                    Title: "MyProfile",
+                    TargetScreen: 'MyProfile(Champion)'
+                    
+                },
+                {
+                    Title: "Log Out",
+                    TargetScreen: 'Login Page'     
+                    
+                }
+            )
+        CurrentScreen: ="MyProfile(Admin)"
+        Height: =768
+
+    Container6_1 As groupContainer.manualLayoutContainer:
+        Fill: =RGBA(214, 221, 224, 1)
+        Height: =542
+        Width: =524
+        X: =291
+        Y: =141
+        ZIndex: =2
+
+        Label18_1 As label:
+            FontWeight: =FontWeight.Bold
+            Size: =16
+            Text: ="admin"
+            X: =9
+            Y: =15
+            ZIndex: =1
+
+        Label20_1 As label:
+            Height: =34
+            Text: |-
+                ="Designation :"
+            Width: =134
+            X: =9
+            Y: =82
+            ZIndex: =2
+
+        Label26_1 As label:
+            Text: ="admin"
+            X: =184
+            Y: =82
+            ZIndex: =3
+
+        Icon16_2 As icon.HorizontalLine:
+            BorderThickness: =1
+            Height: =0
+            Icon: =Icon.HorizontalLine
+            Width: =524
+            Y: =55
+            ZIndex: =4
+
+        Label27_1 As label:
+            Text: |-
+                ="Role :"
+            Width: =134
+            X: =9
+            Y: =122
+            ZIndex: =5
+
+        Label28_1 As label:
+            Text: ="sadmin"
+            X: =196
+            Y: =122
+            ZIndex: =6
+
+        Label29_1 As label:
+            Text: |-
+                ="PR :"
+            X: =1
+            Y: =162
+            ZIndex: =7
+
+        Label32_1 As label:
+            Text: ="25305"
+            X: =212
+            Y: =162
+            ZIndex: =8
+
+        Label33_1 As label:
+            Height: =38
+            Text: |-
+                ="Performance Period :"
+            Width: =203
+            Y: =234
+            ZIndex: =9
+
+        Label37_1 As label:
+            Text: |-
+                ="[Year] :"
+            X: =184
+            Y: =234
+            ZIndex: =10
+
+        Icon16_3 As icon.HorizontalLine:
+            BorderThickness: =1
+            Height: =0
+            Icon: =Icon.HorizontalLine
+            Width: =524
+            Y: =297
+            ZIndex: =11
+
+        Label38_1 As label:
+            FontWeight: =FontWeight.Bold
+            Height: =48
+            Text: ="Stakeholder Access "
+            Width: =246
+            X: =9
+            Y: =312
+            ZIndex: =12
+
+        Image6_1 As image:
+            Height: =52
+            Image: =logo
+            Width: =44
+            X: =9
+            Y: =360
+            ZIndex: =13
+
+        Label39_1 As label:
+            Size: =20
+            Text: ="Supplier"
+            X: =92
+            Y: =372
+            ZIndex: =14
+
+    Container15_1 As groupContainer.manualLayoutContainer:
+        Fill: =RGBA(166, 215, 153, 1)
+        Height: =627
+        Width: =528
+        X: =838
+        Y: =141
+        ZIndex: =3
+
+        Label41_1 As label:
+            FontWeight: =FontWeight.Bold
+            Height: =36
+            Text: ="Profile Information"
+            Width: =226
+            X: =15
+            Y: =9
+            ZIndex: =1
+
+        Label45_1 As label:
+            Text: ="Username "
+            Y: =72
+            ZIndex: =2
+
+        Label46_1 As label:
+            FontWeight: =FontWeight.Bold
+            Text: ="admin"
+            X: =241
+            Y: =72
+            ZIndex: =3
+
+        Label47_1 As label:
+            Text: ="First name"
+            Y: =134
+            ZIndex: =4
+
+        Label48_1 As label:
+            FontWeight: =FontWeight.Bold
+            Text: ="admin"
+            X: =218
+            Y: =134
+            ZIndex: =5
+
+        Label49_1 As label:
+            Text: ="Display name"
+            Y: =195
+            ZIndex: =6
+
+        Label50_1 As label:
+            FontWeight: =FontWeight.Bold
+            Text: ="admin"
+            X: =206
+            Y: =195
+            ZIndex: =7
+
+        Label51_1 As label:
+            Text: ="Email Id"
+            Y: =250
+            ZIndex: =8
+
+        Label52_1 As label:
+            FontWeight: =FontWeight.Bold
+            Text: ="admin@dewa.gov.ae"
+            Width: =224
+            X: =218
+            Y: =250
+            ZIndex: =9
+
+        Label53_1 As label:
+            Text: ="Designation"
+            Y: =308
+            ZIndex: =10
+
+        Label54_1 As label:
+            FontWeight: =FontWeight.Bold
+            Text: ="admin"
+            X: =241
+            Y: =308
+            ZIndex: =11
+
+        Label55_1 As label:
+            Text: ="Use Type"
+            Y: =362
+            ZIndex: =12
+
+        Label56_1 As label:
+            FontWeight: =FontWeight.Bold
+            Text: ="sadmin"
+            X: =218
+            Y: =362
+            ZIndex: =13
+
+        Label57_1 As label:
+            Text: ="Stakeholder"
+            X: =15
+            Y: =435
+            ZIndex: =14
+
+        Label58_1 As label:
+            FontWeight: =FontWeight.Bold
+            Text: ="Supplier Happiness Survey"
+            Width: =258
+            X: =201
+            Y: =435
+            ZIndex: =15
+
+        Label59_1 As label:
+            Text: ="PR Number"
+            X: =15
+            Y: =508
+            ZIndex: =16
+
+        Label60_1 As label:
+            FontWeight: =FontWeight.Bold
+            Text: ="25305"
+            X: =218
+            Y: =508
+            ZIndex: =17
+
