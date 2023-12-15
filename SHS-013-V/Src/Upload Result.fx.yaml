@@ -638,7 +638,7 @@
                         ),
                         Set(
                             Data,
-                            'Copyof-ImportAndRead2nd'.Run(
+                            'Copyof-ImportAndRead3rd'.Run(
                                 Gallery_study_1.Selected.ID,
                                 First(DataCardValue82_3.Attachments).Name,
                                 {
@@ -656,7 +656,7 @@
                                 NotificationType.Success
                             ),
                             Notify(
-                                "Enter VAlid File",
+                                "Enter Valid File",
                                 NotificationType.Warning
                             )
                         )
