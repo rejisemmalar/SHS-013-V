@@ -36,9 +36,17 @@
             ZIndex: =3
 
         Icon16 As icon.HorizontalLine:
+            BorderThickness: =1
             Height: =0
             Icon: =Icon.HorizontalLine
             Width: =574
             Y: =55
             ZIndex: =4
+
+        Label27 As label:
+            Text: ="Text"
+            Width: =134
+            X: =9
+            Y: =122
+            ZIndex: =5
 
