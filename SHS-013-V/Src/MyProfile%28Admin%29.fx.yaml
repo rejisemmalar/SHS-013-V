@@ -111,6 +111,7 @@
             ZIndex: =13
 
         Label39 As label:
+            Size: =20
             Text: ="Supplier"
             X: =92
             Y: =372
