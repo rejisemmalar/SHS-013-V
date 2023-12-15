@@ -96,10 +96,17 @@
         Label38 As label:
             FontWeight: =FontWeight.Bold
             Height: =48
-            Text: |-
-                ="Stakeholder Access :"
+            Text: ="Stakeholder Access "
             Width: =246
             X: =9
             Y: =312
             ZIndex: =12
+
+        Image6 As image:
+            Height: =52
+            Image: =logo
+            Width: =44
+            X: =9
+            Y: =360
+            ZIndex: =13
 
