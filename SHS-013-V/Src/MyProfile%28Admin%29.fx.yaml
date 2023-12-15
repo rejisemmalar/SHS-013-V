@@ -44,9 +44,16 @@
             ZIndex: =4
 
         Label27 As label:
-            Text: ="Role "
+            Text: |-
+                ="Role :"
             Width: =134
             X: =9
             Y: =122
             ZIndex: =5
+
+        Label28 As label:
+            Text: ="Text"
+            X: =196
+            Y: =122
+            ZIndex: =6
 
