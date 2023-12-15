@@ -213,7 +213,7 @@
                                         )
                                     );
                                     
-                                )
+                                );Set(VarCurrentYear,VarCrntYear);
                             PressedColor: =Self.Color
                             PressedFill: =Self.Fill
                             Text: ="Update"
