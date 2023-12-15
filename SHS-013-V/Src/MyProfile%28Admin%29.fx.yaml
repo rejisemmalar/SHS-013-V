@@ -4,3 +4,17 @@
         CurrentScreen: ="MyProfile(Admin)"
         Height: =768
 
+    Container6 As groupContainer.manualLayoutContainer:
+        Fill: =RGBA(214, 221, 224, 1)
+        Height: =542
+        Width: =574
+        X: =291
+        Y: =141
+        ZIndex: =2
+
+        Label18 As label:
+            Text: ="Text"
+            X: =9
+            Y: =15
+            ZIndex: =1
+
