@@ -71,8 +71,16 @@
             ZIndex: =8
 
         Label33 As label:
-            Text: ="Text"
-            X: =9
-            Y: =238
+            Height: =38
+            Text: |-
+                ="Performance Period :"
+            Width: =203
+            Y: =234
             ZIndex: =9
+
+        Label37 As label:
+            Text: ="Text"
+            X: =184
+            Y: =234
+            ZIndex: =10
 
