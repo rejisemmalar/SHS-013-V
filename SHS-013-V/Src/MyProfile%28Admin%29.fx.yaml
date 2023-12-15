@@ -14,8 +14,17 @@
 
         Label18 As label:
             FontWeight: =FontWeight.Bold
+            Size: =16
             Text: ="admin"
             X: =9
             Y: =15
             ZIndex: =1
+
+        Label20 As label:
+            Height: =34
+            Text: ="Text"
+            Width: =134
+            X: =9
+            Y: =82
+            ZIndex: =2
 
