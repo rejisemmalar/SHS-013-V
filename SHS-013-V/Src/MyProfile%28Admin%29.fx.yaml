@@ -126,7 +126,10 @@
         ZIndex: =3
 
         Label41 As label:
-            Text: ="Text"
+            FontWeight: =FontWeight.Bold
+            Height: =36
+            Text: ="Profile Information"
+            Width: =226
             X: =15
             Y: =9
             ZIndex: =1
