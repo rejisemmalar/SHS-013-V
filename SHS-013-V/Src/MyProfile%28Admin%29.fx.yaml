@@ -135,7 +135,8 @@
             ZIndex: =1
 
         Label45 As label:
-            Text: ="Text"
+            Text: |-
+                ="Username :"
             Y: =72
             ZIndex: =2
 
