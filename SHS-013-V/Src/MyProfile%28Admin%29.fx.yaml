@@ -207,8 +207,14 @@
             ZIndex: =13
 
         Label57 As label:
-            Text: ="Text"
+            Text: ="Stakeholder"
             X: =15
             Y: =444
             ZIndex: =14
+
+        Label58 As label:
+            Text: ="Text"
+            X: =218
+            Y: =444
+            ZIndex: =15
 
