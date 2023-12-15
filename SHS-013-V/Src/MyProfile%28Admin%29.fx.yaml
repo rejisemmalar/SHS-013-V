@@ -209,14 +209,20 @@
         Label57 As label:
             Text: ="Stakeholder"
             X: =15
-            Y: =444
+            Y: =435
             ZIndex: =14
 
         Label58 As label:
             FontWeight: =FontWeight.Bold
             Text: ="Supplier Happiness Survey"
             Width: =258
-            X: =218
-            Y: =444
+            X: =201
+            Y: =435
             ZIndex: =15
+
+        Label59 As label:
+            Text: ="Text"
+            X: =15
+            Y: =508
+            ZIndex: =16
 
