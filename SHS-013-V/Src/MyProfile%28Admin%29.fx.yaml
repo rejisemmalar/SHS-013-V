@@ -176,6 +176,7 @@
             ZIndex: =8
 
         Label52 As label:
+            FontWeight: =FontWeight.Bold
             Text: ="admin@dewa.gov.ae"
             Width: =224
             X: =218
