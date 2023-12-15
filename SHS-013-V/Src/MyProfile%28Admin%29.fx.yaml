@@ -182,3 +182,8 @@
             Y: =250
             ZIndex: =9
 
+        Label53 As label:
+            Text: ="Text"
+            Y: =308
+            ZIndex: =10
+
