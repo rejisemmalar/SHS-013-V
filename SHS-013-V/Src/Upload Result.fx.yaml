@@ -844,7 +844,8 @@
 
         Label40 As label:
             Align: =Align.Center
-            Size: =30
+            Color: =RGBA(255, 0, 0, 1)
+            Size: =20
             Text: ="No Matching Items Found"
             Width: =500
             ZIndex: =2
