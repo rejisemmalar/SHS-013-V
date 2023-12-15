@@ -147,7 +147,13 @@
             ZIndex: =3
 
         Label47 As label:
-            Text: ="Text"
+            Text: ="First name"
             Y: =134
             ZIndex: =4
+
+        Label48 As label:
+            Text: ="Text"
+            X: =218
+            Y: =134
+            ZIndex: =5
 
