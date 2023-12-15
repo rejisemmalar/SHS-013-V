@@ -58,8 +58,15 @@
             ZIndex: =6
 
         Label29 As label:
-            Text: ="Text"
+            Text: |-
+                ="PR :"
             X: =1
             Y: =162
             ZIndex: =7
+
+        Label32 As label:
+            Text: =""
+            X: =212
+            Y: =162
+            ZIndex: =8
 
