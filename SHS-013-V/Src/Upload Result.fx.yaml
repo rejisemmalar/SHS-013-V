@@ -824,3 +824,12 @@
                 Width: =150
                 ZIndex: =3
 
+    Container16 As groupContainer.verticalAutoLayoutContainer:
+        Height: =452
+        LayoutDirection: =LayoutDirection.Vertical
+        LayoutMode: =LayoutMode.Auto
+        Width: =App.Width-UploadResultComp.VarMenuWidth
+        X: =273
+        Y: =316
+        ZIndex: =4
+
