@@ -79,8 +79,17 @@
             ZIndex: =9
 
         Label37 As label:
-            Text: ="Text"
+            Text: |-
+                ="[Year] :"
             X: =184
             Y: =234
             ZIndex: =10
+
+        Icon16_1 As icon.HorizontalLine:
+            BorderThickness: =1
+            Height: =0
+            Icon: =Icon.HorizontalLine
+            Width: =574
+            Y: =297
+            ZIndex: =11
 
