@@ -825,7 +825,7 @@
                 ZIndex: =3
 
     Container16 As groupContainer.verticalAutoLayoutContainer:
-        Fill: =RGBA(166, 215, 153, 1)
+        Fill: =RGBA(255, 255, 255, 1)
         Height: =452
         LayoutAlignItems: =LayoutAlignItems.Center
         LayoutDirection: =LayoutDirection.Vertical
@@ -837,6 +837,7 @@
         ZIndex: =4
 
         Image5 As image:
+            Height: =250
             Image: ='Not found'
             Width: =250
             ZIndex: =1
