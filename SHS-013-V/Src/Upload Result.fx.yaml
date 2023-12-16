@@ -423,6 +423,8 @@
             ZIndex: =1
 
             Button8 As button:
+                OnSelect: |-
+                    =CreateDivisionFlow.Run(Gallery_study_1.Selected.ID);UpdateContext({ShowAction:false})
                 Text: ="Send For Action"
                 Width: =300
                 ZIndex: =1
