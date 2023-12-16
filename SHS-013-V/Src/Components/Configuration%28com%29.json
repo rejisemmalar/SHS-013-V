@@ -35,7 +35,7 @@
             "OptimizeForDevices": "Off",
             "Parent": "Gallery4",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 1377,
+            "PublishOrderIndex": 1368,
             "Rules": [
               {
                 "Category": "Design",
@@ -174,7 +174,7 @@
             "OptimizeForDevices": "Off",
             "Parent": "Gallery4",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 1378,
+            "PublishOrderIndex": 1369,
             "Rules": [
               {
                 "Category": "Data",
@@ -511,7 +511,7 @@
             "OptimizeForDevices": "Off",
             "Parent": "Gallery4",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 1379,
+            "PublishOrderIndex": 1370,
             "Rules": [
               {
                 "Category": "Design",
@@ -731,7 +731,7 @@
         "OptimizeForDevices": "Off",
         "Parent": "Configuration(com)",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 1376,
+        "PublishOrderIndex": 1367,
         "Rules": [
           {
             "Category": "Data",
