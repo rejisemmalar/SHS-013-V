@@ -4,13 +4,13 @@
         CurrentScreen: ="Inbox"
         Height: =768
 
-    "'Main-Segment_1' As groupContainer.verticalAutoLayoutContainer":
-        Height: =App.Height-compSegment.ComHeaderHeight
+    "'Main-AllStudy' As groupContainer.verticalAutoLayoutContainer":
+        Height: =App.Height-CompAllstudy.ComHeaderHeight
         LayoutDirection: =LayoutDirection.Vertical
         LayoutMode: =LayoutMode.Auto
-        Width: =App.Width-compSegment.VarMenuWidth
-        X: =compSegment.VarMenuWidth
-        Y: =compSegment.ComHeaderHeight
+        Width: =App.Width-CompAllstudy.VarMenuWidth
+        X: =CompAllstudy.VarMenuWidth
+        Y: =CompAllstudy.ComHeaderHeight
         ZIndex: =2
 
         Arrow2_8 As arrow.backArrow:
@@ -20,6 +20,7 @@
             ZIndex: =1
 
         "'Button&heading_9' As groupContainer.verticalAutoLayoutContainer":
+            AlignInContainer: =AlignInContainer.SetByContainer
             DropShadow: =DropShadow.None
             FillPortions: =0
             Height: =80
@@ -49,22 +50,25 @@
 
             Container27_34 As groupContainer.horizontalAutoLayoutContainer:
                 DropShadow: =DropShadow.None
+                FillPortions: =0
                 Height: =Parent.Height
                 LayoutGap: =10
                 LayoutMinHeight: =80
-                LayoutMinWidth: =250
+                LayoutMinWidth: =150
                 LayoutMode: =LayoutMode.Auto
                 ZIndex: =2
 
                 Container25_30 As groupContainer.manualLayoutContainer:
                     DropShadow: =DropShadow.None
+                    FillPortions: =0
                     LayoutMinHeight: =80
-                    LayoutMinWidth: =255
+                    LayoutMinWidth: =200
+                    Width: |
+                        =270
                     ZIndex: =1
 
                     TextInput1_3 As text:
                         BorderColor: =RGBA(0, 0, 0, 1)
-                        BorderThickness: =1
                         Default: =""
                         DelayOutput: =true
                         HintText: ="Search"
@@ -75,9 +79,9 @@
                         RadiusBottomRight: =0
                         RadiusTopLeft: =0
                         RadiusTopRight: =0
-                        Width: =241
-                        X: =282
-                        Y: =21
+                        Width: =248
+                        X: =12
+                        Y: =20
                         ZIndex: =1
 
                     Icon28_25 As icon.Search:
@@ -86,8 +90,8 @@
                         OnSelect: =Set(search_name,TextInput1_3.Text)
                         Visible: =If(IsBlank(TextInput1_3.Text),true,false)
                         Width: =30
-                        X: =200
-                        Y: =21
+                        X: =230
+                        Y: =20
                         ZIndex: =2
 
                     Icon28_26 As icon.Cancel:
@@ -152,6 +156,7 @@
                             RadiusTopRight: =0
                             Text: ="Export"
                             Width: =130
+                            X: =6
                             ZIndex: =1
 
                         Icon16_14 As icon.Add:
@@ -177,6 +182,7 @@
                             ZIndex: =2
 
         Header_1 As groupContainer.horizontalAutoLayoutContainer:
+            AlignInContainer: =AlignInContainer.SetByContainer
             BorderThickness: =1
             FillPortions: =0
             Height: =80
@@ -241,6 +247,7 @@
                     ZIndex: =1
 
         Container30_8 As groupContainer.horizontalAutoLayoutContainer:
+            AlignInContainer: =AlignInContainer.SetByContainer
             LayoutAlignItems: =LayoutAlignItems.Stretch
             LayoutMinHeight: =100
             LayoutMinWidth: =250
