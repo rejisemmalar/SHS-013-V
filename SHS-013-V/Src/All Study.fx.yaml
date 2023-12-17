@@ -133,20 +133,7 @@
                             DisabledFill: =Self.Fill
                             Fill: =RGBA(5, 89, 8, 1)
                             HoverFill: =Self.Fill
-                            OnSelect: |+
-                                =ForAll(
-                                    Gallery9_1.AllItems As Data,
-                                    Collect(
-                                        CSVData,
-                                        {
-                                            SegmentCode:Data.'Segment Code',
-                                            SegmentName:Data.'Segment Name'
-                                        }
-                                    )
-                                );
-                                Download(Exportflow.Run(JSON(CSVData),"Segment Name").file_link);
-                                Clear(CSVData);
-                                
+                            OnSelect: =
                             PaddingLeft: =35
                             PressedColor: =Color.White
                             PressedFill: =Self.Fill
@@ -156,177 +143,14 @@
                             RadiusTopRight: =0
                             Text: ="Export"
                             Width: =130
-                            X: =6
                             ZIndex: =1
 
                         Icon16_14 As icon.Add:
                             Color: =RGBA(255, 255, 255, 1)
                             Height: =40
                             Icon: =Icon.Export
-                            OnSelect: |+
-                                =ForAll(
-                                    Gallery9_1.AllItems As Data,
-                                    Collect(
-                                        CSVData,
-                                        {
-                                            SegmentCode:Data.'Segment Code',
-                                            SegmentName:Data.'Segment Name'
-                                        }
-                                    )
-                                );
-                                Download(Exportflow.Run(JSON(CSVData),"Segment Name").file_link);
-                                Clear(CSVData);
-                                
+                            OnSelect: =
                             Width: =32
                             X: =14
                             ZIndex: =2
-
-        Header_1 As groupContainer.horizontalAutoLayoutContainer:
-            AlignInContainer: =AlignInContainer.SetByContainer
-            BorderThickness: =1
-            FillPortions: =0
-            Height: =80
-            LayoutMinHeight: =100
-            LayoutMinWidth: =250
-            LayoutMode: =LayoutMode.Auto
-            ZIndex: =4
-
-            Container27_35 As groupContainer.horizontalAutoLayoutContainer:
-                DropShadow: =DropShadow.None
-                Height: =Parent.Height
-                LayoutAlignItems: =LayoutAlignItems.Stretch
-                LayoutJustifyContent: =LayoutJustifyContent.Center
-                LayoutMinHeight: =80
-                LayoutMinWidth: =250
-                LayoutMode: =LayoutMode.Auto
-                ZIndex: =1
-
-                "'Segment Code_1' As label":
-                    Align: =Align.Center
-                    FontWeight: =FontWeight.Bold
-                    Size: =15
-                    Text: ="Segment Code"
-                    Width: =220
-                    Y: =130
-                    ZIndex: =1
-
-            Container28_14 As groupContainer.horizontalAutoLayoutContainer:
-                DropShadow: =DropShadow.None
-                Height: =Parent.Height
-                LayoutAlignItems: =LayoutAlignItems.Stretch
-                LayoutJustifyContent: =LayoutJustifyContent.Center
-                LayoutMinHeight: =80
-                LayoutMinWidth: =250
-                LayoutMode: =LayoutMode.Auto
-                ZIndex: =2
-
-                "'Segment Name_1' As label":
-                    Align: =Align.Center
-                    FontWeight: =FontWeight.Bold
-                    Size: =15
-                    Text: ="Segment Name"
-                    Width: =220
-                    ZIndex: =1
-
-            Container29_3 As groupContainer.horizontalAutoLayoutContainer:
-                DropShadow: =DropShadow.None
-                LayoutAlignItems: =LayoutAlignItems.Stretch
-                LayoutJustifyContent: =LayoutJustifyContent.Center
-                LayoutMinHeight: =80
-                LayoutMinWidth: =250
-                LayoutMode: =LayoutMode.Auto
-                ZIndex: =3
-
-                Action_segment_2 As label:
-                    Align: =Align.Center
-                    FillPortions: =1
-                    FontWeight: =FontWeight.Bold
-                    Size: =15
-                    Text: ="Action"
-                    Width: =220
-                    ZIndex: =1
-
-        Container30_8 As groupContainer.horizontalAutoLayoutContainer:
-            AlignInContainer: =AlignInContainer.SetByContainer
-            LayoutAlignItems: =LayoutAlignItems.Stretch
-            LayoutMinHeight: =100
-            LayoutMinWidth: =250
-            LayoutMode: =LayoutMode.Auto
-            ZIndex: =5
-
-            Gallery9_1 As gallery.galleryVertical:
-                DelayItemLoading: =true
-                Items: |+
-                    =Filter(Segment_2,StartsWith('Segment Name',TextInput1_3.Text)||StartsWith('Segment Code',TextInput1_3.Text))
-                    
-                Layout: =Layout.Vertical
-                LayoutMinHeight: =287
-                LayoutMinWidth: =320
-                LoadingSpinner: =LoadingSpinner.Data
-                TemplateSize: |
-                    =60
-                ZIndex: =1
-
-                Container32_8 As groupContainer.horizontalAutoLayoutContainer:
-                    Height: =60
-                    LayoutMode: =LayoutMode.Auto
-                    Width: =630
-                    ZIndex: =1
-
-                    Container33_24 As groupContainer.horizontalAutoLayoutContainer:
-                        DropShadow: =DropShadow.None
-                        LayoutMinHeight: =60
-                        LayoutMinWidth: =250
-                        LayoutMode: =LayoutMode.Auto
-                        ZIndex: =1
-
-                        Label34_8 As label:
-                            Align: =Align.Center
-                            FillPortions: =1
-                            Height: =60
-                            Text: =ThisItem.'Segment Code'
-                            ZIndex: =1
-
-                    Container33_33 As groupContainer.horizontalAutoLayoutContainer:
-                        DropShadow: =DropShadow.None
-                        LayoutMinHeight: =60
-                        LayoutMinWidth: =250
-                        LayoutMode: =LayoutMode.Auto
-                        ZIndex: =2
-
-                        Label34_17 As label:
-                            Align: =Align.Center
-                            FillPortions: =1
-                            Height: =60
-                            Text: =ThisItem.'Segment Name'
-                            ZIndex: =1
-
-                    Container33_35 As groupContainer.horizontalAutoLayoutContainer:
-                        DropShadow: =DropShadow.None
-                        LayoutAlignItems: =LayoutAlignItems.Center
-                        LayoutGap: =30
-                        LayoutJustifyContent: =LayoutJustifyContent.Center
-                        LayoutMinHeight: =60
-                        LayoutMinWidth: =250
-                        LayoutMode: =LayoutMode.Auto
-                        Width: =Parent.Width
-                        ZIndex: =3
-
-                        Icon21_1 As icon.Edit:
-                            Color: =RGBA(40, 134, 222, 1)
-                            Height: =30
-                            Icon: =Icon.Edit
-                            OnSelect: |-
-                                =UpdateContext({ShowPopup_Edit:true})
-                            Width: =30
-                            ZIndex: =3
-
-                        Icon22_1 As icon.Trash:
-                            Color: =RGBA(255, 0, 0, 1)
-                            Height: =30
-                            Icon: =Icon.Trash
-                            OnSelect: |-
-                                =UpdateContext({ShowPopup_Delete:true})
-                            Width: =30
-                            ZIndex: =4
 
