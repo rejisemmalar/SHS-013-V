@@ -95,12 +95,12 @@
                         ZIndex: =2
 
                     Icon28_26 As icon.Cancel:
-                        Height: =27
+                        Height: =30
                         Icon: =Icon.Cancel
                         OnSelect: =Set(search_name,"");Reset(TextInput1_3)
                         Visible: =If(IsBlank(TextInput1_3.Text),false,true)
-                        Width: =28
-                        X: =202
+                        Width: =30
+                        X: =230
                         Y: =27
                         ZIndex: =3
 
