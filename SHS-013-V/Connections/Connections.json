@@ -40,7 +40,7 @@
     "dependents": [],
     "id": "49c4aad0-ccc6-4d1c-931a-dff6eb9bbc67"
   },
-  "4de4baaa-db62-466e-a632-257a74f92afe": {
+  "4ed90965-e02d-41e4-8207-fddd32924405": {
     "connectionRef": {
       "displayName": "Logic flows",
       "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1664/1.0.1664.3477/logicflows/icon.png",
@@ -60,13 +60,13 @@
     },
     "datasets": {},
     "dataSources": [
-      "CreateDivisionFlow_1"
+      "CreateDivisionFlow"
     ],
     "dependencies": {
       "shared_sharepointonline": "5d809d0c-f856-4cdc-aac2-b07088dcc01c"
     },
     "dependents": [],
-    "id": "4de4baaa-db62-466e-a632-257a74f92afe"
+    "id": "4ed90965-e02d-41e4-8207-fddd32924405"
   },
   "59a2ab0d-4d3f-4ce9-a357-01f7e2cf4bb1": {
     "connectionRef": {
@@ -199,7 +199,7 @@
       "ae9607d4-9142-4d8e-b6c2-cabe9555fbcc",
       "daeb8d7b-9e61-40df-9191-7727c55acea7",
       "ebcff797-1d41-4c80-af67-c9de51d6526a",
-      "4de4baaa-db62-466e-a632-257a74f92afe"
+      "4ed90965-e02d-41e4-8207-fddd32924405"
     ],
     "id": "5d809d0c-f856-4cdc-aac2-b07088dcc01c"
   },
