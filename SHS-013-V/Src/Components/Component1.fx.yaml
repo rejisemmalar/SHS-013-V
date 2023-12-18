@@ -460,23 +460,22 @@ Component1 As CanvasComponent:
 
     Gallery3 As gallery.galleryVertical:
         DelayItemLoading: =true
-        Height: =195
+        Fill: =Color.WhiteSmoke
+        Height: =110
         Items: =Component1.Adminicon_menu
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
         OnSelect: =Navigate(ThisItem.TargetScreen,Transition.None);
         ShowScrollbar: =false
-        TemplateSize: =98
+        TemplateSize: =50
         Visible: =ShowMenuadmin
-        Width: =379
-        X: =987
+        Width: =200
+        X: =1166
         Y: =135
         ZIndex: =5
 
         Label15 As label:
             OnSelect: =Select(Parent)
             Text: =ThisItem.Title
-            X: =81
-            Y: =33
             ZIndex: =1
 
