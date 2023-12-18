@@ -424,7 +424,7 @@
 
             Button8 As button:
                 OnSelect: |-
-                    =CreateDivisionFlow.Run(Gallery_study_1.Selected.ID);UpdateContext({PopupforAction:true});UpdateContext({ShowAction:false});
+                    =CreateDivisionFlow.Run(Gallery_study_1.Selected.ID);UpdateContext({PopupforAction:true});UpdateContext({ShowAction:false});UpdateContext({Reset:true})
                 Text: ="Send For Action"
                 Width: =300
                 ZIndex: =1
@@ -460,6 +460,7 @@
                 PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                 PaddingRight: =5
                 PaddingTop: =5
+                Reset: =Reset
                 Tooltip: =
                 Width: =250
                 X: =30
@@ -503,6 +504,7 @@
                 PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                 PaddingRight: =5
                 PaddingTop: =5
+                Reset: =Reset
                 Tooltip: =
                 Width: =250
                 X: =30
@@ -582,6 +584,7 @@
                 PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                 PaddingRight: =5
                 PaddingTop: =5
+                Reset: =Reset
                 Tooltip: =
                 Width: =250
                 X: =30
@@ -661,6 +664,7 @@
                 PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                 PaddingRight: =5
                 PaddingTop: =5
+                Reset: =Reset
                 Tooltip: =
                 Width: =250
                 X: =30
@@ -740,6 +744,7 @@
                 PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                 PaddingRight: =5
                 PaddingTop: =5
+                Reset: =Reset
                 Tooltip: =
                 Width: =250
                 X: =30
