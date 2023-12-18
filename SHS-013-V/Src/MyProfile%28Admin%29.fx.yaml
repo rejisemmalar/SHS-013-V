@@ -123,15 +123,19 @@
                             ZIndex: =3
 
                     Gallery11 As gallery.galleryHorizontal:
+                        AlignInContainer: =AlignInContainer.SetByContainer
                         DelayItemLoading: =true
                         Height: =Parent.Height
                         Items: =Filter('Login Details',Username=VarUSerName)
+                        LayoutMinHeight: =287
+                        LayoutMinWidth: =320
                         LoadingSpinner: =LoadingSpinner.Data
                         TemplateSize: =If(Self.Layout = Layout.Horizontal, Min(320, Self.Width - 60), Min(320, Self.Height - 60))
                         Width: =Parent.Width-Container46.Width
                         ZIndex: =1
 
                         Label26 As label:
+                            FontWeight: =FontWeight.Semibold
                             Height: =30
                             OnSelect: =Select(Parent)
                             Text: =ThisItem.Designation
@@ -139,6 +143,7 @@
                             ZIndex: =1
 
                         Label26_1 As label:
+                            FontWeight: =FontWeight.Semibold
                             Height: =46
                             OnSelect: =Select(Parent)
                             Text: =ThisItem.'User Type'
@@ -147,6 +152,7 @@
                             ZIndex: =2
 
                         Label26_2 As label:
+                            FontWeight: =FontWeight.Semibold
                             Height: =46
                             OnSelect: =Select(Parent)
                             Text: =ThisItem.'PR Number'
@@ -164,17 +170,16 @@
                     Label27 As label:
                         Align: =Align.Center
                         Color: =RGBA(45, 128, 40, 1)
-                        FontWeight: =FontWeight.Semibold
+                        FontWeight: =FontWeight.Bold
                         PaddingLeft: =15
                         Text: ="Performance Period"
                         Width: =200
                         ZIndex: =1
 
                     Label27_1 As label:
-                        Align: =Align.Center
-                        PaddingLeft: =15
+                        FontWeight: =FontWeight.Semibold
                         Text: |-
-                            =Concatenate("[Year] :",VarCurrentYear.Value,"[Quarter] :,")
+                            =Concatenate("[Year] :",VarCurrentYear.Value,"[Quarter] :",VarCurrentQuarter.Value)
                         Width: =200
                         ZIndex: =2
 
