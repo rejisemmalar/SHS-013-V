@@ -46,7 +46,7 @@
                 AlignInContainer: =AlignInContainer.SetByContainer
                 BorderThickness: =1
                 DropShadow: =DropShadow.Regular
-                Height: =220
+                Height: =If(VarUSerName="admin",350,220)
                 LayoutAlignItems: =LayoutAlignItems.Center
                 LayoutDirection: =LayoutDirection.Vertical
                 LayoutMinHeight: =100
@@ -164,6 +164,8 @@
                             ZIndex: =3
 
                 Container47 As groupContainer.horizontalAutoLayoutContainer:
+                    FillPortions: =0
+                    Height: =70
                     LayoutAlignItems: =LayoutAlignItems.Center
                     LayoutMinHeight: =10
                     LayoutMinWidth: =250
