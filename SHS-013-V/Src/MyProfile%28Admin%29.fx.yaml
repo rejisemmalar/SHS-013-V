@@ -31,6 +31,7 @@
             ZIndex: =2
 
             Container44 As groupContainer.verticalAutoLayoutContainer:
+                AlignInContainer: =AlignInContainer.SetByContainer
                 DropShadow: =DropShadow.None
                 FillPortions: =0
                 LayoutDirection: =LayoutDirection.Vertical
@@ -41,10 +42,11 @@
                 ZIndex: =1
 
             Container44_1 As groupContainer.verticalAutoLayoutContainer:
-                AlignInContainer: =AlignInContainer.Start
+                AlignInContainer: =AlignInContainer.SetByContainer
                 BorderThickness: =1
                 DropShadow: =DropShadow.Regular
                 Height: =250
+                LayoutAlignItems: =LayoutAlignItems.Center
                 LayoutDirection: =LayoutDirection.Vertical
                 LayoutMinHeight: =100
                 LayoutMinWidth: =250
@@ -56,12 +58,68 @@
                 Width: =40
                 ZIndex: =2
 
-                Label18 As label:
-                    Text: =VarUSerName
+                Icon5_1 As icon.HorizontalLine:
+                    Fill: =RGBA(0, 0, 0, 1)
+                    Height: =1
+                    Icon: =Icon.HorizontalLine
                     Width: =Parent.Width
                     ZIndex: =1
 
+                Label18 As label:
+                    PaddingLeft: =15
+                    Text: =VarUSerName
+                    Width: =Parent.Width
+                    ZIndex: =2
+
+                Icon5_3 As icon.HorizontalLine:
+                    Fill: =RGBA(0, 0, 0, 1)
+                    Height: =2
+                    Icon: =Icon.HorizontalLine
+                    Width: =Parent.Width-20
+                    ZIndex: =3
+
+                Container45 As groupContainer.horizontalAutoLayoutContainer:
+                    AlignInContainer: =AlignInContainer.SetByContainer
+                    LayoutMinHeight: =100
+                    LayoutMinWidth: =250
+                    LayoutMode: =LayoutMode.Auto
+                    Width: =Parent.Width
+                    ZIndex: =4
+
+                    Container46 As groupContainer.verticalAutoLayoutContainer:
+                        AlignInContainer: =AlignInContainer.SetByContainer
+                        FillPortions: =0
+                        Height: =150
+                        LayoutDirection: =LayoutDirection.Vertical
+                        LayoutMinHeight: =100
+                        LayoutMinWidth: =250
+                        LayoutMode: =LayoutMode.Auto
+                        Width: =150
+                        ZIndex: =1
+
+                        Label20 As label:
+                            FontWeight: =FontWeight.Semibold
+                            PaddingLeft: =15
+                            Text: ="Designation"
+                            Width: =Parent.Width
+                            ZIndex: =1
+
+                        Label20_1 As label:
+                            FontWeight: =FontWeight.Semibold
+                            PaddingLeft: =15
+                            Text: ="Role"
+                            Width: =Parent.Width
+                            ZIndex: =2
+
+                        Label20_2 As label:
+                            FontWeight: =FontWeight.Semibold
+                            PaddingLeft: =15
+                            Text: ="PR "
+                            Width: =Parent.Width
+                            ZIndex: =3
+
             Container44_2 As groupContainer.verticalAutoLayoutContainer:
+                AlignInContainer: =AlignInContainer.SetByContainer
                 DropShadow: =DropShadow.None
                 FillPortions: =0
                 LayoutDirection: =LayoutDirection.Vertical
@@ -72,6 +130,7 @@
                 ZIndex: =3
 
             Container44_3 As groupContainer.verticalAutoLayoutContainer:
+                AlignInContainer: =AlignInContainer.SetByContainer
                 DropShadow: =DropShadow.None
                 LayoutDirection: =LayoutDirection.Vertical
                 LayoutMinHeight: =100
@@ -80,7 +139,15 @@
                 Width: =30
                 ZIndex: =4
 
+                Icon5_2 As icon.HorizontalLine:
+                    Fill: =RGBA(0, 0, 0, 1)
+                    Height: =1
+                    Icon: =Icon.HorizontalLine
+                    Width: =Parent.Width
+                    ZIndex: =2
+
             Container44_4 As groupContainer.verticalAutoLayoutContainer:
+                AlignInContainer: =AlignInContainer.SetByContainer
                 FillPortions: =0
                 LayoutDirection: =LayoutDirection.Vertical
                 LayoutMinHeight: =100
