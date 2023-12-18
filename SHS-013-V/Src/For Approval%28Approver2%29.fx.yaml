@@ -1,9 +1,5 @@
 "'For Approval(Approver2)' As screen":
 
-    Approver2_3 As Approver2:
-        CurrentScreen: ="Inbox"
-        Height: =768
-
     Icon5_18 As icon.HorizontalLine:
         BorderColor: =RGBA(166, 166, 166, 1)
         BorderThickness: =1
@@ -49,4 +45,8 @@
         X: =1166
         Y: =200
         ZIndex: =6
+
+    Component1_6 As Component1:
+        Height: =768
+        ZIndex: =7
 
