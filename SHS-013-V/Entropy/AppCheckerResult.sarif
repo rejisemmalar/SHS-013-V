@@ -14153,6 +14153,36 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "App.VarCurrentQuarter"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "App.VarCurrentQuarter",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "VarCurrentQuarter",
+                "module": "App",
+                "type": "App"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-UnusedVariables",
+          "ruleIndex": 9
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "App.dashboard"
                 }
               ],

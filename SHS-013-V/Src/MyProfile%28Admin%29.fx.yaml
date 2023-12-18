@@ -132,7 +132,7 @@
                         ZIndex: =1
 
                         Label26 As label:
-                            Height: =26
+                            Height: =30
                             OnSelect: =Select(Parent)
                             Text: =ThisItem.Designation
                             Width: =320
@@ -143,7 +143,7 @@
                             OnSelect: =Select(Parent)
                             Text: =ThisItem.'User Type'
                             Width: =320
-                            Y: =26
+                            Y: =30
                             ZIndex: =2
 
                         Label26_2 As label:
@@ -153,6 +153,30 @@
                             Width: =320
                             Y: =72
                             ZIndex: =3
+
+                Container47 As groupContainer.horizontalAutoLayoutContainer:
+                    LayoutAlignItems: =LayoutAlignItems.Center
+                    LayoutMinHeight: =10
+                    LayoutMinWidth: =250
+                    LayoutMode: =LayoutMode.Auto
+                    ZIndex: =5
+
+                    Label27 As label:
+                        Align: =Align.Center
+                        Color: =RGBA(45, 128, 40, 1)
+                        FontWeight: =FontWeight.Semibold
+                        PaddingLeft: =15
+                        Text: ="Performance Period"
+                        Width: =200
+                        ZIndex: =1
+
+                    Label27_1 As label:
+                        Align: =Align.Center
+                        PaddingLeft: =15
+                        Text: |-
+                            =Concatenate("[Year] :",VarCurrentYear.Value,"[Quarter] :,")
+                        Width: =200
+                        ZIndex: =2
 
             Container44_2 As groupContainer.verticalAutoLayoutContainer:
                 AlignInContainer: =AlignInContainer.SetByContainer

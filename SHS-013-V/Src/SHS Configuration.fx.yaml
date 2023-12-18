@@ -348,10 +348,11 @@
                                             "Current Quarter Has Been Updated Successfully",
                                             NotificationType.Success,
                                             2000
-                                        )
+                                        );
+                                       Set(VarCurrentQuarter,VarCrntQrtr)
                                     );
                                     
-                                )
+                                );
                             PressedColor: =Self.Color
                             PressedFill: =Self.Fill
                             Text: ="Update"
