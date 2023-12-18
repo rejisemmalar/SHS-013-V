@@ -42,7 +42,7 @@
             "OptimizeForDevices": "Off",
             "Parent": "Gallery1_2",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 1517,
+            "PublishOrderIndex": 1492,
             "Rules": [
               {
                 "Category": "Design",
@@ -181,7 +181,7 @@
             "OptimizeForDevices": "Off",
             "Parent": "Gallery1_2",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 1518,
+            "PublishOrderIndex": 1493,
             "Rules": [
               {
                 "Category": "Data",
@@ -518,7 +518,7 @@
             "OptimizeForDevices": "Off",
             "Parent": "Gallery1_2",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 1519,
+            "PublishOrderIndex": 1494,
             "Rules": [
               {
                 "Category": "Design",
@@ -738,7 +738,7 @@
         "OptimizeForDevices": "Off",
         "Parent": "Inbox 4(com)",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 1516,
+        "PublishOrderIndex": 1491,
         "Rules": [
           {
             "Category": "Data",
@@ -945,7 +945,7 @@
       },
       "Currentscreen"
     ],
-    "LastModifiedTimestamp": "638384842977770671",
+    "LastModifiedTimestamp": "638384881823233803",
     "Name": "Inbox 4(com)",
     "Rules": [
       {
@@ -1035,7 +1035,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638384842977770671",
+  "LastModifiedTimestamp": "638384881823233803",
   "Name": "cf687f5c2f65428ca7945ec0e0730806",
   "OverridableProperties": {},
   "TemplateOriginalName": "77cddce64a2a4e5c8f79a0102c5d366a",

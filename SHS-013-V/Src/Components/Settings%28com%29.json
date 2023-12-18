@@ -35,7 +35,7 @@
             "OptimizeForDevices": "Off",
             "Parent": "Gallery5",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 1542,
+            "PublishOrderIndex": 1517,
             "Rules": [
               {
                 "Category": "Design",
@@ -167,7 +167,7 @@
             "OptimizeForDevices": "Off",
             "Parent": "Gallery5",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 1543,
+            "PublishOrderIndex": 1518,
             "Rules": [
               {
                 "Category": "Data",
@@ -504,7 +504,7 @@
             "OptimizeForDevices": "Off",
             "Parent": "Gallery5",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 1544,
+            "PublishOrderIndex": 1519,
             "Rules": [
               {
                 "Category": "Design",
@@ -724,7 +724,7 @@
         "OptimizeForDevices": "Off",
         "Parent": "Settings(com)",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 1541,
+        "PublishOrderIndex": 1516,
         "Rules": [
           {
             "Category": "Data",
@@ -924,7 +924,7 @@
       "Settings_menu",
       "Currentscreen"
     ],
-    "LastModifiedTimestamp": "638384842977785425",
+    "LastModifiedTimestamp": "638384881823280888",
     "Name": "Settings(com)",
     "Rules": [
       {
@@ -1014,7 +1014,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638384842977785425",
+  "LastModifiedTimestamp": "638384881823280888",
   "Name": "e66af80d906e4a5f8874e60268652e4c",
   "OverridableProperties": {},
   "Version": "638330479948064138"
