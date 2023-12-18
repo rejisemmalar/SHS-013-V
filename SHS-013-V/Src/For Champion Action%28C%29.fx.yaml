@@ -178,6 +178,21 @@
                             X: =14
                             ZIndex: =2
 
+        Container14_13 As groupContainer.verticalAutoLayoutContainer:
+            Fill: =RGBA(255, 255, 255, 1)
+            Height: =537
+            LayoutAlignItems: =LayoutAlignItems.Center
+            LayoutDirection: =LayoutDirection.Vertical
+            LayoutJustifyContent: =LayoutJustifyContent.Center
+            LayoutMinHeight: =100
+            LayoutMinWidth: =250
+            LayoutMode: =LayoutMode.Auto
+            Visible: =If(Gallery9.AllItemsCount=0,true,false)
+            Width: =App.Width-'compForChampionAction(C)'.VarMenuWidth
+            X: ='compForChampionAction(C)'.VarMenuWidth
+            Y: =231
+            ZIndex: =4
+
     Container14_4 As groupContainer.verticalAutoLayoutContainer:
         Fill: =RGBA(255, 255, 255, 1)
         Height: =537

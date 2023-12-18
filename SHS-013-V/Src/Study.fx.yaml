@@ -246,7 +246,7 @@ Study As screen:
                 LayoutAlignItems: =LayoutAlignItems.Stretch
                 LayoutJustifyContent: =LayoutJustifyContent.Center
                 LayoutMinHeight: =80
-                LayoutMinWidth: =250
+                LayoutMinWidth: =150
                 LayoutMode: =LayoutMode.Auto
                 Width: =Parent.Width
                 ZIndex: =1
@@ -257,7 +257,6 @@ Study As screen:
                     PaddingLeft: =50
                     Size: =15
                     Text: ="Study Code"
-                    Width: =220
                     ZIndex: =1
 
             Container28_12 As groupContainer.horizontalAutoLayoutContainer:
@@ -267,7 +266,7 @@ Study As screen:
                 LayoutAlignItems: =LayoutAlignItems.Stretch
                 LayoutJustifyContent: =LayoutJustifyContent.Center
                 LayoutMinHeight: =80
-                LayoutMinWidth: =250
+                LayoutMinWidth: =150
                 LayoutMode: =LayoutMode.Auto
                 Width: =Parent.Width
                 ZIndex: =2
@@ -287,7 +286,7 @@ Study As screen:
                 LayoutAlignItems: =LayoutAlignItems.Stretch
                 LayoutJustifyContent: =LayoutJustifyContent.Center
                 LayoutMinHeight: =80
-                LayoutMinWidth: =250
+                LayoutMinWidth: =150
                 LayoutMode: =LayoutMode.Auto
                 Width: =Parent.Width
                 ZIndex: =3
@@ -308,7 +307,7 @@ Study As screen:
                 LayoutAlignItems: =LayoutAlignItems.Stretch
                 LayoutJustifyContent: =LayoutJustifyContent.Center
                 LayoutMinHeight: =80
-                LayoutMinWidth: =250
+                LayoutMinWidth: =150
                 LayoutMode: =LayoutMode.Auto
                 Width: =Parent.Width
                 ZIndex: =4
@@ -329,7 +328,7 @@ Study As screen:
                 LayoutAlignItems: =LayoutAlignItems.Stretch
                 LayoutJustifyContent: =LayoutJustifyContent.Center
                 LayoutMinHeight: =80
-                LayoutMinWidth: =250
+                LayoutMinWidth: =150
                 LayoutMode: =LayoutMode.Auto
                 Width: =Parent.Width
                 ZIndex: =5
@@ -349,7 +348,7 @@ Study As screen:
                 LayoutAlignItems: =LayoutAlignItems.Stretch
                 LayoutJustifyContent: =LayoutJustifyContent.Center
                 LayoutMinHeight: =80
-                LayoutMinWidth: =250
+                LayoutMinWidth: =150
                 LayoutMode: =LayoutMode.Auto
                 Width: =Parent.Width
                 ZIndex: =6
@@ -394,7 +393,7 @@ Study As screen:
                         AlignInContainer: =AlignInContainer.SetByContainer
                         DropShadow: =DropShadow.None
                         LayoutMinHeight: =60
-                        LayoutMinWidth: =250
+                        LayoutMinWidth: =150
                         LayoutMode: =LayoutMode.Auto
                         ZIndex: =1
 
@@ -402,6 +401,7 @@ Study As screen:
                             Align: =Align.Center
                             FillPortions: =1
                             Height: =60
+                            LayoutMinWidth: =100
                             PaddingLeft: =15
                             Text: =ThisItem.'Study Code'
                             ZIndex: =1
@@ -410,7 +410,7 @@ Study As screen:
                         AlignInContainer: =AlignInContainer.SetByContainer
                         DropShadow: =DropShadow.None
                         LayoutMinHeight: =60
-                        LayoutMinWidth: =250
+                        LayoutMinWidth: =150
                         LayoutMode: =LayoutMode.Auto
                         ZIndex: =2
 
@@ -426,7 +426,7 @@ Study As screen:
                         AlignInContainer: =AlignInContainer.SetByContainer
                         DropShadow: =DropShadow.None
                         LayoutMinHeight: =60
-                        LayoutMinWidth: =250
+                        LayoutMinWidth: =150
                         LayoutMode: =LayoutMode.Auto
                         ZIndex: =3
 
@@ -442,7 +442,7 @@ Study As screen:
                         AlignInContainer: =AlignInContainer.SetByContainer
                         DropShadow: =DropShadow.None
                         LayoutMinHeight: =60
-                        LayoutMinWidth: =250
+                        LayoutMinWidth: =150
                         LayoutMode: =LayoutMode.Auto
                         ZIndex: =4
 
@@ -457,7 +457,7 @@ Study As screen:
                         AlignInContainer: =AlignInContainer.SetByContainer
                         DropShadow: =DropShadow.None
                         LayoutMinHeight: =60
-                        LayoutMinWidth: =250
+                        LayoutMinWidth: =150
                         LayoutMode: =LayoutMode.Auto
                         Width: =Parent.Width
                         ZIndex: =5
@@ -479,7 +479,7 @@ Study As screen:
                         LayoutGap: =10
                         LayoutJustifyContent: =LayoutJustifyContent.Center
                         LayoutMinHeight: =60
-                        LayoutMinWidth: =250
+                        LayoutMinWidth: =150
                         LayoutMode: =LayoutMode.Auto
                         Width: =Parent.Width
                         ZIndex: =6
