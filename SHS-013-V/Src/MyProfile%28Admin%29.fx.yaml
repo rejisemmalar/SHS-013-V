@@ -80,6 +80,9 @@
 
                 Container45 As groupContainer.horizontalAutoLayoutContainer:
                     AlignInContainer: =AlignInContainer.SetByContainer
+                    DropShadow: =DropShadow.None
+                    FillPortions: =0
+                    Height: =120
                     LayoutMinHeight: =100
                     LayoutMinWidth: =250
                     LayoutMode: =LayoutMode.Auto
@@ -88,6 +91,7 @@
 
                     Container46 As groupContainer.verticalAutoLayoutContainer:
                         AlignInContainer: =AlignInContainer.SetByContainer
+                        DropShadow: =DropShadow.None
                         FillPortions: =0
                         Height: =150
                         LayoutDirection: =LayoutDirection.Vertical
@@ -120,7 +124,7 @@
 
                     Gallery11 As gallery.galleryHorizontal:
                         DelayItemLoading: =true
-                        Height: =Parent.Height-50
+                        Height: =Parent.Height
                         Items: =Filter('Login Details',Username=VarUSerName)
                         LoadingSpinner: =LoadingSpinner.Data
                         TemplateSize: =If(Self.Layout = Layout.Horizontal, Min(320, Self.Width - 60), Min(320, Self.Height - 60))
