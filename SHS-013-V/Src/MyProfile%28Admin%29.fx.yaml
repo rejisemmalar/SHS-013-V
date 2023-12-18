@@ -1,236 +1,91 @@
 "'MyProfile(Admin)' As screen":
 
-    Component1_21 As Component1:
+    profilecomp As Component1:
         CurrentScreen: ="MyProfile(Admin)"
         Height: =768
 
     Container6 As groupContainer.manualLayoutContainer:
-        Fill: =RGBA(214, 221, 224, 1)
-        Height: =542
-        Width: =524
-        X: =291
-        Y: =141
+        Height: =646
+        LayoutDirection: =LayoutDirection.Vertical
+        LayoutMode: =LayoutMode.Auto
+        Width: =App.Width-profilecomp.VarMenuWidth
+        X: =profilecomp.VarMenuWidth
+        Y: =122
         ZIndex: =2
 
-        Label18 As label:
-            FontWeight: =FontWeight.Bold
-            Size: =16
-            Text: ="admin"
-            X: =9
-            Y: =15
+        Container15 As groupContainer.verticalAutoLayoutContainer:
+            DropShadow: =DropShadow.None
+            FillPortions: =0
+            Height: =30
+            LayoutDirection: =LayoutDirection.Vertical
+            LayoutMinHeight: =100
+            LayoutMinWidth: =250
+            LayoutMode: =LayoutMode.Auto
             ZIndex: =1
 
-        Label20 As label:
-            Height: =34
-            Text: |-
-                ="Designation :"
-            Width: =134
-            X: =9
-            Y: =82
+        Container42 As groupContainer.horizontalAutoLayoutContainer:
+            DropShadow: =DropShadow.None
+            LayoutMinHeight: =100
+            LayoutMinWidth: =250
+            LayoutMode: =LayoutMode.Auto
             ZIndex: =2
 
-        Label26 As label:
-            Text: ="admin"
-            X: =184
-            Y: =82
-            ZIndex: =3
+            Container44 As groupContainer.verticalAutoLayoutContainer:
+                DropShadow: =DropShadow.None
+                FillPortions: =0
+                LayoutDirection: =LayoutDirection.Vertical
+                LayoutMinHeight: =100
+                LayoutMinWidth: =250
+                LayoutMode: =LayoutMode.Auto
+                Width: =30
+                ZIndex: =1
 
-        Icon16 As icon.HorizontalLine:
-            BorderThickness: =1
-            Height: =0
-            Icon: =Icon.HorizontalLine
-            Width: =574
-            Y: =55
-            ZIndex: =4
+            Container44_1 As groupContainer.verticalAutoLayoutContainer:
+                AlignInContainer: =AlignInContainer.Start
+                BorderThickness: =1
+                DropShadow: =DropShadow.Regular
+                Height: =250
+                LayoutDirection: =LayoutDirection.Vertical
+                LayoutMinHeight: =100
+                LayoutMinWidth: =250
+                LayoutMode: =LayoutMode.Auto
+                RadiusBottomLeft: =15
+                RadiusBottomRight: =15
+                RadiusTopLeft: =15
+                RadiusTopRight: =15
+                Width: =40
+                ZIndex: =2
 
-        Label27 As label:
-            Text: |-
-                ="Role :"
-            Width: =134
-            X: =9
-            Y: =122
-            ZIndex: =5
+                Label18 As label:
+                    Text: =VarUSerName
+                    Width: =Parent.Width
+                    ZIndex: =1
 
-        Label28 As label:
-            Text: ="sadmin"
-            X: =196
-            Y: =122
-            ZIndex: =6
+            Container44_2 As groupContainer.verticalAutoLayoutContainer:
+                DropShadow: =DropShadow.None
+                FillPortions: =0
+                LayoutDirection: =LayoutDirection.Vertical
+                LayoutMinHeight: =100
+                LayoutMinWidth: =250
+                LayoutMode: =LayoutMode.Auto
+                Width: =40
+                ZIndex: =3
 
-        Label29 As label:
-            Text: |-
-                ="PR :"
-            X: =1
-            Y: =162
-            ZIndex: =7
+            Container44_3 As groupContainer.verticalAutoLayoutContainer:
+                DropShadow: =DropShadow.None
+                LayoutDirection: =LayoutDirection.Vertical
+                LayoutMinHeight: =100
+                LayoutMinWidth: =250
+                LayoutMode: =LayoutMode.Auto
+                Width: =30
+                ZIndex: =4
 
-        Label32 As label:
-            Text: ="25305"
-            X: =212
-            Y: =162
-            ZIndex: =8
-
-        Label33 As label:
-            Height: =38
-            Text: |-
-                ="Performance Period :"
-            Width: =203
-            Y: =234
-            ZIndex: =9
-
-        Label37 As label:
-            Text: |-
-                ="[Year] :"
-            X: =184
-            Y: =234
-            ZIndex: =10
-
-        Icon16_1 As icon.HorizontalLine:
-            BorderThickness: =1
-            Height: =0
-            Icon: =Icon.HorizontalLine
-            Width: =574
-            Y: =297
-            ZIndex: =11
-
-        Label38 As label:
-            FontWeight: =FontWeight.Bold
-            Height: =48
-            Text: ="Stakeholder Access "
-            Width: =246
-            X: =9
-            Y: =312
-            ZIndex: =12
-
-        Image6 As image:
-            Height: =52
-            Image: =logo
-            Width: =44
-            X: =9
-            Y: =360
-            ZIndex: =13
-
-        Label39 As label:
-            Size: =20
-            Text: ="Supplier"
-            X: =92
-            Y: =372
-            ZIndex: =14
-
-    Container15 As groupContainer.manualLayoutContainer:
-        Fill: =RGBA(166, 215, 153, 1)
-        Height: =627
-        Width: =528
-        X: =838
-        Y: =141
-        ZIndex: =3
-
-        Label41 As label:
-            FontWeight: =FontWeight.Bold
-            Height: =36
-            Text: ="Profile Information"
-            Width: =226
-            X: =15
-            Y: =9
-            ZIndex: =1
-
-        Label45 As label:
-            Text: ="Username "
-            Y: =72
-            ZIndex: =2
-
-        Label46 As label:
-            FontWeight: =FontWeight.Bold
-            Text: ="admin"
-            X: =241
-            Y: =72
-            ZIndex: =3
-
-        Label47 As label:
-            Text: ="First name"
-            Y: =134
-            ZIndex: =4
-
-        Label48 As label:
-            FontWeight: =FontWeight.Bold
-            Text: ="admin"
-            X: =218
-            Y: =134
-            ZIndex: =5
-
-        Label49 As label:
-            Text: ="Display name"
-            Y: =195
-            ZIndex: =6
-
-        Label50 As label:
-            FontWeight: =FontWeight.Bold
-            Text: ="admin"
-            X: =206
-            Y: =195
-            ZIndex: =7
-
-        Label51 As label:
-            Text: ="Email Id"
-            Y: =250
-            ZIndex: =8
-
-        Label52 As label:
-            FontWeight: =FontWeight.Bold
-            Text: ="admin@dewa.gov.ae"
-            Width: =224
-            X: =218
-            Y: =250
-            ZIndex: =9
-
-        Label53 As label:
-            Text: ="Designation"
-            Y: =308
-            ZIndex: =10
-
-        Label54 As label:
-            FontWeight: =FontWeight.Bold
-            Text: ="admin"
-            X: =241
-            Y: =308
-            ZIndex: =11
-
-        Label55 As label:
-            Text: ="Use Type"
-            Y: =362
-            ZIndex: =12
-
-        Label56 As label:
-            FontWeight: =FontWeight.Bold
-            Text: ="sadmin"
-            X: =218
-            Y: =362
-            ZIndex: =13
-
-        Label57 As label:
-            Text: ="Stakeholder"
-            X: =15
-            Y: =435
-            ZIndex: =14
-
-        Label58 As label:
-            FontWeight: =FontWeight.Bold
-            Text: ="Supplier Happiness Survey"
-            Width: =258
-            X: =201
-            Y: =435
-            ZIndex: =15
-
-        Label59 As label:
-            Text: ="PR Number"
-            X: =15
-            Y: =508
-            ZIndex: =16
-
-        Label60 As label:
-            FontWeight: =FontWeight.Bold
-            Text: ="25305"
-            X: =218
-            Y: =508
-            ZIndex: =17
+            Container44_4 As groupContainer.verticalAutoLayoutContainer:
+                FillPortions: =0
+                LayoutDirection: =LayoutDirection.Vertical
+                LayoutMinHeight: =100
+                LayoutMinWidth: =250
+                LayoutMode: =LayoutMode.Auto
+                Width: =30
+                ZIndex: =5
 
