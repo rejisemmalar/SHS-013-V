@@ -424,7 +424,7 @@
 
             Button8 As button:
                 OnSelect: |-
-                    =CreateDivisionFlow.Run(Gallery_study_1.Selected.ID);UpdateContext({ShowAction:false})
+                    =CreateDivisionFlow.Run(Gallery_study_1.Selected.ID);UpdateContext({PopupforAction:true});UpdateContext({ShowAction:false});
                 Text: ="Send For Action"
                 Width: =300
                 ZIndex: =1
@@ -852,4 +852,51 @@
             Text: ="No Matching Items Found"
             Width: =500
             ZIndex: =2
+
+    Container13 As groupContainer.horizontalAutoLayoutContainer:
+        Fill: =RGBA(0, 0, 0, 0.4)
+        Height: =645
+        LayoutAlignItems: =LayoutAlignItems.Center
+        LayoutJustifyContent: =LayoutJustifyContent.Center
+        LayoutMode: =LayoutMode.Auto
+        Visible: =PopupforAction
+        Width: =App.Width-UploadResultComp.VarMenuWidth
+        X: =UploadResultComp.VarMenuWidth
+        Y: =123
+        ZIndex: =5
+
+        Container17 As groupContainer.verticalAutoLayoutContainer:
+            AlignInContainer: =AlignInContainer.SetByContainer
+            Fill: =Color.White
+            FillPortions: =0
+            LayoutAlignItems: =LayoutAlignItems.Center
+            LayoutDirection: =LayoutDirection.Vertical
+            LayoutGap: =40
+            LayoutJustifyContent: =LayoutJustifyContent.Center
+            LayoutMinHeight: =100
+            LayoutMinWidth: =250
+            LayoutMode: =LayoutMode.Auto
+            ZIndex: =1
+
+            Label8 As label:
+                Align: =Align.Center
+                FontWeight: =FontWeight.Bold
+                Size: =15
+                Text: ="Results Send For Champion Review Successfully"
+                Width: =300
+                ZIndex: =1
+
+            ButtonCanvas1 As Button:
+                BasePaletteColor: =RGBA(54, 176, 75, 1)
+                DisplayMode: =DisplayMode.Edit
+                Height: =32
+                LayoutMinHeight: =32
+                LayoutMinWidth: =96
+                OnSelect: |-
+                    =UpdateContext({PopupforAction:false})
+                Text: ="Ok"
+                Width: =50
+                X: =0
+                Y: =0
+                ZIndex: =2
 
