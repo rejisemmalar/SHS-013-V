@@ -28,6 +28,7 @@
             LayoutMinHeight: =100
             LayoutMinWidth: =250
             LayoutMode: =LayoutMode.Auto
+            X: =-2
             ZIndex: =2
 
             Container44 As groupContainer.verticalAutoLayoutContainer:
@@ -45,7 +46,7 @@
                 AlignInContainer: =AlignInContainer.SetByContainer
                 BorderThickness: =1
                 DropShadow: =DropShadow.Regular
-                Height: =250
+                Height: =220
                 LayoutAlignItems: =LayoutAlignItems.Center
                 LayoutDirection: =LayoutDirection.Vertical
                 LayoutMinHeight: =100
@@ -66,14 +67,16 @@
                     ZIndex: =1
 
                 Label18 As label:
+                    FontWeight: =FontWeight.Bold
                     PaddingLeft: =15
+                    Size: =16
                     Text: =VarUSerName
                     Width: =Parent.Width
                     ZIndex: =2
 
                 Icon5_3 As icon.HorizontalLine:
                     Fill: =RGBA(0, 0, 0, 1)
-                    Height: =2
+                    Height: =1
                     Icon: =Icon.HorizontalLine
                     Width: =Parent.Width-20
                     ZIndex: =3
@@ -93,7 +96,7 @@
                         AlignInContainer: =AlignInContainer.SetByContainer
                         DropShadow: =DropShadow.None
                         FillPortions: =0
-                        Height: =150
+                        Height: =Parent.Height
                         LayoutDirection: =LayoutDirection.Vertical
                         LayoutMinHeight: =100
                         LayoutMinWidth: =250
@@ -199,6 +202,7 @@
                 BorderThickness: =1
                 DropShadow: =DropShadow.None
                 Height: =500
+                LayoutAlignItems: =LayoutAlignItems.Center
                 LayoutDirection: =LayoutDirection.Vertical
                 LayoutMinHeight: =100
                 LayoutMinWidth: =250
@@ -215,13 +219,170 @@
                     Height: =1
                     Icon: =Icon.HorizontalLine
                     Width: =Parent.Width
-                    ZIndex: =2
+                    ZIndex: =1
 
                 Label18_1 As label:
+                    FontWeight: =FontWeight.Bold
                     PaddingLeft: =15
+                    Size: =16
                     Text: ="Profile Information"
                     Width: =Parent.Width
+                    ZIndex: =2
+
+                Icon5_4 As icon.HorizontalLine:
+                    Fill: =RGBA(0, 0, 0, 1)
+                    Height: =1
+                    Icon: =Icon.HorizontalLine
+                    Width: =Parent.Width-20
                     ZIndex: =3
+
+                Container48 As groupContainer.verticalAutoLayoutContainer:
+                    AlignInContainer: =AlignInContainer.SetByContainer
+                    LayoutMinHeight: =100
+                    LayoutMinWidth: =100
+                    LayoutMode: =LayoutMode.Auto
+                    Width: =Parent.Width
+                    ZIndex: =4
+
+                    Container50 As groupContainer.verticalAutoLayoutContainer:
+                        FillPortions: =0
+                        LayoutDirection: =LayoutDirection.Vertical
+                        LayoutMinHeight: =100
+                        LayoutMinWidth: =250
+                        LayoutMode: =LayoutMode.Auto
+                        Width: =20
+                        ZIndex: =1
+
+                    Container49 As groupContainer.verticalAutoLayoutContainer:
+                        DropShadow: =DropShadow.None
+                        FillPortions: =0
+                        LayoutDirection: =LayoutDirection.Vertical
+                        LayoutGap: =5
+                        LayoutMinHeight: =100
+                        LayoutMinWidth: =250
+                        LayoutMode: =LayoutMode.Auto
+                        Width: =150
+                        ZIndex: =2
+
+                        Icon5_12 As icon.HorizontalLine:
+                            Color: =RGBA(0, 0, 0, 0)
+                            Height: =5
+                            Icon: =Icon.HorizontalLine
+                            Width: =Parent.Width
+                            ZIndex: =1
+
+                        Label29 As label:
+                            FontWeight: =FontWeight.Semibold
+                            Text: ="User Name"
+                            Width: =Parent.Width
+                            ZIndex: =2
+
+                        Label29_1 As label:
+                            FontWeight: =FontWeight.Semibold
+                            Text: ="First Name"
+                            Width: =Parent.Width
+                            ZIndex: =4
+
+                        Label29_2 As label:
+                            FontWeight: =FontWeight.Semibold
+                            Text: ="Display Name"
+                            Width: =Parent.Width
+                            ZIndex: =6
+
+                        Label29_3 As label:
+                            FontWeight: =FontWeight.Semibold
+                            Text: ="Email ID"
+                            Width: =Parent.Width
+                            ZIndex: =8
+
+                        Label29_4 As label:
+                            FontWeight: =FontWeight.Semibold
+                            Text: ="Designation"
+                            Width: =Parent.Width
+                            ZIndex: =10
+
+                        Label29_5 As label:
+                            FontWeight: =FontWeight.Semibold
+                            Text: ="User Type"
+                            Width: =Parent.Width
+                            ZIndex: =12
+
+                        Label29_6 As label:
+                            FontWeight: =FontWeight.Semibold
+                            Text: ="Stakeholder"
+                            Width: =Parent.Width
+                            ZIndex: =14
+
+                        Label29_7 As label:
+                            FontWeight: =FontWeight.Semibold
+                            Text: ="PR Number"
+                            Width: =Parent.Width
+                            ZIndex: =16
+
+                    Gallery13 As gallery.galleryHorizontal:
+                        DelayItemLoading: =true
+                        Items: =Filter('Login Details',Username=VarUSerName)
+                        LayoutMinHeight: =287
+                        LayoutMinWidth: =320
+                        LoadingSpinner: =LoadingSpinner.Data
+                        TemplateSize: =If(Self.Layout = Layout.Horizontal, Min(320, Self.Width - 60), Min(320, Self.Height - 60))
+                        ZIndex: =3
+
+                        Container49_1 As groupContainer.verticalAutoLayoutContainer:
+                            DropShadow: =DropShadow.None
+                            Height: =448
+                            LayoutDirection: =LayoutDirection.Vertical
+                            LayoutGap: =5
+                            LayoutMode: =LayoutMode.Auto
+                            Width: =319
+                            ZIndex: =1
+
+                            Icon5_13 As icon.HorizontalLine:
+                                Color: =RGBA(0, 0, 0, 0)
+                                Height: =1
+                                Icon: =Icon.HorizontalLine
+                                Width: =Parent.Width
+                                ZIndex: =1
+
+                            Label29_8 As label:
+                                Text: =ThisItem.Username
+                                Width: =Parent.Width
+                                ZIndex: =2
+
+                            Label29_9 As label:
+                                Text: =ThisItem.FirstName
+                                Width: =Parent.Width
+                                ZIndex: =4
+
+                            Label29_10 As label:
+                                Text: =ThisItem.DisplayName
+                                Width: =Parent.Width
+                                ZIndex: =6
+
+                            Label29_11 As label:
+                                Text: =ThisItem.EmailID
+                                Width: =Parent.Width
+                                ZIndex: =8
+
+                            Label29_12 As label:
+                                Text: =ThisItem.Designation
+                                Width: =Parent.Width
+                                ZIndex: =10
+
+                            Label29_13 As label:
+                                Text: =ThisItem.Username
+                                Width: =Parent.Width
+                                ZIndex: =12
+
+                            Label29_14 As label:
+                                Text: =ThisItem.Stakeholder
+                                Width: =Parent.Width
+                                ZIndex: =14
+
+                            Label29_15 As label:
+                                Text: =ThisItem.'PR Number'
+                                Width: =Parent.Width
+                                ZIndex: =16
 
             Container44_4 As groupContainer.verticalAutoLayoutContainer:
                 AlignInContainer: =AlignInContainer.SetByContainer
