@@ -1355,7 +1355,14 @@
         "Italic",
         "Underline",
         "Strikethrough",
-        "OnSelect",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "If(\n    Not(\n        EndsWith(\n            First(DataCardValue82_1.Attachments).Name,\n            \".xlsx\"\n        )\n    ),\n    Notify(\n        \"Only xlsx files are allowed\",\n        NotificationType.Error\n    ),\n    Set(\n        Data,\n        ImportAndRead.Run(\n            Gallery_study_1.Selected.ID,\n            First(DataCardValue82_1.Attachments).Name,\n            {\n                file: {\n                    contentBytes: First(DataCardValue82_1.Attachments).Value,\n                    name: First(DataCardValue82_1.Attachments).Name\n                }\n            }\n        ).outputfornotification\n    );\n    If(\n        Data = \"True\",\n        Notify(\n            \"Imported\",\n            NotificationType.Success\n        ),\n        Notify(\n            \"Enter VAlid File\",\n            NotificationType.Warning\n        )\n    )\n)",
+          "InvariantPropertyName": "OnSelect",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         "Visible"
       ],
       "DynamicProperties": [
