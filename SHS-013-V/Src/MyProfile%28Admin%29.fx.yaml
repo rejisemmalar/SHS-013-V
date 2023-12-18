@@ -164,6 +164,7 @@
                             ZIndex: =3
 
                 Container47 As groupContainer.horizontalAutoLayoutContainer:
+                    DropShadow: =DropShadow.None
                     FillPortions: =0
                     Height: =70
                     LayoutAlignItems: =LayoutAlignItems.Center
@@ -187,6 +188,13 @@
                             =Concatenate("[Year] :",VarCurrentYear.Value,"[Quarter] :",VarCurrentQuarter.Value)
                         Width: =200
                         ZIndex: =2
+
+                Icon5_5 As icon.HorizontalLine:
+                    Fill: =RGBA(0, 0, 0, 1)
+                    Height: =1
+                    Icon: =Icon.HorizontalLine
+                    Width: =Parent.Width-20
+                    ZIndex: =6
 
             Container44_2 As groupContainer.verticalAutoLayoutContainer:
                 AlignInContainer: =AlignInContainer.SetByContainer
@@ -247,6 +255,7 @@
                     ZIndex: =4
 
                     Container50 As groupContainer.verticalAutoLayoutContainer:
+                        DropShadow: =DropShadow.None
                         FillPortions: =0
                         LayoutDirection: =LayoutDirection.Vertical
                         LayoutMinHeight: =100
