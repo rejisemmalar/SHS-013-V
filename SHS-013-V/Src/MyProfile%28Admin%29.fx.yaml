@@ -196,6 +196,47 @@
                     Width: =Parent.Width-20
                     ZIndex: =6
 
+                Container51 As groupContainer.horizontalAutoLayoutContainer:
+                    DropShadow: =DropShadow.None
+                    FillPortions: =0
+                    Height: =80
+                    LayoutAlignItems: =LayoutAlignItems.Center
+                    LayoutMinHeight: =100
+                    LayoutMinWidth: =250
+                    LayoutMode: =LayoutMode.Auto
+                    ZIndex: =7
+
+                    Image6 As image:
+                        Image: =logo
+                        Tooltip: ="Supplier"
+                        Width: =70
+                        ZIndex: =1
+
+                    Label27_2 As label:
+                        FillPortions: =1
+                        FontWeight: =FontWeight.Semibold
+                        PaddingLeft: =25
+                        Text: ="Supplier"
+                        Tooltip: =
+                        Width: =200
+                        ZIndex: =2
+
+                    Label27_3 As label:
+                        Align: =Align.Center
+                        Color: =RGBA(45, 128, 40, 1)
+                        FontWeight: =FontWeight.Bold
+                        PaddingLeft: =15
+                        Text: ="Action"
+                        Width: =200
+                        ZIndex: =3
+
+                Icon5_6 As icon.HorizontalLine:
+                    Fill: =RGBA(0, 0, 0, 1)
+                    Height: =1
+                    Icon: =Icon.HorizontalLine
+                    Width: =Parent.Width-20
+                    ZIndex: =8
+
             Container44_2 As groupContainer.verticalAutoLayoutContainer:
                 AlignInContainer: =AlignInContainer.SetByContainer
                 DropShadow: =DropShadow.None
