@@ -1,9 +1,5 @@
 "'All Initiatives(C)' As screen":
 
-    "'compAllInitiatives(C)' As Component1":
-        Height: =768
-        ZIndex: =7
-
     "'Main-All Initiatives(C)' As groupContainer.verticalAutoLayoutContainer":
         Height: =App.Height-'compAllInitiatives(C)'.ComHeaderHeight
         LayoutDirection: =LayoutDirection.Vertical
@@ -11,7 +7,7 @@
         Width: =App.Width-'compAllInitiatives(C)'.VarMenuWidth
         X: ='compAllInitiatives(C)'.VarMenuWidth
         Y: ='compAllInitiatives(C)'.ComHeaderHeight
-        ZIndex: =8
+        ZIndex: =1
 
         Arrow2_9 As arrow.backArrow:
             Height: =30
@@ -195,7 +191,7 @@
         Width: =App.Width-'compAllInitiatives(C)'.VarMenuWidth
         X: ='compAllInitiatives(C)'.VarMenuWidth
         Y: =231
-        ZIndex: =9
+        ZIndex: =2
 
         Image8_8 As image:
             Height: =200
@@ -212,4 +208,8 @@
             Size: =17
             Text: ="No Matching Items Found"
             ZIndex: =2
+
+    "'compAllInitiatives(C)' As Component1":
+        Height: =768
+        ZIndex: =3
 
