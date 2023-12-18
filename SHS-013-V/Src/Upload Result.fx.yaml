@@ -482,7 +482,7 @@
                         ),
                         Set(
                             Data,
-                            'Copyof-ImportAndRead5th'.Run(
+                            'ImportAndRead'.Run(
                                 Gallery_study_1.Selected.ID,
                                 First(DataCardValue82_5.Attachments).Name,
                                 {
