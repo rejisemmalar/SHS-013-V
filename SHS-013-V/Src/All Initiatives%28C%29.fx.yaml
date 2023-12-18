@@ -174,12 +174,6 @@
                             X: =14
                             ZIndex: =2
 
-        Container13 As groupContainer.horizontalAutoLayoutContainer:
-            LayoutMinHeight: =100
-            LayoutMinWidth: =250
-            LayoutMode: =LayoutMode.Auto
-            ZIndex: =4
-
     Container14_3 As groupContainer.verticalAutoLayoutContainer:
         Fill: =RGBA(255, 255, 255, 1)
         Height: =537
