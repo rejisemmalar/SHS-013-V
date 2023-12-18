@@ -924,7 +924,7 @@
       "MetaDataIDKey": "",
       "Name": "compApprovedInitiatives(C)",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 0,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1092,7 +1092,7 @@
       "MetaDataIDKey": "",
       "Name": "Container14_5",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 2,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -3704,7 +3704,7 @@
       "MetaDataIDKey": "",
       "Name": "Main-Approved Initiatives",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 1,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
