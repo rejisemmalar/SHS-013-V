@@ -889,6 +889,7 @@
             ButtonCanvas1 As Button:
                 BasePaletteColor: =RGBA(54, 176, 75, 1)
                 DisplayMode: =DisplayMode.Edit
+                FontColor: =
                 Height: =32
                 LayoutMinHeight: =32
                 LayoutMinWidth: =96

@@ -14,6 +14,626 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_35.Container6_16.Button1_17.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_35.Container6_16.Button1_17.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 10,
+                  "charOffset": 12,
+                  "snippet": {
+                    "text": "Gallery9_1"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "For Champion Action(C)",
+                "type": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_35.Container6_16.Button1_17"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Gallery9_1"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_35.Container6_16.Button1_17.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_35.Container6_16.Button1_17.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 9,
+                  "charOffset": 22,
+                  "snippet": {
+                    "text": ".AllItems"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "For Champion Action(C)",
+                "type": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_35.Container6_16.Button1_17"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_35.Container6_16.Button1_17.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_35.Container6_16.Button1_17.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 2,
+                  "charOffset": 32,
+                  "snippet": {
+                    "text": "As"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "For Champion Action(C)",
+                "type": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_35.Container6_16.Button1_17"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrBadType",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_35.Container6_16.Button1_17.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_35.Container6_16.Button1_17.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 187,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "ForAll(\n    Gallery9_1.AllItems As Data,\n    Collect(\n        CSVData,\n        {\n            SegmentCode:Data.'Segment Code',\n            SegmentName:Data.'Segment Name'\n        }\n    )\n)"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "For Champion Action(C)",
+                "type": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_35.Container6_16.Button1_17"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "ForAll"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_35.Container6_16.Button1_17.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_35.Container6_16.Button1_17.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 15,
+                  "charOffset": 109,
+                  "snippet": {
+                    "text": ".'Segment Code'"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "For Champion Action(C)",
+                "type": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_35.Container6_16.Button1_17"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_35.Container6_16.Button1_17.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_35.Container6_16.Button1_17.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 15,
+                  "charOffset": 154,
+                  "snippet": {
+                    "text": ".'Segment Name'"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "For Champion Action(C)",
+                "type": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_35.Container6_16.Button1_17"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_35.Container6_16.Button1_17.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_35.Container6_16.Button1_17.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 140,
+                  "charOffset": 45,
+                  "snippet": {
+                    "text": "Collect(\n        CSVData,\n        {\n            SegmentCode:Data.'Segment Code',\n            SegmentName:Data.'Segment Name'\n        }\n    )"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "For Champion Action(C)",
+                "type": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_35.Container6_16.Button1_17"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Collect"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_35.Container6_16.Button1_17.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_35.Container6_16.Button1_17.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 100,
+                  "charOffset": 79,
+                  "snippet": {
+                    "text": "{\n            SegmentCode:Data.'Segment Code',\n            SegmentName:Data.'Segment Name'\n        }"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "For Champion Action(C)",
+                "type": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_35.Container6_16.Button1_17"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "SegmentCode",
+              "Text",
+              "Error"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrColumnTypeMismatch-ColName-ExpectedType-ActualType",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_35.Container6_16.Icon16_16.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_35.Container6_16.Icon16_16.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 10,
+                  "charOffset": 12,
+                  "snippet": {
+                    "text": "Gallery9_1"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "For Champion Action(C)",
+                "type": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_35.Container6_16.Icon16_16"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Gallery9_1"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_35.Container6_16.Icon16_16.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_35.Container6_16.Icon16_16.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 9,
+                  "charOffset": 22,
+                  "snippet": {
+                    "text": ".AllItems"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "For Champion Action(C)",
+                "type": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_35.Container6_16.Icon16_16"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_35.Container6_16.Icon16_16.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_35.Container6_16.Icon16_16.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 2,
+                  "charOffset": 32,
+                  "snippet": {
+                    "text": "As"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "For Champion Action(C)",
+                "type": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_35.Container6_16.Icon16_16"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrBadType",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_35.Container6_16.Icon16_16.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_35.Container6_16.Icon16_16.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 187,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "ForAll(\n    Gallery9_1.AllItems As Data,\n    Collect(\n        CSVData,\n        {\n            SegmentCode:Data.'Segment Code',\n            SegmentName:Data.'Segment Name'\n        }\n    )\n)"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "For Champion Action(C)",
+                "type": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_35.Container6_16.Icon16_16"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "ForAll"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_35.Container6_16.Icon16_16.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_35.Container6_16.Icon16_16.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 15,
+                  "charOffset": 109,
+                  "snippet": {
+                    "text": ".'Segment Code'"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "For Champion Action(C)",
+                "type": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_35.Container6_16.Icon16_16"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_35.Container6_16.Icon16_16.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_35.Container6_16.Icon16_16.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 15,
+                  "charOffset": 154,
+                  "snippet": {
+                    "text": ".'Segment Name'"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "For Champion Action(C)",
+                "type": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_35.Container6_16.Icon16_16"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_35.Container6_16.Icon16_16.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_35.Container6_16.Icon16_16.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 140,
+                  "charOffset": 45,
+                  "snippet": {
+                    "text": "Collect(\n        CSVData,\n        {\n            SegmentCode:Data.'Segment Code',\n            SegmentName:Data.'Segment Name'\n        }\n    )"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "For Champion Action(C)",
+                "type": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_35.Container6_16.Icon16_16"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Collect"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_35.Container6_16.Icon16_16.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_35.Container6_16.Icon16_16.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 100,
+                  "charOffset": 79,
+                  "snippet": {
+                    "text": "{\n            SegmentCode:Data.'Segment Code',\n            SegmentName:Data.'Segment Name'\n        }"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "For Champion Action(C)",
+                "type": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_35.Container6_16.Icon16_16"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "SegmentCode",
+              "Text",
+              "Error"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrColumnTypeMismatch-ColName-ExpectedType-ActualType",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "'All Initiatives(C)'.'Main-All Initiatives(C)'.'Button&heading_10'.Container27_35.Container25_33.Container6_15.Button1_16.OnSelect"
                 }
               ],
@@ -612,626 +1232,6 @@
                 "member": "OnSelect",
                 "module": "All Initiatives(C)",
                 "type": "'All Initiatives(C)'.'Main-All Initiatives(C)'.'Button&heading_10'.Container27_35.Container25_33.Container6_15.Icon16_15"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "SegmentCode",
-              "Text",
-              "Error"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrColumnTypeMismatch-ColName-ExpectedType-ActualType",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_35.Container6_16.Icon16_16.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_35.Container6_16.Icon16_16.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 10,
-                  "charOffset": 12,
-                  "snippet": {
-                    "text": "Gallery9_1"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "For Champion Action(C)",
-                "type": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_35.Container6_16.Icon16_16"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Gallery9_1"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_35.Container6_16.Icon16_16.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_35.Container6_16.Icon16_16.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 9,
-                  "charOffset": 22,
-                  "snippet": {
-                    "text": ".AllItems"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "For Champion Action(C)",
-                "type": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_35.Container6_16.Icon16_16"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_35.Container6_16.Icon16_16.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_35.Container6_16.Icon16_16.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 2,
-                  "charOffset": 32,
-                  "snippet": {
-                    "text": "As"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "For Champion Action(C)",
-                "type": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_35.Container6_16.Icon16_16"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrBadType",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_35.Container6_16.Icon16_16.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_35.Container6_16.Icon16_16.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 187,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "ForAll(\n    Gallery9_1.AllItems As Data,\n    Collect(\n        CSVData,\n        {\n            SegmentCode:Data.'Segment Code',\n            SegmentName:Data.'Segment Name'\n        }\n    )\n)"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "For Champion Action(C)",
-                "type": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_35.Container6_16.Icon16_16"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "ForAll"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_35.Container6_16.Icon16_16.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_35.Container6_16.Icon16_16.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 15,
-                  "charOffset": 109,
-                  "snippet": {
-                    "text": ".'Segment Code'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "For Champion Action(C)",
-                "type": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_35.Container6_16.Icon16_16"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_35.Container6_16.Icon16_16.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_35.Container6_16.Icon16_16.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 15,
-                  "charOffset": 154,
-                  "snippet": {
-                    "text": ".'Segment Name'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "For Champion Action(C)",
-                "type": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_35.Container6_16.Icon16_16"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_35.Container6_16.Icon16_16.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_35.Container6_16.Icon16_16.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 140,
-                  "charOffset": 45,
-                  "snippet": {
-                    "text": "Collect(\n        CSVData,\n        {\n            SegmentCode:Data.'Segment Code',\n            SegmentName:Data.'Segment Name'\n        }\n    )"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "For Champion Action(C)",
-                "type": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_35.Container6_16.Icon16_16"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Collect"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_35.Container6_16.Icon16_16.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_35.Container6_16.Icon16_16.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 100,
-                  "charOffset": 79,
-                  "snippet": {
-                    "text": "{\n            SegmentCode:Data.'Segment Code',\n            SegmentName:Data.'Segment Name'\n        }"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "For Champion Action(C)",
-                "type": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_35.Container6_16.Icon16_16"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "SegmentCode",
-              "Text",
-              "Error"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrColumnTypeMismatch-ColName-ExpectedType-ActualType",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_35.Container6_16.Button1_17.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_35.Container6_16.Button1_17.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 10,
-                  "charOffset": 12,
-                  "snippet": {
-                    "text": "Gallery9_1"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "For Champion Action(C)",
-                "type": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_35.Container6_16.Button1_17"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Gallery9_1"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_35.Container6_16.Button1_17.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_35.Container6_16.Button1_17.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 9,
-                  "charOffset": 22,
-                  "snippet": {
-                    "text": ".AllItems"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "For Champion Action(C)",
-                "type": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_35.Container6_16.Button1_17"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_35.Container6_16.Button1_17.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_35.Container6_16.Button1_17.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 2,
-                  "charOffset": 32,
-                  "snippet": {
-                    "text": "As"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "For Champion Action(C)",
-                "type": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_35.Container6_16.Button1_17"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrBadType",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_35.Container6_16.Button1_17.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_35.Container6_16.Button1_17.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 187,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "ForAll(\n    Gallery9_1.AllItems As Data,\n    Collect(\n        CSVData,\n        {\n            SegmentCode:Data.'Segment Code',\n            SegmentName:Data.'Segment Name'\n        }\n    )\n)"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "For Champion Action(C)",
-                "type": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_35.Container6_16.Button1_17"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "ForAll"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_35.Container6_16.Button1_17.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_35.Container6_16.Button1_17.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 15,
-                  "charOffset": 109,
-                  "snippet": {
-                    "text": ".'Segment Code'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "For Champion Action(C)",
-                "type": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_35.Container6_16.Button1_17"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_35.Container6_16.Button1_17.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_35.Container6_16.Button1_17.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 15,
-                  "charOffset": 154,
-                  "snippet": {
-                    "text": ".'Segment Name'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "For Champion Action(C)",
-                "type": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_35.Container6_16.Button1_17"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_35.Container6_16.Button1_17.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_35.Container6_16.Button1_17.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 140,
-                  "charOffset": 45,
-                  "snippet": {
-                    "text": "Collect(\n        CSVData,\n        {\n            SegmentCode:Data.'Segment Code',\n            SegmentName:Data.'Segment Name'\n        }\n    )"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "For Champion Action(C)",
-                "type": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_35.Container6_16.Button1_17"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Collect"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_35.Container6_16.Button1_17.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_35.Container6_16.Button1_17.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 100,
-                  "charOffset": 79,
-                  "snippet": {
-                    "text": "{\n            SegmentCode:Data.'Segment Code',\n            SegmentName:Data.'Segment Name'\n        }"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "For Champion Action(C)",
-                "type": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_35.Container6_16.Button1_17"
               }
             }
           ],
@@ -3794,66 +3794,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Division.Main.Container22.Gallery6.Container5.Container5_3.Icon20.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Division.Main.Container22.Gallery6.Container5.Container5_3.Icon20.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Division",
-                "type": "Division.Main.Container22.Gallery6.Container5.Container5_3.Icon20"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Division.Main.Container22.Gallery6.Container5.Container5_3.Icon20.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Division.Main.Container22.Gallery6.Container5.Container5_3.Icon20.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Division",
-                "type": "Division.Main.Container22.Gallery6.Container5.Container5_3.Icon20"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 6
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "Division.Main.Container22.Gallery6.Container5.Container5_3.Icon14.AccessibleLabel"
                 }
               ],
@@ -3957,6 +3897,66 @@
                 "member": "TabIndex",
                 "module": "Division",
                 "type": "Division.Main.Container22.Gallery6.Container5.Container5_3.Icon17"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Division.Main.Container22.Gallery6.Container5.Container5_3.Icon20.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Division.Main.Container22.Gallery6.Container5.Container5_3.Icon20.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Division",
+                "type": "Division.Main.Container22.Gallery6.Container5.Container5_3.Icon20"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Division.Main.Container22.Gallery6.Container5.Container5_3.Icon20.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Division.Main.Container22.Gallery6.Container5.Container5_3.Icon20.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Division",
+                "type": "Division.Main.Container22.Gallery6.Container5.Container5_3.Icon20"
               }
             }
           ],
@@ -5534,66 +5534,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'For Admin Action'.CanVasContainer_5.Arrow1_2.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'For Admin Action'.CanVasContainer_5.Arrow1_2.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "For Admin Action",
-                "type": "'For Admin Action'.CanVasContainer_5.Arrow1_2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'For Admin Action'.CanVasContainer_5.Arrow1_2.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'For Admin Action'.CanVasContainer_5.Arrow1_2.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "For Admin Action",
-                "type": "'For Admin Action'.CanVasContainer_5.Arrow1_2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 6
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "'For Approval 3'.Arrow1_1.AccessibleLabel"
                 }
               ],
@@ -5834,6 +5774,36 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)'.Arrow2_10.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)'.Arrow2_10.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "For Champion Action(C)",
+                "type": "'For Champion Action(C)'.'Main-For Champion Action(C)'.Arrow2_10"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)'.Arrow2_10.TabIndex"
                 }
               ],
@@ -5864,19 +5834,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)'.Arrow2_10.AccessibleLabel"
+                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_34.TextInput1_5.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)'.Arrow2_10.AccessibleLabel",
+                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_34.TextInput1_5.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "For Champion Action(C)",
-                "type": "'For Champion Action(C)'.'Main-For Champion Action(C)'.Arrow2_10"
+                "type": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_34.TextInput1_5"
               }
             }
           ],
@@ -5888,6 +5858,126 @@
           },
           "ruleId": "acc-AccessibleLabelNeeded",
           "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_34.Icon28_29.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_34.Icon28_29.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "For Champion Action(C)",
+                "type": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_34.Icon28_29"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_34.Icon28_29.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_34.Icon28_29.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "For Champion Action(C)",
+                "type": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_34.Icon28_29"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_34.Icon28_30.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_34.Icon28_30.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "For Champion Action(C)",
+                "type": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_34.Icon28_30"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_34.Icon28_30.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_34.Icon28_30.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "For Champion Action(C)",
+                "type": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_34.Icon28_30"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 6
         },
         {
           "locations": [
@@ -12853,6 +12943,36 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "'Upload Result'.Container13.Container17.ButtonCanvas1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Upload Result'.Container13.Container17.ButtonCanvas1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Upload Result",
+                "type": "'Upload Result'.Container13.Container17.ButtonCanvas1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "'All Initiatives(C)'.'Main-All Initiatives(C)'.Arrow2_9.AccessibleLabel"
                 }
               ],
@@ -13063,259 +13183,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'All Initiatives(C)'.'Main-All Initiatives(C)'.'Button&heading_10'.Container27_35.Container25_33.Container6_15.Icon16_15.AccessibleLabel"
+                  "fullyQualifiedName": "'All Initiatives'.'Main-All Initiatives'.Arrow2_12.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'All Initiatives(C)'.'Main-All Initiatives(C)'.'Button&heading_10'.Container27_35.Container25_33.Container6_15.Icon16_15.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "All Initiatives(C)",
-                "type": "'All Initiatives(C)'.'Main-All Initiatives(C)'.'Button&heading_10'.Container27_35.Container25_33.Container6_15.Icon16_15"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'All Initiatives(C)'.'Main-All Initiatives(C)'.'Button&heading_10'.Container27_35.Container25_33.Container6_15.Icon16_15.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'All Initiatives(C)'.'Main-All Initiatives(C)'.'Button&heading_10'.Container27_35.Container25_33.Container6_15.Icon16_15.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "All Initiatives(C)",
-                "type": "'All Initiatives(C)'.'Main-All Initiatives(C)'.'Button&heading_10'.Container27_35.Container25_33.Container6_15.Icon16_15"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 6
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_34.Icon28_29.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_34.Icon28_29.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "For Champion Action(C)",
-                "type": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_34.Icon28_29"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_34.TextInput1_5.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_34.TextInput1_5.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "For Champion Action(C)",
-                "type": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_34.TextInput1_5"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Approved Initiatives(C)'.'Main-Approved Initiatives'.'Button&heading_12'.Container27_38.Container25_36.TextInput1_6.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Approved Initiatives(C)'.'Main-Approved Initiatives'.'Button&heading_12'.Container27_38.Container25_36.TextInput1_6.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Approved Initiatives(C)",
-                "type": "'Approved Initiatives(C)'.'Main-Approved Initiatives'.'Button&heading_12'.Container27_38.Container25_36.TextInput1_6"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_34.Icon28_30.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_34.Icon28_30.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "For Champion Action(C)",
-                "type": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_34.Icon28_30"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 6
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_34.Icon28_30.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_34.Icon28_30.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "For Champion Action(C)",
-                "type": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_34.Icon28_30"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_34.Icon28_29.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_34.Icon28_29.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "For Champion Action(C)",
-                "type": "'For Champion Action(C)'.'Main-For Champion Action(C)'.'Button&heading_11'.Container27_36.Container25_34.Icon28_29"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 6
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'All Initiatives'.CanVasContainer_3.Arrow1_3.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'All Initiatives'.CanVasContainer_3.Arrow1_3.AccessibleLabel",
+                  "fullyQualifiedName": "'All Initiatives'.'Main-All Initiatives'.Arrow2_12.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "All Initiatives",
-                "type": "'All Initiatives'.CanVasContainer_3.Arrow1_3"
+                "type": "'All Initiatives'.'Main-All Initiatives'.Arrow2_12"
               }
             }
           ],
@@ -13333,19 +13213,169 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'All Initiatives'.CanVasContainer_3.Arrow1_3.TabIndex"
+                  "fullyQualifiedName": "'All Initiatives'.'Main-All Initiatives'.Arrow2_12.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'All Initiatives'.CanVasContainer_3.Arrow1_3.TabIndex",
+                  "fullyQualifiedName": "'All Initiatives'.'Main-All Initiatives'.Arrow2_12.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "All Initiatives",
-                "type": "'All Initiatives'.CanVasContainer_3.Arrow1_3"
+                "type": "'All Initiatives'.'Main-All Initiatives'.Arrow2_12"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'All Initiatives'.'Main-All Initiatives'.'Button&heading_13'.Container27_39.Container25_38.TextInput1_7.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'All Initiatives'.'Main-All Initiatives'.'Button&heading_13'.Container27_39.Container25_38.TextInput1_7.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "All Initiatives",
+                "type": "'All Initiatives'.'Main-All Initiatives'.'Button&heading_13'.Container27_39.Container25_38.TextInput1_7"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'All Initiatives'.'Main-All Initiatives'.'Button&heading_13'.Container27_39.Container25_38.Icon28_33.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'All Initiatives'.'Main-All Initiatives'.'Button&heading_13'.Container27_39.Container25_38.Icon28_33.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "All Initiatives",
+                "type": "'All Initiatives'.'Main-All Initiatives'.'Button&heading_13'.Container27_39.Container25_38.Icon28_33"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'All Initiatives'.'Main-All Initiatives'.'Button&heading_13'.Container27_39.Container25_38.Icon28_33.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'All Initiatives'.'Main-All Initiatives'.'Button&heading_13'.Container27_39.Container25_38.Icon28_33.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "All Initiatives",
+                "type": "'All Initiatives'.'Main-All Initiatives'.'Button&heading_13'.Container27_39.Container25_38.Icon28_33"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'All Initiatives'.'Main-All Initiatives'.'Button&heading_13'.Container27_39.Container25_38.Icon28_34.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'All Initiatives'.'Main-All Initiatives'.'Button&heading_13'.Container27_39.Container25_38.Icon28_34.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "All Initiatives",
+                "type": "'All Initiatives'.'Main-All Initiatives'.'Button&heading_13'.Container27_39.Container25_38.Icon28_34"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'All Initiatives'.'Main-All Initiatives'.'Button&heading_13'.Container27_39.Container25_38.Icon28_34.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'All Initiatives'.'Main-All Initiatives'.'Button&heading_13'.Container27_39.Container25_38.Icon28_34.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "All Initiatives",
+                "type": "'All Initiatives'.'Main-All Initiatives'.'Button&heading_13'.Container27_39.Container25_38.Icon28_34"
               }
             }
           ],
@@ -13573,6 +13603,36 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "'Approved Initiatives(C)'.'Main-Approved Initiatives'.Arrow2_11.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Approved Initiatives(C)'.'Main-Approved Initiatives'.Arrow2_11.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Approved Initiatives(C)",
+                "type": "'Approved Initiatives(C)'.'Main-Approved Initiatives'.Arrow2_11"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "'Approved Initiatives(C)'.'Main-Approved Initiatives'.Arrow2_11.TabIndex"
                 }
               ],
@@ -13603,19 +13663,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Approved Initiatives(C)'.'Main-Approved Initiatives'.Arrow2_11.AccessibleLabel"
+                  "fullyQualifiedName": "'Approved Initiatives(C)'.'Main-Approved Initiatives'.'Button&heading_12'.Container27_38.Container25_36.TextInput1_6.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Approved Initiatives(C)'.'Main-Approved Initiatives'.Arrow2_11.AccessibleLabel",
+                  "fullyQualifiedName": "'Approved Initiatives(C)'.'Main-Approved Initiatives'.'Button&heading_12'.Container27_38.Container25_36.TextInput1_6.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Approved Initiatives(C)",
-                "type": "'Approved Initiatives(C)'.'Main-Approved Initiatives'.Arrow2_11"
+                "type": "'Approved Initiatives(C)'.'Main-Approved Initiatives'.'Button&heading_12'.Container27_38.Container25_36.TextInput1_6"
               }
             }
           ],
@@ -13736,6 +13796,216 @@
                 "member": "TabIndex",
                 "module": "Approved Initiatives(C)",
                 "type": "'Approved Initiatives(C)'.'Main-Approved Initiatives'.'Button&heading_12'.Container27_38.Container25_36.Icon28_32"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'For Admin Action'.'Main-For Admin Action'.Arrow2_13.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'For Admin Action'.'Main-For Admin Action'.Arrow2_13.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "For Admin Action",
+                "type": "'For Admin Action'.'Main-For Admin Action'.Arrow2_13"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'For Admin Action'.'Main-For Admin Action'.Arrow2_13.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'For Admin Action'.'Main-For Admin Action'.Arrow2_13.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "For Admin Action",
+                "type": "'For Admin Action'.'Main-For Admin Action'.Arrow2_13"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'For Admin Action'.'Main-For Admin Action'.'Button&heading_14'.Container27_40.Container25_40.TextInput1_8.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'For Admin Action'.'Main-For Admin Action'.'Button&heading_14'.Container27_40.Container25_40.TextInput1_8.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "For Admin Action",
+                "type": "'For Admin Action'.'Main-For Admin Action'.'Button&heading_14'.Container27_40.Container25_40.TextInput1_8"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'For Admin Action'.'Main-For Admin Action'.'Button&heading_14'.Container27_40.Container25_40.Icon28_35.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'For Admin Action'.'Main-For Admin Action'.'Button&heading_14'.Container27_40.Container25_40.Icon28_35.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "For Admin Action",
+                "type": "'For Admin Action'.'Main-For Admin Action'.'Button&heading_14'.Container27_40.Container25_40.Icon28_35"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'For Admin Action'.'Main-For Admin Action'.'Button&heading_14'.Container27_40.Container25_40.Icon28_35.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'For Admin Action'.'Main-For Admin Action'.'Button&heading_14'.Container27_40.Container25_40.Icon28_35.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "For Admin Action",
+                "type": "'For Admin Action'.'Main-For Admin Action'.'Button&heading_14'.Container27_40.Container25_40.Icon28_35"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'For Admin Action'.'Main-For Admin Action'.'Button&heading_14'.Container27_40.Container25_40.Icon28_36.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'For Admin Action'.'Main-For Admin Action'.'Button&heading_14'.Container27_40.Container25_40.Icon28_36.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "For Admin Action",
+                "type": "'For Admin Action'.'Main-For Admin Action'.'Button&heading_14'.Container27_40.Container25_40.Icon28_36"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'For Admin Action'.'Main-For Admin Action'.'Button&heading_14'.Container27_40.Container25_40.Icon28_36.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'For Admin Action'.'Main-For Admin Action'.'Button&heading_14'.Container27_40.Container25_40.Icon28_36.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "For Admin Action",
+                "type": "'For Admin Action'.'Main-For Admin Action'.'Button&heading_14'.Container27_40.Container25_40.Icon28_36"
               }
             }
           ],
@@ -14017,96 +14287,6 @@
           },
           "ruleId": "app-UnusedVariables",
           "ruleIndex": 9
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'For Admin Action'.CanVasContainer_5.Y"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'For Admin Action'.CanVasContainer_5.Y",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "Y",
-                "module": "For Admin Action",
-                "type": "'For Admin Action'.CanVasContainer_5"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 11
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'For Admin Action'.CanVasContainer_5.Width"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'For Admin Action'.CanVasContainer_5.Width",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "Width",
-                "module": "For Admin Action",
-                "type": "'For Admin Action'.CanVasContainer_5"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 11
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'For Admin Action'.CanVasContainer_5.Height"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'For Admin Action'.CanVasContainer_5.Height",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "Height",
-                "module": "For Admin Action",
-                "type": "'For Admin Action'.CanVasContainer_5"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 11
         },
         {
           "locations": [
@@ -14623,19 +14803,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'All Initiatives'.CanVasContainer_3.Y"
+                  "fullyQualifiedName": "'All Initiatives'.Container14_7.Visible"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'All Initiatives'.CanVasContainer_3.Y",
+                  "fullyQualifiedName": "'All Initiatives'.Container14_7.Visible",
                   "relativeAddress": 0
                 }
               },
               "properties": {
-                "member": "Y",
+                "member": "Visible",
                 "module": "All Initiatives",
-                "type": "'All Initiatives'.CanVasContainer_3"
+                "type": "'All Initiatives'.Container14_7"
               }
             }
           ],
@@ -14653,49 +14833,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'All Initiatives'.CanVasContainer_3.Width"
+                  "fullyQualifiedName": "'All Study'.Container14_6.Visible"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'All Initiatives'.CanVasContainer_3.Width",
+                  "fullyQualifiedName": "'All Study'.Container14_6.Visible",
                   "relativeAddress": 0
                 }
               },
               "properties": {
-                "member": "Width",
-                "module": "All Initiatives",
-                "type": "'All Initiatives'.CanVasContainer_3"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 11
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'All Initiatives'.CanVasContainer_3.Height"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'All Initiatives'.CanVasContainer_3.Height",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "Height",
-                "module": "All Initiatives",
-                "type": "'All Initiatives'.CanVasContainer_3"
+                "member": "Visible",
+                "module": "All Study",
+                "type": "'All Study'.Container14_6"
               }
             }
           ],
@@ -14726,6 +14876,36 @@
                 "member": "Visible",
                 "module": "Approved Initiatives(C)",
                 "type": "'Approved Initiatives(C)'.Container14_5"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 11
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'For Admin Action'.Container14_8.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'For Admin Action'.Container14_8.Visible",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "For Admin Action",
+                "type": "'For Admin Action'.Container14_8"
               }
             }
           ],
