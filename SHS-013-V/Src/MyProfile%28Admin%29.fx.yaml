@@ -118,6 +118,38 @@
                             Width: =Parent.Width
                             ZIndex: =3
 
+                    Gallery11 As gallery.galleryHorizontal:
+                        DelayItemLoading: =true
+                        Height: =Parent.Height-50
+                        Items: =Filter('Login Details',Username=VarUSerName)
+                        LoadingSpinner: =LoadingSpinner.Data
+                        TemplateSize: =If(Self.Layout = Layout.Horizontal, Min(320, Self.Width - 60), Min(320, Self.Height - 60))
+                        Width: =Parent.Width-Container46.Width
+                        ZIndex: =1
+
+                        Label26 As label:
+                            Height: =26
+                            OnSelect: =Select(Parent)
+                            Text: =ThisItem.Designation
+                            Width: =320
+                            ZIndex: =1
+
+                        Label26_1 As label:
+                            Height: =46
+                            OnSelect: =Select(Parent)
+                            Text: =ThisItem.'User Type'
+                            Width: =320
+                            Y: =26
+                            ZIndex: =2
+
+                        Label26_2 As label:
+                            Height: =46
+                            OnSelect: =Select(Parent)
+                            Text: =ThisItem.'PR Number'
+                            Width: =320
+                            Y: =72
+                            ZIndex: =3
+
             Container44_2 As groupContainer.verticalAutoLayoutContainer:
                 AlignInContainer: =AlignInContainer.SetByContainer
                 DropShadow: =DropShadow.None

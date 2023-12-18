@@ -14063,6 +14063,66 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "'MyProfile(Admin)'.Container6.Container42.Container44_1.Container45.Gallery11.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'MyProfile(Admin)'.Container6.Container42.Container44_1.Container45.Gallery11.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "MyProfile(Admin)",
+                "type": "'MyProfile(Admin)'.Container6.Container42.Container44_1.Container45.Gallery11"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'MyProfile(Admin)'.Container6.Container42.Container44_1.Container45.Gallery11.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'MyProfile(Admin)'.Container6.Container42.Container44_1.Container45.Gallery11.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "MyProfile(Admin)",
+                "type": "'MyProfile(Admin)'.Container6.Container42.Container44_1.Container45.Gallery11"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "App.search_name"
                 }
               ],
