@@ -469,10 +469,10 @@
 
             Button8_1 As button:
                 OnSelect: |-
-                    =    Notify(If(
+                    =If(
                         Not(
                             EndsWith(
-                                First(DataCardValue82_5.Attachments).Name,
+                                First(DataCardValue82_1.Attachments).Name,
                                 ".xlsx"
                             )
                         ),
@@ -484,11 +484,11 @@
                             Data,
                             ImportAndRead.Run(
                                 Gallery_study_1.Selected.ID,
-                                First(DataCardValue82_5.Attachments).Name,
+                                First(DataCardValue82_1.Attachments).Name,
                                 {
                                     file: {
-                                        contentBytes: First(DataCardValue82_5.Attachments).Value,
-                                        name: First(DataCardValue82_5.Attachments).Name
+                                        contentBytes: First(DataCardValue82_1.Attachments).Value,
+                                        name: First(DataCardValue82_1.Attachments).Name
                                     }
                                 }
                             ).outputfornotification
