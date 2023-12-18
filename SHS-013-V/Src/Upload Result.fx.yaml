@@ -53,6 +53,7 @@
 
             Container27_24 As groupContainer.horizontalAutoLayoutContainer:
                 DropShadow: =DropShadow.None
+                FillPortions: =0
                 Height: =Parent.Height
                 LayoutGap: =10
                 LayoutMinHeight: =80
