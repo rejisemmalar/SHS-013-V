@@ -1,9 +1,5 @@
 "'For Approval 4' As screen":
 
-    "'Approver 4_3' As 'Approver 4'":
-        CurrentScreen: ="Inbox 4"
-        Height: =768
-
     Search_13 As Search:
         X: =919
         Y: =200
@@ -49,4 +45,8 @@
         X: =291
         Y: =147
         ZIndex: =6
+
+    Component1_11 As Component1:
+        Height: =768
+        ZIndex: =7
 

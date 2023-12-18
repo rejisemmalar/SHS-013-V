@@ -1,9 +1,5 @@
 "'For Approval 3' As screen":
 
-    "'Approver 3_3' As 'Approver 3'":
-        CurrentScreen: ="Inbox 3"
-        Height: =768
-
     Arrow1_1 As arrow.backArrow:
         Fill: =RGBA(0, 18, 107, 1)
         Height: =34
@@ -49,4 +45,8 @@
         X: =919
         Y: =200
         ZIndex: =6
+
+    Component1_10 As Component1:
+        Height: =768
+        ZIndex: =7
 
