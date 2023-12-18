@@ -196,11 +196,17 @@
 
             Container44_3 As groupContainer.verticalAutoLayoutContainer:
                 AlignInContainer: =AlignInContainer.SetByContainer
+                BorderThickness: =1
                 DropShadow: =DropShadow.None
+                Height: =500
                 LayoutDirection: =LayoutDirection.Vertical
                 LayoutMinHeight: =100
                 LayoutMinWidth: =250
                 LayoutMode: =LayoutMode.Auto
+                RadiusBottomLeft: =15
+                RadiusBottomRight: =15
+                RadiusTopLeft: =15
+                RadiusTopRight: =15
                 Width: =30
                 ZIndex: =4
 
@@ -211,8 +217,15 @@
                     Width: =Parent.Width
                     ZIndex: =2
 
+                Label18_1 As label:
+                    PaddingLeft: =15
+                    Text: ="Profile Information"
+                    Width: =Parent.Width
+                    ZIndex: =3
+
             Container44_4 As groupContainer.verticalAutoLayoutContainer:
                 AlignInContainer: =AlignInContainer.SetByContainer
+                DropShadow: =DropShadow.None
                 FillPortions: =0
                 LayoutDirection: =LayoutDirection.Vertical
                 LayoutMinHeight: =100
