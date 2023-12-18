@@ -129,7 +129,7 @@
                             HoverFill: =Self.Fill
                             OnSelect: |+
                                 =ForAll(
-                                    Gallery9_1.AllItems As Data,
+                                    Gallery9.AllItems As Data,
                                     Collect(
                                         CSVData,
                                         {
@@ -158,7 +158,7 @@
                             Icon: =Icon.Export
                             OnSelect: |+
                                 =ForAll(
-                                    Gallery9_1.AllItems As Data,
+                                    Gallery9.AllItems As Data,
                                     Collect(
                                         CSVData,
                                         {
