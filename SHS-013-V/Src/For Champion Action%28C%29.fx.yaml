@@ -706,7 +706,6 @@
                             HoverFill: =Self.Fill
                             OnSelect: |-
                                 =UpdateContext({CeateInitiative:true})
-                            PaddingLeft: =35
                             PressedColor: =Color.White
                             PressedFill: =Self.Fill
                             RadiusBottomLeft: =0
@@ -736,7 +735,6 @@
                             Fill: =RGBA(5, 89, 8, 1)
                             HoverFill: =Self.Fill
                             OnSelect: =
-                            PaddingLeft: =35
                             PressedColor: =Color.White
                             PressedFill: =Self.Fill
                             RadiusBottomLeft: =0
@@ -965,7 +963,6 @@
                 ZIndex: =1
 
                 Header_question_6 As groupContainer.horizontalAutoLayoutContainer:
-                    BorderThickness: =1
                     DropShadow: =DropShadow.None
                     Height: =60
                     LayoutAlignItems: =LayoutAlignItems.Stretch
@@ -991,7 +988,7 @@
                             FillPortions: =1
                             LayoutMinWidth: =130
                             Size: =15
-                            Text: ="Initiative"
+                            Text: =ThisItem.'Initiative Name'
                             ZIndex: =1
 
                     Container28_22 As groupContainer.horizontalAutoLayoutContainer:
@@ -1012,7 +1009,7 @@
                             FontWeight: =FontWeight.Bold
                             LayoutMinWidth: =120
                             Size: =15
-                            Text: ="Study"
+                            Text: =ThisItem.Study
                             Width: =220
                             ZIndex: =1
 
@@ -1034,7 +1031,7 @@
                             FontWeight: =FontWeight.Bold
                             LayoutMinWidth: =120
                             Size: =15
-                            Text: ="Factor"
+                            Text: =ThisItem.Factor.Value
                             Width: =220
                             Y: =130
                             ZIndex: =1
@@ -1057,7 +1054,7 @@
                             FontWeight: =FontWeight.Bold
                             LayoutMinWidth: =120
                             Size: =15
-                            Text: ="SubFactor"
+                            Text: =ThisItem.SubFactors.Value
                             Width: =220
                             Y: =130
                             ZIndex: =1
@@ -1080,7 +1077,7 @@
                             FontWeight: =FontWeight.Bold
                             LayoutMinWidth: =120
                             Size: =15
-                            Text: ="StartDate"
+                            Text: =ThisItem.StartDate
                             Width: =190
                             Y: =130
                             ZIndex: =1
@@ -1103,7 +1100,7 @@
                             FontWeight: =FontWeight.Bold
                             LayoutMinWidth: =120
                             Size: =15
-                            Text: ="EndDate"
+                            Text: =ThisItem.'End Date'
                             Width: =220
                             Y: =130
                             ZIndex: =1
@@ -1126,7 +1123,7 @@
                             FontWeight: =FontWeight.Bold
                             LayoutMinWidth: =120
                             Size: =15
-                            Text: ="Progress"
+                            Text: =ThisItem.Progress
                             Width: =220
                             Y: =130
                             ZIndex: =1
@@ -1143,16 +1140,32 @@
                         Width: =Parent.Width
                         ZIndex: =8
 
-                        factorcode_35 As label:
-                            Align: =Align.Center
+                        Icon10 As icon.Edit:
+                            AlignInContainer: =AlignInContainer.Center
+                            Color: =RGBA(71, 158, 245, 1)
                             FillPortions: =1
-                            FontWeight: =FontWeight.Bold
-                            LayoutMinWidth: =120
-                            Size: =15
-                            Text: ="Action"
-                            Width: =220
-                            Y: =130
+                            Height: =30
+                            Icon: =Icon.Edit
+                            LayoutMinHeight: =30
+                            LayoutMinWidth: =20
                             ZIndex: =1
+
+                        Icon15 As icon.Trash:
+                            AlignInContainer: =AlignInContainer.Center
+                            Color: =RGBA(255, 0, 0, 1)
+                            FillPortions: =1
+                            Height: =30
+                            Icon: =Icon.Trash
+                            LayoutMinWidth: =20
+                            ZIndex: =2
+
+                        Icon16 As icon.DocumentwithContent:
+                            AlignInContainer: =AlignInContainer.Center
+                            FillPortions: =1
+                            Height: =30
+                            Icon: =Icon.DocumentWithContent
+                            LayoutMinWidth: =20
+                            ZIndex: =3
 
     CreateInitiative As groupContainer.verticalAutoLayoutContainer:
         Fill: =Color.Beige
@@ -1175,6 +1188,12 @@
             LayoutMinHeight: =250
             LayoutMinWidth: =400
             NumberOfColumns: =2
+            OnSuccess: |-
+                =updateInitiativeflow.Run(
+                    Form3.LastSubmit.ID,
+                    Gallery_study_2.Selected.'Study Name',
+                    Gallery_study_2.Selected.'Perf Year'
+                )
             Width: =Parent.Width
             ZIndex: =1
 
@@ -1189,7 +1208,7 @@
                 MaxLength: =DataSourceInfo([@'Initiative List'], DataSourceInfo.MaxLength, "InitiativeCode")
                 Required: =true
                 Update: =DataCardValue72.Text
-                Width: =683
+                Width: =546
                 X: =0
                 Y: =0
                 ZIndex: =2
@@ -1257,7 +1276,7 @@
                 MaxLength: =DataSourceInfo([@'Initiative List'], DataSourceInfo.MaxLength, "InitiativeName")
                 Required: =true
                 Update: =DataCardValue73.Text
-                Width: =683
+                Width: =546
                 X: =1
                 Y: =0
                 ZIndex: =2
@@ -1314,6 +1333,72 @@
                     Y: =DataCardKey73.Y
                     ZIndex: =4
 
+            Factor_DataCard1 As typedDataCard.comboBoxEditCard:
+                BorderStyle: =BorderStyle.Solid
+                DataField: ="Factor"
+                Default: =ThisItem.Factor
+                DisplayMode: =Parent.DisplayMode
+                DisplayName: =DataSourceInfo([@'Initiative List'],DataSourceInfo.DisplayName,"Factor")
+                Fill: =RGBA(0, 0, 0, 0)
+                Height: =50
+                Required: =true
+                Update: =DataCardValue75.Selected
+                Width: =546
+                X: =1
+                Y: =1
+                ZIndex: =2
+
+                DataCardKey75 As label:
+                    AutoHeight: =true
+                    Height: =34
+                    Text: =Parent.DisplayName
+                    Width: =Parent.Width - 60
+                    Wrap: =false
+                    X: =30
+                    Y: =10
+                    ZIndex: =1
+
+                DataCardValue75 As combobox:
+                    BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                    DefaultSelectedItems: =Parent.Default
+                    DisplayFields: =["Value"]
+                    DisplayMode: =Parent.DisplayMode
+                    Items: =Choices([@'Initiative List'].Factor)
+                    PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
+                    SearchFields: =["Value"]
+                    SearchItems: =Choices('Initiative List'.Factor,DataCardValue75.SearchText)
+                    SelectMultiple: =false
+                    Tooltip: =Parent.DisplayName
+                    Width: =Parent.Width - 60
+                    X: =30
+                    Y: =DataCardKey75.Y + DataCardKey75.Height + 5
+                    ZIndex: =2
+
+                ErrorMessage75 As label:
+                    AutoHeight: =true
+                    Height: =10
+                    Live: =Live.Assertive
+                    PaddingBottom: =0
+                    PaddingLeft: =0
+                    PaddingRight: =0
+                    PaddingTop: =0
+                    Text: =Parent.Error
+                    Visible: =Parent.DisplayMode=DisplayMode.Edit
+                    Width: =Parent.Width - 60
+                    X: =30
+                    Y: =DataCardValue75.Y + DataCardValue75.Height
+                    ZIndex: =3
+
+                StarVisible75 As label:
+                    Align: =Align.Center
+                    Height: =DataCardKey75.Height
+                    Text: ="*"
+                    Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                    Width: =30
+                    Wrap: =false
+                    Y: =DataCardKey75.Y
+                    ZIndex: =4
+
             Description_DataCard1 As typedDataCard.textualEditCard:
                 BorderStyle: =BorderStyle.Solid
                 DataField: ="Description"
@@ -1325,7 +1410,7 @@
                 MaxLength: =DataSourceInfo([@'Initiative List'], DataSourceInfo.MaxLength, "Description")
                 Required: =true
                 Update: =DataCardValue74.Text
-                Width: =683
+                Width: =546
                 X: =0
                 Y: =1
                 ZIndex: =2
@@ -1382,72 +1467,6 @@
                     Y: =DataCardKey74.Y
                     ZIndex: =4
 
-            Factor_DataCard1 As typedDataCard.comboBoxEditCard:
-                BorderStyle: =BorderStyle.Solid
-                DataField: ="Factor"
-                Default: =ThisItem.Factor
-                DisplayMode: =Parent.DisplayMode
-                DisplayName: =DataSourceInfo([@'Initiative List'],DataSourceInfo.DisplayName,"Factor")
-                Fill: =RGBA(0, 0, 0, 0)
-                Height: =50
-                Required: =true
-                Update: =DataCardValue75.Selected
-                Width: =683
-                X: =1
-                Y: =1
-                ZIndex: =2
-
-                DataCardKey75 As label:
-                    AutoHeight: =true
-                    Height: =34
-                    Text: =Parent.DisplayName
-                    Width: =Parent.Width - 60
-                    Wrap: =false
-                    X: =30
-                    Y: =10
-                    ZIndex: =1
-
-                DataCardValue75 As combobox:
-                    BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                    DefaultSelectedItems: =Parent.Default
-                    DisplayFields: =["Value"]
-                    DisplayMode: =Parent.DisplayMode
-                    Items: =Choices([@'Initiative List'].Factor)
-                    PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
-                    SearchFields: =["Value"]
-                    SearchItems: =Choices('Initiative List'.Factor,DataCardValue75.SearchText)
-                    SelectMultiple: =false
-                    Tooltip: =Parent.DisplayName
-                    Width: =Parent.Width - 60
-                    X: =30
-                    Y: =DataCardKey75.Y + DataCardKey75.Height + 5
-                    ZIndex: =2
-
-                ErrorMessage75 As label:
-                    AutoHeight: =true
-                    Height: =10
-                    Live: =Live.Assertive
-                    PaddingBottom: =0
-                    PaddingLeft: =0
-                    PaddingRight: =0
-                    PaddingTop: =0
-                    Text: =Parent.Error
-                    Visible: =Parent.DisplayMode=DisplayMode.Edit
-                    Width: =Parent.Width - 60
-                    X: =30
-                    Y: =DataCardValue75.Y + DataCardValue75.Height
-                    ZIndex: =3
-
-                StarVisible75 As label:
-                    Align: =Align.Center
-                    Height: =DataCardKey75.Height
-                    Text: ="*"
-                    Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                    Width: =30
-                    Wrap: =false
-                    Y: =DataCardKey75.Y
-                    ZIndex: =4
-
             SubFactors_DataCard1 As typedDataCard.comboBoxEditCard:
                 BorderStyle: =BorderStyle.Solid
                 DataField: ="SubFactors"
@@ -1458,7 +1477,7 @@
                 Height: =50
                 Required: =true
                 Update: =DataCardValue76.Selected
-                Width: =683
+                Width: =546
                 X: =0
                 Y: =2
                 ZIndex: =2
@@ -1524,7 +1543,7 @@
                 Height: =50
                 Required: =false
                 Update: =DataCardValue77.SelectedDate
-                Width: =683
+                Width: =546
                 X: =1
                 Y: =2
                 ZIndex: =2
@@ -1589,7 +1608,7 @@
                 Height: =50
                 Required: =false
                 Update: =DataCardValue78.SelectedDate
-                Width: =683
+                Width: =546
                 X: =0
                 Y: =3
                 ZIndex: =2
@@ -1655,7 +1674,7 @@
                 MaxLength: =DataSourceInfo([@'Initiative List'], DataSourceInfo.MaxLength, "TargetAudience")
                 Required: =true
                 Update: =DataCardValue79.Text
-                Width: =683
+                Width: =546
                 X: =1
                 Y: =3
                 ZIndex: =2
@@ -1722,7 +1741,7 @@
                 Height: =50
                 Required: =true
                 Update: =Value(DataCardValue80.Text)
-                Width: =683
+                Width: =546
                 X: =0
                 Y: =4
                 ZIndex: =2
