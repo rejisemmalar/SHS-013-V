@@ -13743,19 +13743,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)_1'.Container30_9.Gallery_study_3.AccessibleLabel"
+                  "fullyQualifiedName": "'For Champion Action(C)'.Actionpage.Container30_9.Gallery_study_3.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)_1'.Container30_9.Gallery_study_3.AccessibleLabel",
+                  "fullyQualifiedName": "'For Champion Action(C)'.Actionpage.Container30_9.Gallery_study_3.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "For Champion Action(C)",
-                "type": "'For Champion Action(C)'.'Main-For Champion Action(C)_1'.Container30_9.Gallery_study_3"
+                "type": "'For Champion Action(C)'.Actionpage.Container30_9.Gallery_study_3"
               }
             }
           ],
@@ -13773,19 +13773,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)_1'.Container30_9.Gallery_study_3.TabIndex"
+                  "fullyQualifiedName": "'For Champion Action(C)'.Actionpage.Container30_9.Gallery_study_3.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)_1'.Container30_9.Gallery_study_3.TabIndex",
+                  "fullyQualifiedName": "'For Champion Action(C)'.Actionpage.Container30_9.Gallery_study_3.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "For Champion Action(C)",
-                "type": "'For Champion Action(C)'.'Main-For Champion Action(C)_1'.Container30_9.Gallery_study_3"
+                "type": "'For Champion Action(C)'.Actionpage.Container30_9.Gallery_study_3"
               }
             }
           ],
@@ -13803,19 +13803,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)_1'.Container30_9.Gallery_study_3.Container32_9.Container33_47.Icon5_7.AccessibleLabel"
+                  "fullyQualifiedName": "'For Champion Action(C)'.Actionpage.Container30_9.Gallery_study_3.Container32_9.Container33_47.Icon5_7.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)_1'.Container30_9.Gallery_study_3.Container32_9.Container33_47.Icon5_7.AccessibleLabel",
+                  "fullyQualifiedName": "'For Champion Action(C)'.Actionpage.Container30_9.Gallery_study_3.Container32_9.Container33_47.Icon5_7.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "For Champion Action(C)",
-                "type": "'For Champion Action(C)'.'Main-For Champion Action(C)_1'.Container30_9.Gallery_study_3.Container32_9.Container33_47.Icon5_7"
+                "type": "'For Champion Action(C)'.Actionpage.Container30_9.Gallery_study_3.Container32_9.Container33_47.Icon5_7"
               }
             }
           ],
@@ -13833,19 +13833,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)_1'.Container30_9.Gallery_study_3.Container32_9.Container33_47.Icon5_7.TabIndex"
+                  "fullyQualifiedName": "'For Champion Action(C)'.Actionpage.Container30_9.Gallery_study_3.Container32_9.Container33_47.Icon5_7.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)_1'.Container30_9.Gallery_study_3.Container32_9.Container33_47.Icon5_7.TabIndex",
+                  "fullyQualifiedName": "'For Champion Action(C)'.Actionpage.Container30_9.Gallery_study_3.Container32_9.Container33_47.Icon5_7.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "For Champion Action(C)",
-                "type": "'For Champion Action(C)'.'Main-For Champion Action(C)_1'.Container30_9.Gallery_study_3.Container32_9.Container33_47.Icon5_7"
+                "type": "'For Champion Action(C)'.Actionpage.Container30_9.Gallery_study_3.Container32_9.Container33_47.Icon5_7"
               }
             }
           ],
@@ -13863,49 +13863,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)_1'.Arrow2_18.AccessibleLabel"
+                  "fullyQualifiedName": "'For Champion Action(C)'.Actionpage.'Button&heading_20'.Container27_54.Container25_53.Container6_25.Icon16_25.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)_1'.Arrow2_18.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "For Champion Action(C)",
-                "type": "'For Champion Action(C)'.'Main-For Champion Action(C)_1'.Arrow2_18"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)_1'.Arrow2_18.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)_1'.Arrow2_18.TabIndex",
+                  "fullyQualifiedName": "'For Champion Action(C)'.Actionpage.'Button&heading_20'.Container27_54.Container25_53.Container6_25.Icon16_25.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "For Champion Action(C)",
-                "type": "'For Champion Action(C)'.'Main-For Champion Action(C)_1'.Arrow2_18"
+                "type": "'For Champion Action(C)'.Actionpage.'Button&heading_20'.Container27_54.Container25_53.Container6_25.Icon16_25"
               }
             }
           ],
@@ -13923,19 +13893,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)_1'.'Button&heading_19'.Container27_49.Container25_50.TextInput1_13.AccessibleLabel"
+                  "fullyQualifiedName": "'For Champion Action(C)'.Actionpage.'Button&heading_20'.Container27_54.Container25_53.Container6_25.Icon16_25.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)_1'.'Button&heading_19'.Container27_49.Container25_50.TextInput1_13.AccessibleLabel",
+                  "fullyQualifiedName": "'For Champion Action(C)'.Actionpage.'Button&heading_20'.Container27_54.Container25_53.Container6_25.Icon16_25.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "For Champion Action(C)",
-                "type": "'For Champion Action(C)'.'Main-For Champion Action(C)_1'.'Button&heading_19'.Container27_49.Container25_50.TextInput1_13"
+                "type": "'For Champion Action(C)'.Actionpage.'Button&heading_20'.Container27_54.Container25_53.Container6_25.Icon16_25"
               }
             }
           ],
@@ -13953,49 +13923,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)_1'.'Button&heading_19'.Container27_49.Container25_50.Icon28_45.AccessibleLabel"
+                  "fullyQualifiedName": "'For Champion Action(C)'.Actionpage.'Button&heading_20'.Container26_38.Arrow2_19.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)_1'.'Button&heading_19'.Container27_49.Container25_50.Icon28_45.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "For Champion Action(C)",
-                "type": "'For Champion Action(C)'.'Main-For Champion Action(C)_1'.'Button&heading_19'.Container27_49.Container25_50.Icon28_45"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)_1'.'Button&heading_19'.Container27_49.Container25_50.Icon28_45.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)_1'.'Button&heading_19'.Container27_49.Container25_50.Icon28_45.TabIndex",
+                  "fullyQualifiedName": "'For Champion Action(C)'.Actionpage.'Button&heading_20'.Container26_38.Arrow2_19.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "For Champion Action(C)",
-                "type": "'For Champion Action(C)'.'Main-For Champion Action(C)_1'.'Button&heading_19'.Container27_49.Container25_50.Icon28_45"
+                "type": "'For Champion Action(C)'.Actionpage.'Button&heading_20'.Container26_38.Arrow2_19"
               }
             }
           ],
@@ -14013,19 +13953,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)_1'.'Button&heading_19'.Container27_49.Container25_50.Icon28_46.AccessibleLabel"
+                  "fullyQualifiedName": "'For Champion Action(C)'.Actionpage.'Button&heading_20'.Container26_38.Arrow2_19.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)_1'.'Button&heading_19'.Container27_49.Container25_50.Icon28_46.AccessibleLabel",
+                  "fullyQualifiedName": "'For Champion Action(C)'.Actionpage.'Button&heading_20'.Container26_38.Arrow2_19.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "For Champion Action(C)",
-                "type": "'For Champion Action(C)'.'Main-For Champion Action(C)_1'.'Button&heading_19'.Container27_49.Container25_50.Icon28_46"
+                "type": "'For Champion Action(C)'.Actionpage.'Button&heading_20'.Container26_38.Arrow2_19"
               }
             }
           ],
@@ -14037,96 +13977,6 @@
           },
           "ruleId": "acc-AccessibleLabelNeeded",
           "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)_1'.'Button&heading_19'.Container27_49.Container25_50.Icon28_46.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)_1'.'Button&heading_19'.Container27_49.Container25_50.Icon28_46.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "For Champion Action(C)",
-                "type": "'For Champion Action(C)'.'Main-For Champion Action(C)_1'.'Button&heading_19'.Container27_49.Container25_50.Icon28_46"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 6
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)_1'.'Button&heading_19'.Container27_49.Container25_51.Container6_24.Icon16_24.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)_1'.'Button&heading_19'.Container27_49.Container25_51.Container6_24.Icon16_24.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "For Champion Action(C)",
-                "type": "'For Champion Action(C)'.'Main-For Champion Action(C)_1'.'Button&heading_19'.Container27_49.Container25_51.Container6_24.Icon16_24"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)_1'.'Button&heading_19'.Container27_49.Container25_51.Container6_24.Icon16_24.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)_1'.'Button&heading_19'.Container27_49.Container25_51.Container6_24.Icon16_24.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "For Champion Action(C)",
-                "type": "'For Champion Action(C)'.'Main-For Champion Action(C)_1'.'Button&heading_19'.Container27_49.Container25_51.Container6_24.Icon16_24"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 6
         },
         {
           "locations": [
@@ -15243,19 +15093,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)_1'.Container30_9.Gallery_study_3.Items"
+                  "fullyQualifiedName": "'For Champion Action(C)'.Actionpage.Container30_9.Gallery_study_3.Items"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)_1'.Container30_9.Gallery_study_3.Items",
+                  "fullyQualifiedName": "'For Champion Action(C)'.Actionpage.Container30_9.Gallery_study_3.Items",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "Items",
                 "module": "For Champion Action(C)",
-                "type": "'For Champion Action(C)'.'Main-For Champion Action(C)_1'.Container30_9.Gallery_study_3"
+                "type": "'For Champion Action(C)'.Actionpage.Container30_9.Gallery_study_3"
               }
             }
           ],
@@ -15273,19 +15123,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)_1'.Container14_14.Visible"
+                  "fullyQualifiedName": "'For Champion Action(C)'.Actionpage.Container14_14.Visible"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)_1'.Container14_14.Visible",
+                  "fullyQualifiedName": "'For Champion Action(C)'.Actionpage.Container14_14.Visible",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "Visible",
                 "module": "For Champion Action(C)",
-                "type": "'For Champion Action(C)'.'Main-For Champion Action(C)_1'.Container14_14"
+                "type": "'For Champion Action(C)'.Actionpage.Container14_14"
               }
             }
           ],
