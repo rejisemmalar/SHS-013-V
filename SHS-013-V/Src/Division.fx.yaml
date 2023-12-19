@@ -1970,6 +1970,7 @@ Division As screen:
                 ZIndex: =2
 
             Container28_17 As groupContainer.horizontalAutoLayoutContainer:
+                DropShadow: =DropShadow.None
                 LayoutAlignItems: =LayoutAlignItems.Center
                 LayoutGap: =50
                 LayoutJustifyContent: =LayoutJustifyContent.Center
