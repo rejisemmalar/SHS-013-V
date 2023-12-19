@@ -475,6 +475,8 @@
                 ZIndex: =2
 
             Button8_1 As button:
+                AlignInContainer: =AlignInContainer.Center
+                Fill: =RGBA(58, 214, 131, 1)
                 OnSelect: |-
                     =If(
                         Not(
@@ -557,6 +559,8 @@
                 ZIndex: =2
 
             Button8_2 As button:
+                AlignInContainer: =AlignInContainer.Center
+                Fill: =RGBA(58, 214, 131, 1)
                 OnSelect: |-
                     =If(
                         Not(
@@ -641,6 +645,8 @@
                 ZIndex: =2
 
             Button8_3 As button:
+                AlignInContainer: =AlignInContainer.Center
+                Fill: =RGBA(58, 214, 131, 1)
                 OnSelect: |-
                     =If(
                         Not(
@@ -724,6 +730,8 @@
                 ZIndex: =2
 
             Button8_4 As button:
+                AlignInContainer: =AlignInContainer.Center
+                Fill: =RGBA(58, 214, 131, 1)
                 OnSelect: |-
                     =If(
                         Not(
@@ -807,6 +815,8 @@
                 ZIndex: =2
 
             Button8_5 As button:
+                AlignInContainer: =AlignInContainer.Center
+                Fill: =RGBA(58, 214, 131, 1)
                 OnSelect: |-
                     =If(
                         Not(
