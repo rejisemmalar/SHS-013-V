@@ -110,6 +110,9 @@
           "HACT Config": {
             "tableName": "9ad76def-8225-4d10-b26c-5f26e0dea15b"
           },
+          "Initiative List": {
+            "tableName": "db0f5a5e-c228-4081-ae2b-e97039886a47"
+          },
           "Login Details": {
             "tableName": "329e5a5f-1293-4368-a3f2-67d91be2f1bb"
           },
@@ -169,7 +172,8 @@
       "MapDiv(subfactors)",
       "HACT Config",
       "Login Details_1",
-      "Divisions With Study"
+      "Divisions With Study",
+      "Initiative List"
     ],
     "dependencies": {},
     "dependents": [
