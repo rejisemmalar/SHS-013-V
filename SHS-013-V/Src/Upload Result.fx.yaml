@@ -1,5 +1,9 @@
 "'Upload Result' As screen":
 
+    UploadResultComp As Component1:
+        CurrentScreen: ="Configuration"
+        Height: =768
+
     "'Main-Study_1' As groupContainer.verticalAutoLayoutContainer":
         Height: =App.Height-compStudy.ComHeaderHeight
         LayoutAlignItems: =LayoutAlignItems.Stretch
@@ -9,7 +13,7 @@
         Width: =App.Width-UploadResultComp.VarMenuWidth
         X: =UploadResultComp.VarMenuWidth
         Y: =compStudy.ComHeaderHeight
-        ZIndex: =1
+        ZIndex: =2
 
         Arrow2_7 As arrow.backArrow:
             AlignInContainer: =AlignInContainer.Start
@@ -406,7 +410,7 @@
         Width: =App.Width-UploadResultComp.VarMenuWidth
         X: =UploadResultComp.VarMenuWidth
         Y: =compOptions.ComHeaderHeight
-        ZIndex: =2
+        ZIndex: =3
 
         Container2 As groupContainer.horizontalAutoLayoutContainer:
             DropShadow: =DropShadow.None
@@ -839,7 +843,7 @@
         Width: =App.Width-UploadResultComp.VarMenuWidth
         X: =UploadResultComp.VarMenuWidth
         Y: =316
-        ZIndex: =3
+        ZIndex: =4
 
         Image5 As image:
             Height: =250
@@ -865,7 +869,7 @@
         Width: =App.Width-UploadResultComp.VarMenuWidth
         X: =UploadResultComp.VarMenuWidth
         Y: =123
-        ZIndex: =4
+        ZIndex: =5
 
         Container17 As groupContainer.verticalAutoLayoutContainer:
             AlignInContainer: =AlignInContainer.SetByContainer
@@ -902,9 +906,4 @@
                 X: =0
                 Y: =0
                 ZIndex: =2
-
-    UploadResultComp As Component1:
-        CurrentScreen: ="Configuration"
-        Height: =768
-        ZIndex: =5
 
