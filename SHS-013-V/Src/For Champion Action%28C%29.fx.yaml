@@ -229,9 +229,8 @@
                     Align: =Align.Center
                     FillPortions: =1
                     FontWeight: =FontWeight.Bold
-                    PaddingLeft: =50
                     Size: =15
-                    Text: ="Division"
+                    Text: ="Study"
                     ZIndex: =1
 
             Container28_16 As groupContainer.horizontalAutoLayoutContainer:
@@ -537,7 +536,8 @@
 
                 Arrow2_19 As arrow.backArrow:
                     Height: =30
-                    OnSelect: =Navigate('For Champion Action(C)')
+                    OnSelect: |-
+                        =UpdateContext({ShowActionpage:false})
                     Width: =30
                     ZIndex: =1
 
@@ -637,8 +637,6 @@
                                           SatrtDAte:Data.StartDate,
                                           EndDate:Data.'End Date',
                                           Progress:Data.Progress
-                                
-                                
                                         }
                                     )
                                 );
@@ -1191,6 +1189,7 @@
                     Gallery_study_2.Selected.'Study Name',
                     Gallery_study_2.Selected.'Perf Year'
                 );ResetForm(Form3);
+                UpdateContext({CeateInitiative:false})
             Width: =Parent.Width
             ZIndex: =1
 
