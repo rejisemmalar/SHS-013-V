@@ -706,7 +706,7 @@
                             Fill: =RGBA(5, 89, 8, 1)
                             HoverFill: =Self.Fill
                             OnSelect: |-
-                                =UpdateContext({CeateInitiative:true})
+                                =UpdateContext({CeateInitiative:true});NewForm(Form3);
                             PressedColor: =Color.White
                             PressedFill: =Self.Fill
                             RadiusBottomLeft: =0
