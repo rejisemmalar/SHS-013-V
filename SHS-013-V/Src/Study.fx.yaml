@@ -334,10 +334,11 @@ Study As screen:
                 ZIndex: =5
 
                 factorcode_16 As label:
+                    Align: =Align.Center
                     FontWeight: =FontWeight.Bold
                     Size: =15
                     Text: ="Performence Year"
-                    Width: =220
+                    Width: =190
                     Y: =130
                     ZIndex: =1
 

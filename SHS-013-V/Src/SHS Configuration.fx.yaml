@@ -59,7 +59,7 @@
                     LayoutAlignItems: =LayoutAlignItems.Stretch
                     LayoutDirection: =LayoutDirection.Vertical
                     LayoutMinHeight: =100
-                    LayoutMinWidth: =220
+                    LayoutMinWidth: =200
                     LayoutMode: =LayoutMode.Auto
                     RadiusBottomLeft: =10
                     RadiusBottomRight: =10
