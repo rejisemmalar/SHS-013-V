@@ -400,7 +400,8 @@
                             ZIndex: =1
 
     "'Add Popup_Study_1' As groupContainer.verticalAutoLayoutContainer":
-        Fill: =Color.AliceBlue
+        DropShadow: =DropShadow.None
+        Fill: =RGBA(255, 255, 255, 1)
         Height: =App.Height-compOptions.ComHeaderHeight
         LayoutAlignItems: =LayoutAlignItems.Center
         LayoutDirection: =LayoutDirection.Vertical
@@ -435,24 +436,28 @@
             FillPortions: =0
             Height: =100
             LayoutAlignItems: =LayoutAlignItems.End
-            LayoutGap: =50
+            LayoutGap: =100
             LayoutMinHeight: =100
             LayoutMinWidth: =250
             LayoutMode: =LayoutMode.Auto
             ZIndex: =2
 
             Label13 As label:
+                Align: =Align.Center
                 FontWeight: =FontWeight.Bold
                 PaddingLeft: =20
+                Size: =15
                 Text: ="Annexture 1"
                 ZIndex: =1
 
             DataCardValue82_1 As attachments:
-                BorderColor: |
-                    =
+                BorderColor: =RGBA(58, 214, 131, 1)
+                BorderThickness: =10
                 DisplayMode: =Parent.DisplayMode
+                DropTargetBorderColor: =RGBA(9, 232, 206, 1)
+                DropTargetBorderStyle: =BorderStyle.Solid
+                DropTargetBorderThickness: =15
                 DropTargetTextColor: =RGBA(54, 176, 75, 1)
-                Fill: =RGBA(54, 176, 75, 1)
                 Height: =Parent.Height
                 IsInDataCard: =true
                 Items: =
@@ -517,21 +522,23 @@
             FillPortions: =0
             Height: =100
             LayoutAlignItems: =LayoutAlignItems.End
-            LayoutGap: =50
+            LayoutGap: =100
             LayoutMinHeight: =100
             LayoutMinWidth: =250
             LayoutMode: =LayoutMode.Auto
             ZIndex: =3
 
             Label13_1 As label:
+                Align: =Align.Center
                 FontWeight: =FontWeight.Bold
                 PaddingLeft: =20
-                Text: ="Annexture 1"
+                Size: =15
+                Text: ="Annexture 2"
                 ZIndex: =1
 
             DataCardValue82_2 As attachments:
-                BorderColor: |
-                    =
+                BorderColor: =RGBA(58, 214, 131, 1)
+                BorderThickness: =10
                 DisplayMode: =Parent.DisplayMode
                 Height: =Parent.Height
                 IsInDataCard: =true
@@ -597,21 +604,25 @@
             FillPortions: =0
             Height: =100
             LayoutAlignItems: =LayoutAlignItems.End
-            LayoutGap: =50
+            LayoutGap: =100
             LayoutMinHeight: =100
             LayoutMinWidth: =250
             LayoutMode: =LayoutMode.Auto
             ZIndex: =4
 
             Label13_2 As label:
+                Align: =Align.Center
                 FontWeight: =FontWeight.Bold
+                Height: =50
+                LineHeight: =1.4
                 PaddingLeft: =20
-                Text: ="Annexture 1"
+                Size: =15
+                Text: ="General Comments"
                 ZIndex: =1
 
             DataCardValue82_3 As attachments:
-                BorderColor: |
-                    =
+                BorderColor: =RGBA(58, 214, 131, 1)
+                BorderThickness: =10
                 DisplayMode: =Parent.DisplayMode
                 Height: =Parent.Height
                 IsInDataCard: =true
@@ -677,21 +688,24 @@
             FillPortions: =0
             Height: =100
             LayoutAlignItems: =LayoutAlignItems.End
-            LayoutGap: =50
+            LayoutGap: =100
             LayoutMinHeight: =100
             LayoutMinWidth: =250
             LayoutMode: =LayoutMode.Auto
             ZIndex: =5
 
             Label13_3 As label:
+                Align: =Align.Center
                 FontWeight: =FontWeight.Bold
+                Height: =50
+                LineHeight: =1.4
                 PaddingLeft: =20
-                Text: ="Annexture 1"
+                Text: ="Question Comments"
                 ZIndex: =1
 
             DataCardValue82_4 As attachments:
-                BorderColor: |
-                    =
+                BorderColor: =RGBA(58, 214, 131, 1)
+                BorderThickness: =10
                 DisplayMode: =Parent.DisplayMode
                 Height: =Parent.Height
                 IsInDataCard: =true
@@ -757,21 +771,24 @@
             FillPortions: =0
             Height: =100
             LayoutAlignItems: =LayoutAlignItems.End
-            LayoutGap: =50
+            LayoutGap: =100
             LayoutMinHeight: =100
             LayoutMinWidth: =250
             LayoutMode: =LayoutMode.Auto
             ZIndex: =6
 
             Label13_4 As label:
+                Align: =Align.Center
                 FontWeight: =FontWeight.Bold
+                Height: =50
+                LineHeight: =1.4
                 PaddingLeft: =20
-                Text: ="Annexture 1"
+                Text: ="Factor Comments"
                 ZIndex: =1
 
             DataCardValue82_5 As attachments:
-                BorderColor: |
-                    =
+                BorderColor: =RGBA(58, 214, 131, 1)
+                BorderThickness: =10
                 DisplayMode: =Parent.DisplayMode
                 Height: =Parent.Height
                 IsInDataCard: =true
