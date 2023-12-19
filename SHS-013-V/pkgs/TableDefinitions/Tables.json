@@ -2,11 +2,12 @@
   "DatasetName": "default.cds",
   "EntityName": "Tables",
   "environmentVariableName": "",
+  "InstanceUrl": "https://org2d8538e0.crm5.dynamics.com/",
   "LocalReferenceDSJson": {
     "entitySetName": "cr35c_tables",
     "logicalName": "cr35c_table"
   },
-  "state": "NotConfigured",
+  "state": "Configured",
   "TableDefinition": {
     "BooleanOptionSetAttribute": "{\"@odata.context\":\"https://orga8cbfd09.crm5.dynamics.com/api/data/v9.0/$metadata#EntityDefinitions('cr35c_table')/Attributes/Microsoft.Dynamics.CRM.BooleanAttributeMetadata(MetadataId,LogicalName,SchemaName,DisplayName,OptionSet())\",\"value\":[]}",
     "DefaultPublicView": "{\"@odata.context\":\"https://orga8cbfd09.crm5.dynamics.com/api/data/v9.0/$metadata#savedqueries(layoutxml)\",\"value\":[{\"@odata.etag\":\"W/\\\"2929142\\\"\",\"layoutxml\":\"<grid name=\\\"resultset\\\" object=\\\"10402\\\" jump=\\\"cr35c_firstname\\\" select=\\\"1\\\" icon=\\\"1\\\" preview=\\\"1\\\"><row name=\\\"result\\\" id=\\\"cr35c_tableid\\\"><cell name=\\\"cr35c_firstname\\\" width=\\\"300\\\" /><cell name=\\\"createdon\\\" width=\\\"125\\\" /></row></grid>\",\"savedqueryid\":\"49439512-5663-4f48-a7cd-62dd6543ca87\"}]}",
@@ -21,5 +22,6 @@
     "TableName": "cr35c_table",
     "Views": "{\"@odata.context\":\"https://orga8cbfd09.crm5.dynamics.com/api/data/v9.0/$metadata#savedqueries(savedqueryid,name,querytype)\",\"value\":[{\"@odata.etag\":\"W/\\\"2928596\\\"\",\"savedqueryid\":\"a9d073c6-cebd-40ad-8627-05291811cde3\",\"name\":\"Table Lookup View\",\"querytype\":64},{\"@odata.etag\":\"W/\\\"2929142\\\"\",\"savedqueryid\":\"49439512-5663-4f48-a7cd-62dd6543ca87\",\"name\":\"Active Tables\",\"querytype\":0},{\"@odata.etag\":\"W/\\\"2928584\\\"\",\"savedqueryid\":\"e7655f60-7ab3-40b4-af6c-87f1d49c9cad\",\"name\":\"Table Associated View\",\"querytype\":2},{\"@odata.etag\":\"W/\\\"2928608\\\"\",\"savedqueryid\":\"177b0ff4-11a0-4c90-a4aa-e26e3b14e251\",\"name\":\"Table Advanced Find View\",\"querytype\":1},{\"@odata.etag\":\"W/\\\"2928572\\\"\",\"savedqueryid\":\"295d204b-37eb-498a-a4f7-e5d2d46c8fc2\",\"name\":\"Inactive Tables\",\"querytype\":0}]}"
   },
-  "UnusedDataSources": {}
+  "UnusedDataSources": {},
+  "webApiVersion": "v9.0"
 }

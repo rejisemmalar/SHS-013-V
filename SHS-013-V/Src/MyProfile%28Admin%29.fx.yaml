@@ -1,9 +1,5 @@
 "'MyProfile(Admin)' As screen":
 
-    profilecomp As Component1:
-        CurrentScreen: ="MyProfile(Admin)"
-        Height: =768
-
     Container6 As groupContainer.horizontalAutoLayoutContainer:
         Height: =646
         LayoutDirection: =LayoutDirection.Vertical
@@ -11,7 +7,7 @@
         Width: =App.Width-profilecomp.VarMenuWidth
         X: =profilecomp.VarMenuWidth
         Y: =122
-        ZIndex: =2
+        ZIndex: =1
 
         Container15 As groupContainer.verticalAutoLayoutContainer:
             DropShadow: =DropShadow.None
@@ -226,7 +222,7 @@
                         Color: =RGBA(45, 128, 40, 1)
                         FontWeight: =FontWeight.Bold
                         PaddingLeft: =15
-                        Text: ="Action"
+                        Text: ="Active"
                         Width: =200
                         ZIndex: =3
 
@@ -446,4 +442,9 @@
                 LayoutMode: =LayoutMode.Auto
                 Width: =30
                 ZIndex: =5
+
+    profilecomp As Component1:
+        CurrentScreen: ="MyProfile(Admin)"
+        Height: =768
+        ZIndex: =2
 
