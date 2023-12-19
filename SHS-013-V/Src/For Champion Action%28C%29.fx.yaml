@@ -505,6 +505,7 @@
             ZIndex: =2
 
     Actionpage As groupContainer.verticalAutoLayoutContainer:
+        Fill: =Color.White
         Height: =App.Height-'compForChampionAction(C)'.ComHeaderHeight
         LayoutDirection: =LayoutDirection.Vertical
         LayoutMode: =LayoutMode.Auto
@@ -1048,6 +1049,7 @@
         Form3 As form:
             AlignInContainer: =AlignInContainer.SetByContainer
             DataSource: ='Initiative List'
+            DefaultMode: =FormMode.New
             FillPortions: =0
             LayoutMinHeight: =250
             LayoutMinWidth: =400
