@@ -509,6 +509,7 @@
         Height: =App.Height-'compForChampionAction(C)'.ComHeaderHeight
         LayoutDirection: =LayoutDirection.Vertical
         LayoutMode: =LayoutMode.Auto
+        Visible: =ShowActionpage
         Width: =App.Width-'compForChampionAction(C)'.VarMenuWidth
         X: ='compForChampionAction(C)'.VarMenuWidth
         Y: ='compForChampionAction(C)'.ComHeaderHeight

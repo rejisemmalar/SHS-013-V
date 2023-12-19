@@ -14613,36 +14613,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'For Champion Action(C)'.ShowActionpage"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'For Champion Action(C)'.ShowActionpage",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "ShowActionpage",
-                "module": "For Champion Action(C)",
-                "type": "'For Champion Action(C)'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-UnusedVariables",
-          "ruleIndex": 9
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "'For Champion Action(C)'.'Main-For Champion Action(C)'.Container14_13.Visible"
                 }
               ],
