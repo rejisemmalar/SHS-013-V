@@ -1007,7 +1007,6 @@
                         factorname_12 As label:
                             Align: =Align.Center
                             FillPortions: =1
-                            FontWeight: =FontWeight.Bold
                             LayoutMinWidth: =120
                             Size: =15
                             Text: =ThisItem.Study
@@ -1029,7 +1028,6 @@
                         factorcode_30 As label:
                             Align: =Align.Center
                             FillPortions: =1
-                            FontWeight: =FontWeight.Bold
                             LayoutMinWidth: =120
                             Size: =15
                             Text: =ThisItem.Factor.Value
@@ -1052,7 +1050,6 @@
                         factorcode_31 As label:
                             Align: =Align.Center
                             FillPortions: =1
-                            FontWeight: =FontWeight.Bold
                             LayoutMinWidth: =120
                             Size: =15
                             Text: =ThisItem.SubFactors.Value
@@ -1075,7 +1072,6 @@
                         factorcode_32 As label:
                             Align: =Align.Center
                             FillPortions: =1
-                            FontWeight: =FontWeight.Bold
                             LayoutMinWidth: =120
                             Size: =15
                             Text: =ThisItem.StartDate
@@ -1098,7 +1094,6 @@
                         factorcode_33 As label:
                             Align: =Align.Center
                             FillPortions: =1
-                            FontWeight: =FontWeight.Bold
                             LayoutMinWidth: =120
                             Size: =15
                             Text: =ThisItem.'End Date'
@@ -1121,7 +1116,6 @@
                         factorcode_34 As label:
                             Align: =Align.Center
                             FillPortions: =1
-                            FontWeight: =FontWeight.Bold
                             LayoutMinWidth: =120
                             Size: =15
                             Text: =ThisItem.Progress
@@ -1191,12 +1185,12 @@
             NumberOfColumns: =2
             OnFailure: =
             OnSuccess: |
-                =ResetForm(Form3);
+                =
                 updateInitiativeflow.Run(
                     Form3.LastSubmit.ID,
                     Gallery_study_2.Selected.'Study Name',
                     Gallery_study_2.Selected.'Perf Year'
-                );
+                );ResetForm(Form3);
             Width: =Parent.Width
             ZIndex: =1
 
@@ -1336,72 +1330,6 @@
                     Y: =DataCardKey73.Y
                     ZIndex: =4
 
-            Factor_DataCard1 As typedDataCard.comboBoxEditCard:
-                BorderStyle: =BorderStyle.Solid
-                DataField: ="Factor"
-                Default: =ThisItem.Factor
-                DisplayMode: =Parent.DisplayMode
-                DisplayName: =DataSourceInfo([@'Initiative List'],DataSourceInfo.DisplayName,"Factor")
-                Fill: =RGBA(0, 0, 0, 0)
-                Height: =50
-                Required: =true
-                Update: =DataCardValue75.Selected
-                Width: =546
-                X: =1
-                Y: =1
-                ZIndex: =2
-
-                DataCardKey75 As label:
-                    AutoHeight: =true
-                    Height: =34
-                    Text: =Parent.DisplayName
-                    Width: =Parent.Width - 60
-                    Wrap: =false
-                    X: =30
-                    Y: =10
-                    ZIndex: =1
-
-                DataCardValue75 As combobox:
-                    BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                    DefaultSelectedItems: =Parent.Default
-                    DisplayFields: =["Value"]
-                    DisplayMode: =Parent.DisplayMode
-                    Items: =Choices([@'Initiative List'].Factor)
-                    PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
-                    SearchFields: =["Value"]
-                    SearchItems: =Choices('Initiative List'.Factor,DataCardValue75.SearchText)
-                    SelectMultiple: =false
-                    Tooltip: =Parent.DisplayName
-                    Width: =Parent.Width - 60
-                    X: =30
-                    Y: =DataCardKey75.Y + DataCardKey75.Height + 5
-                    ZIndex: =2
-
-                ErrorMessage75 As label:
-                    AutoHeight: =true
-                    Height: =10
-                    Live: =Live.Assertive
-                    PaddingBottom: =0
-                    PaddingLeft: =0
-                    PaddingRight: =0
-                    PaddingTop: =0
-                    Text: =Parent.Error
-                    Visible: =Parent.DisplayMode=DisplayMode.Edit
-                    Width: =Parent.Width - 60
-                    X: =30
-                    Y: =DataCardValue75.Y + DataCardValue75.Height
-                    ZIndex: =3
-
-                StarVisible75 As label:
-                    Align: =Align.Center
-                    Height: =DataCardKey75.Height
-                    Text: ="*"
-                    Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                    Width: =30
-                    Wrap: =false
-                    Y: =DataCardKey75.Y
-                    ZIndex: =4
-
             Description_DataCard1 As typedDataCard.textualEditCard:
                 BorderStyle: =BorderStyle.Solid
                 DataField: ="Description"
@@ -1468,6 +1396,72 @@
                     Width: =30
                     Wrap: =false
                     Y: =DataCardKey74.Y
+                    ZIndex: =4
+
+            Factor_DataCard1 As typedDataCard.comboBoxEditCard:
+                BorderStyle: =BorderStyle.Solid
+                DataField: ="Factor"
+                Default: =ThisItem.Factor
+                DisplayMode: =Parent.DisplayMode
+                DisplayName: =DataSourceInfo([@'Initiative List'],DataSourceInfo.DisplayName,"Factor")
+                Fill: =RGBA(0, 0, 0, 0)
+                Height: =50
+                Required: =true
+                Update: =DataCardValue75.Selected
+                Width: =546
+                X: =1
+                Y: =1
+                ZIndex: =2
+
+                DataCardKey75 As label:
+                    AutoHeight: =true
+                    Height: =34
+                    Text: =Parent.DisplayName
+                    Width: =Parent.Width - 60
+                    Wrap: =false
+                    X: =30
+                    Y: =10
+                    ZIndex: =1
+
+                DataCardValue75 As combobox:
+                    BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                    DefaultSelectedItems: =Parent.Default
+                    DisplayFields: =["Value"]
+                    DisplayMode: =Parent.DisplayMode
+                    Items: =Choices([@'Initiative List'].Factor)
+                    PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
+                    SearchFields: =["Value"]
+                    SearchItems: =Choices('Initiative List'.Factor,DataCardValue75.SearchText)
+                    SelectMultiple: =false
+                    Tooltip: =Parent.DisplayName
+                    Width: =Parent.Width - 60
+                    X: =30
+                    Y: =DataCardKey75.Y + DataCardKey75.Height + 5
+                    ZIndex: =2
+
+                ErrorMessage75 As label:
+                    AutoHeight: =true
+                    Height: =10
+                    Live: =Live.Assertive
+                    PaddingBottom: =0
+                    PaddingLeft: =0
+                    PaddingRight: =0
+                    PaddingTop: =0
+                    Text: =Parent.Error
+                    Visible: =Parent.DisplayMode=DisplayMode.Edit
+                    Width: =Parent.Width - 60
+                    X: =30
+                    Y: =DataCardValue75.Y + DataCardValue75.Height
+                    ZIndex: =3
+
+                StarVisible75 As label:
+                    Align: =Align.Center
+                    Height: =DataCardKey75.Height
+                    Text: ="*"
+                    Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                    Width: =30
+                    Wrap: =false
+                    Y: =DataCardKey75.Y
                     ZIndex: =4
 
             SubFactors_DataCard1 As typedDataCard.comboBoxEditCard:
