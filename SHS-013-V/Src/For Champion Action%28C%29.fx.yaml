@@ -591,16 +591,20 @@
                                     Collect(
                                         CSVData,
                                         {
-                                           StudyName:Data.'Study Name',
-                                           Division:Data.Division,
-                                           FactorS:Data.Factors_,
-                                           Performanceyear:Data.'Perf Year',
-                                           CurrentQuarter:Data.Quarter
+                                          Initiative:Data.'Initiative Name',
+                                          Study:Data.Study,
+                                          FActors:Data.Factor,
+                                          SubFactor:Data.SubFactors,
+                                          PerformanceYear:Data.PerfYear,
+                                          SatrtDAte:Data.StartDate,
+                                          EndDate:Data.'End Date',
+                                          Progress:Data.Progress
+                                
                                 
                                         }
                                     )
                                 );
-                                Download(Exportflow.Run(JSON(CSVData),"ForChampionAction").file_link);
+                                Download(Exportflow.Run(JSON(CSVData),"Initiatives").file_link);
                                 Clear(CSVData);
                                 
                             PaddingLeft: =35
@@ -624,16 +628,20 @@
                                     Collect(
                                         CSVData,
                                         {
-                                           StudyName:Data.'Study Name',
-                                           Division:Data.Division,
-                                           FactorS:Data.Factors_,
-                                           Performanceyear:Data.'Perf Year',
-                                           CurrentQuarter:Data.Quarter
+                                          Initiative:Data.'Initiative Name',
+                                          Study:Data.Study,
+                                          FActors:Data.Factor,
+                                          SubFactor:Data.SubFactors,
+                                          PerformanceYear:Data.PerfYear,
+                                          SatrtDAte:Data.StartDate,
+                                          EndDate:Data.'End Date',
+                                          Progress:Data.Progress
+                                
                                 
                                         }
                                     )
                                 );
-                                Download(Exportflow.Run(JSON(CSVData),"ForChampionAction").file_link);
+                                Download(Exportflow.Run(JSON(CSVData),"Initiatives").file_link);
                                 Clear(CSVData);
                                 
                             Width: =32
@@ -727,24 +735,7 @@
                             DisabledFill: =Self.Fill
                             Fill: =RGBA(5, 89, 8, 1)
                             HoverFill: =Self.Fill
-                            OnSelect: |+
-                                =ForAll(
-                                    Gallery_study_3.AllItems As Data,
-                                    Collect(
-                                        CSVData,
-                                        {
-                                           StudyName:Data.'Study Name',
-                                           Division:Data.Division,
-                                           FactorS:Data.Factors_,
-                                           Performanceyear:Data.'Perf Year',
-                                           CurrentQuarter:Data.Quarter
-                                
-                                        }
-                                    )
-                                );
-                                Download(Exportflow.Run(JSON(CSVData),"ForChampionAction").file_link);
-                                Clear(CSVData);
-                                
+                            OnSelect: =
                             PaddingLeft: =35
                             PressedColor: =Color.White
                             PressedFill: =Self.Fill
@@ -776,7 +767,7 @@
                 LayoutAlignItems: =LayoutAlignItems.Stretch
                 LayoutJustifyContent: =LayoutJustifyContent.Center
                 LayoutMinHeight: =80
-                LayoutMinWidth: =150
+                LayoutMinWidth: =120
                 LayoutMode: =LayoutMode.Auto
                 Width: =Parent.Width
                 ZIndex: =1
@@ -785,9 +776,9 @@
                     Align: =Align.Center
                     FillPortions: =1
                     FontWeight: =FontWeight.Bold
-                    PaddingLeft: =50
+                    LayoutMinWidth: =130
                     Size: =15
-                    Text: ="Division"
+                    Text: ="Initiative"
                     ZIndex: =1
 
             Container28_20 As groupContainer.horizontalAutoLayoutContainer:
@@ -797,7 +788,7 @@
                 LayoutAlignItems: =LayoutAlignItems.Stretch
                 LayoutJustifyContent: =LayoutJustifyContent.Center
                 LayoutMinHeight: =80
-                LayoutMinWidth: =150
+                LayoutMinWidth: =120
                 LayoutMode: =LayoutMode.Auto
                 Width: =Parent.Width
                 ZIndex: =2
@@ -806,8 +797,9 @@
                     Align: =Align.Center
                     FillPortions: =1
                     FontWeight: =FontWeight.Bold
+                    LayoutMinWidth: =120
                     Size: =15
-                    Text: ="Factors"
+                    Text: ="Study"
                     Width: =220
                     ZIndex: =1
 
@@ -818,7 +810,7 @@
                 LayoutAlignItems: =LayoutAlignItems.Stretch
                 LayoutJustifyContent: =LayoutJustifyContent.Center
                 LayoutMinHeight: =80
-                LayoutMinWidth: =150
+                LayoutMinWidth: =120
                 LayoutMode: =LayoutMode.Auto
                 Width: =Parent.Width
                 ZIndex: =3
@@ -827,8 +819,9 @@
                     Align: =Align.Center
                     FillPortions: =1
                     FontWeight: =FontWeight.Bold
+                    LayoutMinWidth: =120
                     Size: =15
-                    Text: ="Division"
+                    Text: ="Factor"
                     Width: =220
                     Y: =130
                     ZIndex: =1
@@ -840,7 +833,7 @@
                 LayoutAlignItems: =LayoutAlignItems.Stretch
                 LayoutJustifyContent: =LayoutJustifyContent.Center
                 LayoutMinHeight: =80
-                LayoutMinWidth: =150
+                LayoutMinWidth: =120
                 LayoutMode: =LayoutMode.Auto
                 Width: =Parent.Width
                 ZIndex: =4
@@ -849,8 +842,9 @@
                     Align: =Align.Center
                     FillPortions: =1
                     FontWeight: =FontWeight.Bold
+                    LayoutMinWidth: =120
                     Size: =15
-                    Text: ="Perf Year"
+                    Text: ="SubFactor"
                     Width: =220
                     Y: =130
                     ZIndex: =1
@@ -862,7 +856,7 @@
                 LayoutAlignItems: =LayoutAlignItems.Stretch
                 LayoutJustifyContent: =LayoutJustifyContent.Center
                 LayoutMinHeight: =80
-                LayoutMinWidth: =150
+                LayoutMinWidth: =120
                 LayoutMode: =LayoutMode.Auto
                 Width: =Parent.Width
                 ZIndex: =5
@@ -871,8 +865,9 @@
                     Align: =Align.Center
                     FillPortions: =1
                     FontWeight: =FontWeight.Bold
+                    LayoutMinWidth: =120
                     Size: =15
-                    Text: ="Quarter"
+                    Text: ="StartDate"
                     Width: =190
                     Y: =130
                     ZIndex: =1
@@ -884,7 +879,7 @@
                 LayoutAlignItems: =LayoutAlignItems.Stretch
                 LayoutJustifyContent: =LayoutJustifyContent.Center
                 LayoutMinHeight: =80
-                LayoutMinWidth: =150
+                LayoutMinWidth: =120
                 LayoutMode: =LayoutMode.Auto
                 Width: =Parent.Width
                 ZIndex: =6
@@ -893,6 +888,53 @@
                     Align: =Align.Center
                     FillPortions: =1
                     FontWeight: =FontWeight.Bold
+                    LayoutMinWidth: =120
+                    Size: =15
+                    Text: ="EndDate"
+                    Width: =220
+                    Y: =130
+                    ZIndex: =1
+
+            Container27_55 As groupContainer.horizontalAutoLayoutContainer:
+                AlignInContainer: =AlignInContainer.SetByContainer
+                DropShadow: =DropShadow.None
+                Height: =Parent.Height
+                LayoutAlignItems: =LayoutAlignItems.Stretch
+                LayoutJustifyContent: =LayoutJustifyContent.Center
+                LayoutMinHeight: =80
+                LayoutMinWidth: =120
+                LayoutMode: =LayoutMode.Auto
+                Width: =Parent.Width
+                ZIndex: =7
+
+                factorcode_28 As label:
+                    Align: =Align.Center
+                    FillPortions: =1
+                    FontWeight: =FontWeight.Bold
+                    LayoutMinWidth: =120
+                    Size: =15
+                    Text: ="Progress"
+                    Width: =220
+                    Y: =130
+                    ZIndex: =1
+
+            Container27_56 As groupContainer.horizontalAutoLayoutContainer:
+                AlignInContainer: =AlignInContainer.SetByContainer
+                DropShadow: =DropShadow.None
+                Height: =Parent.Height
+                LayoutAlignItems: =LayoutAlignItems.Stretch
+                LayoutJustifyContent: =LayoutJustifyContent.Center
+                LayoutMinHeight: =80
+                LayoutMinWidth: =120
+                LayoutMode: =LayoutMode.Auto
+                Width: =Parent.Width
+                ZIndex: =8
+
+                factorcode_29 As label:
+                    Align: =Align.Center
+                    FillPortions: =1
+                    FontWeight: =FontWeight.Bold
+                    LayoutMinWidth: =120
                     Size: =15
                     Text: ="Action"
                     Width: =220
@@ -910,7 +952,7 @@
 
             Gallery_study_3 As gallery.galleryVertical:
                 DelayItemLoading: =true
-                Items: =Filter('Divisions With Study',StartsWith('Study Name',search_study.Text)||StartsWith('Division Name',search_study.Text))
+                Items: =Filter('Initiative List',Study=Gallery_study_2.Selected.'Study Name')
                 Layout: =Layout.Vertical
                 LayoutMinHeight: =287
                 LayoutMinWidth: =320
@@ -922,7 +964,9 @@
                 Width: =Parent.Width
                 ZIndex: =1
 
-                Container32_9 As groupContainer.horizontalAutoLayoutContainer:
+                Header_question_6 As groupContainer.horizontalAutoLayoutContainer:
+                    BorderThickness: =1
+                    DropShadow: =DropShadow.None
                     Height: =60
                     LayoutAlignItems: =LayoutAlignItems.Stretch
                     LayoutJustifyContent: =LayoutJustifyContent.Center
@@ -930,107 +974,184 @@
                     Width: =Parent.Width
                     ZIndex: =1
 
-                    Container33_42 As groupContainer.horizontalAutoLayoutContainer:
+                    Container28_21 As groupContainer.horizontalAutoLayoutContainer:
                         AlignInContainer: =AlignInContainer.SetByContainer
                         DropShadow: =DropShadow.None
-                        LayoutMinHeight: =60
-                        LayoutMinWidth: =150
+                        Height: =Parent.Height
+                        LayoutAlignItems: =LayoutAlignItems.Stretch
+                        LayoutJustifyContent: =LayoutJustifyContent.Center
+                        LayoutMinHeight: =80
+                        LayoutMinWidth: =120
                         LayoutMode: =LayoutMode.Auto
+                        Width: =Parent.Width
                         ZIndex: =1
 
-                        Label34_31 As label:
+                        factorname_11 As label:
                             Align: =Align.Center
                             FillPortions: =1
-                            Height: =60
-                            LayoutMinWidth: =100
-                            PaddingLeft: =15
-                            Text: =ThisItem.'Study Name'
+                            LayoutMinWidth: =130
+                            Size: =15
+                            Text: ="Initiative"
                             ZIndex: =1
 
-                    Container33_43 As groupContainer.horizontalAutoLayoutContainer:
+                    Container28_22 As groupContainer.horizontalAutoLayoutContainer:
                         AlignInContainer: =AlignInContainer.SetByContainer
                         DropShadow: =DropShadow.None
-                        LayoutMinHeight: =60
-                        LayoutMinWidth: =150
+                        Height: =Parent.Height
+                        LayoutAlignItems: =LayoutAlignItems.Stretch
+                        LayoutJustifyContent: =LayoutJustifyContent.Center
+                        LayoutMinHeight: =80
+                        LayoutMinWidth: =120
                         LayoutMode: =LayoutMode.Auto
+                        Width: =Parent.Width
                         ZIndex: =2
 
-                        Label34_32 As label:
+                        factorname_12 As label:
                             Align: =Align.Center
                             FillPortions: =1
-                            Height: =60
-                            PaddingLeft: =15
-                            Text: =ThisItem.Factors_
+                            FontWeight: =FontWeight.Bold
+                            LayoutMinWidth: =120
+                            Size: =15
+                            Text: ="Study"
+                            Width: =220
                             ZIndex: =1
 
-                    Container33_44 As groupContainer.horizontalAutoLayoutContainer:
+                    Container27_57 As groupContainer.horizontalAutoLayoutContainer:
                         AlignInContainer: =AlignInContainer.SetByContainer
                         DropShadow: =DropShadow.None
-                        LayoutMinHeight: =60
-                        LayoutMinWidth: =150
+                        Height: =Parent.Height
+                        LayoutAlignItems: =LayoutAlignItems.Stretch
+                        LayoutJustifyContent: =LayoutJustifyContent.Center
+                        LayoutMinHeight: =80
+                        LayoutMinWidth: =120
                         LayoutMode: =LayoutMode.Auto
+                        Width: =Parent.Width
                         ZIndex: =3
 
-                        Label34_33 As label:
+                        factorcode_30 As label:
                             Align: =Align.Center
                             FillPortions: =1
-                            Height: =60
-                            PaddingLeft: =15
-                            Text: =ThisItem.Division
+                            FontWeight: =FontWeight.Bold
+                            LayoutMinWidth: =120
+                            Size: =15
+                            Text: ="Factor"
+                            Width: =220
+                            Y: =130
                             ZIndex: =1
 
-                    Container33_45 As groupContainer.horizontalAutoLayoutContainer:
+                    Container27_58 As groupContainer.horizontalAutoLayoutContainer:
                         AlignInContainer: =AlignInContainer.SetByContainer
                         DropShadow: =DropShadow.None
-                        LayoutMinHeight: =60
-                        LayoutMinWidth: =150
+                        Height: =Parent.Height
+                        LayoutAlignItems: =LayoutAlignItems.Stretch
+                        LayoutJustifyContent: =LayoutJustifyContent.Center
+                        LayoutMinHeight: =80
+                        LayoutMinWidth: =120
                         LayoutMode: =LayoutMode.Auto
+                        Width: =Parent.Width
                         ZIndex: =4
 
-                        Label34_34 As label:
+                        factorcode_31 As label:
                             Align: =Align.Center
                             FillPortions: =1
-                            Height: =60
-                            Text: =ThisItem.'Perf Year'
+                            FontWeight: =FontWeight.Bold
+                            LayoutMinWidth: =120
+                            Size: =15
+                            Text: ="SubFactor"
+                            Width: =220
+                            Y: =130
                             ZIndex: =1
 
-                    Container33_46 As groupContainer.horizontalAutoLayoutContainer:
+                    Container27_59 As groupContainer.horizontalAutoLayoutContainer:
                         AlignInContainer: =AlignInContainer.SetByContainer
                         DropShadow: =DropShadow.None
-                        LayoutMinHeight: =60
-                        LayoutMinWidth: =150
+                        Height: =Parent.Height
+                        LayoutAlignItems: =LayoutAlignItems.Stretch
+                        LayoutJustifyContent: =LayoutJustifyContent.Center
+                        LayoutMinHeight: =80
+                        LayoutMinWidth: =120
                         LayoutMode: =LayoutMode.Auto
                         Width: =Parent.Width
                         ZIndex: =5
 
-                        Label34_35 As label:
+                        factorcode_32 As label:
                             Align: =Align.Center
                             FillPortions: =1
-                            Height: =60
-                            Text: |-
-                                =//ThisItem.'Perfomance Year'
-                                ThisItem.Quarter
-                            Width: =Parent.Width
+                            FontWeight: =FontWeight.Bold
+                            LayoutMinWidth: =120
+                            Size: =15
+                            Text: ="StartDate"
+                            Width: =190
+                            Y: =130
                             ZIndex: =1
 
-                    Container33_47 As groupContainer.horizontalAutoLayoutContainer:
+                    Container27_60 As groupContainer.horizontalAutoLayoutContainer:
                         AlignInContainer: =AlignInContainer.SetByContainer
                         DropShadow: =DropShadow.None
-                        LayoutAlignItems: =LayoutAlignItems.Center
-                        LayoutGap: =10
+                        Height: =Parent.Height
+                        LayoutAlignItems: =LayoutAlignItems.Stretch
                         LayoutJustifyContent: =LayoutJustifyContent.Center
-                        LayoutMinHeight: =60
-                        LayoutMinWidth: =150
+                        LayoutMinHeight: =80
+                        LayoutMinWidth: =120
                         LayoutMode: =LayoutMode.Auto
                         Width: =Parent.Width
                         ZIndex: =6
 
-                        Icon5_7 As icon.ArrowRight:
-                            Color: =RGBA(0, 0, 0, 1)
-                            Height: =30
-                            Icon: =Icon.ArrowRight
-                            OnSelect: |-
-                                =UpdateContext({ShowActionpage:true})
+                        factorcode_33 As label:
+                            Align: =Align.Center
+                            FillPortions: =1
+                            FontWeight: =FontWeight.Bold
+                            LayoutMinWidth: =120
+                            Size: =15
+                            Text: ="EndDate"
+                            Width: =220
+                            Y: =130
+                            ZIndex: =1
+
+                    Container27_61 As groupContainer.horizontalAutoLayoutContainer:
+                        AlignInContainer: =AlignInContainer.SetByContainer
+                        DropShadow: =DropShadow.None
+                        Height: =Parent.Height
+                        LayoutAlignItems: =LayoutAlignItems.Stretch
+                        LayoutJustifyContent: =LayoutJustifyContent.Center
+                        LayoutMinHeight: =80
+                        LayoutMinWidth: =120
+                        LayoutMode: =LayoutMode.Auto
+                        Width: =Parent.Width
+                        ZIndex: =7
+
+                        factorcode_34 As label:
+                            Align: =Align.Center
+                            FillPortions: =1
+                            FontWeight: =FontWeight.Bold
+                            LayoutMinWidth: =120
+                            Size: =15
+                            Text: ="Progress"
+                            Width: =220
+                            Y: =130
+                            ZIndex: =1
+
+                    Container27_62 As groupContainer.horizontalAutoLayoutContainer:
+                        AlignInContainer: =AlignInContainer.SetByContainer
+                        DropShadow: =DropShadow.None
+                        Height: =Parent.Height
+                        LayoutAlignItems: =LayoutAlignItems.Stretch
+                        LayoutJustifyContent: =LayoutJustifyContent.Center
+                        LayoutMinHeight: =80
+                        LayoutMinWidth: =120
+                        LayoutMode: =LayoutMode.Auto
+                        Width: =Parent.Width
+                        ZIndex: =8
+
+                        factorcode_35 As label:
+                            Align: =Align.Center
+                            FillPortions: =1
+                            FontWeight: =FontWeight.Bold
+                            LayoutMinWidth: =120
+                            Size: =15
+                            Text: ="Action"
+                            Width: =220
+                            Y: =130
                             ZIndex: =1
 
     CreateInitiative As groupContainer.verticalAutoLayoutContainer:
