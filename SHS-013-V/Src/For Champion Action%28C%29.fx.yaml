@@ -1189,12 +1189,14 @@
             LayoutMinHeight: =250
             LayoutMinWidth: =400
             NumberOfColumns: =2
-            OnSuccess: |-
-                =updateInitiativeflow.Run(
+            OnFailure: =
+            OnSuccess: |
+                =ResetForm(Form3);
+                updateInitiativeflow.Run(
                     Form3.LastSubmit.ID,
                     Gallery_study_2.Selected.'Study Name',
                     Gallery_study_2.Selected.'Perf Year'
-                )
+                );
             Width: =Parent.Width
             ZIndex: =1
 
@@ -1800,7 +1802,9 @@
                     ZIndex: =4
 
         Button1 As button:
-            OnSelect: =SubmitForm(Form3);
+            OnSelect: |-
+                =
+                IfError(SubmitForm(Form3),Notify(Form3.Error,NotificationType.Error))
             Text: ="Save"
             X: =546
             Y: =630
