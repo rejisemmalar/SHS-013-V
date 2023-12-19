@@ -518,7 +518,7 @@
             AlignInContainer: =AlignInContainer.SetByContainer
             DropShadow: =DropShadow.None
             FillPortions: =0
-            Height: =80
+            Height: =60
             LayoutMinHeight: =100
             LayoutMinWidth: =250
             LayoutMode: =LayoutMode.Auto
