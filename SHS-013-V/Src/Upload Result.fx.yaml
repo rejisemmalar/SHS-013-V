@@ -444,6 +444,7 @@
 
             Label13 As label:
                 Align: =Align.Center
+                AlignInContainer: =AlignInContainer.Center
                 FontWeight: =FontWeight.Bold
                 PaddingLeft: =20
                 Size: =15
@@ -532,6 +533,7 @@
 
             Label13_1 As label:
                 Align: =Align.Center
+                AlignInContainer: =AlignInContainer.Center
                 FontWeight: =FontWeight.Bold
                 PaddingLeft: =20
                 Size: =15
@@ -616,6 +618,7 @@
 
             Label13_2 As label:
                 Align: =Align.Center
+                AlignInContainer: =AlignInContainer.Center
                 FontWeight: =FontWeight.Bold
                 Height: =50
                 LineHeight: =1.4
@@ -702,6 +705,7 @@
 
             Label13_3 As label:
                 Align: =Align.Center
+                AlignInContainer: =AlignInContainer.Center
                 FontWeight: =FontWeight.Bold
                 Height: =50
                 LineHeight: =1.4
@@ -787,6 +791,7 @@
 
             Label13_4 As label:
                 Align: =Align.Center
+                AlignInContainer: =AlignInContainer.Center
                 FontWeight: =FontWeight.Bold
                 Height: =50
                 LineHeight: =1.4
