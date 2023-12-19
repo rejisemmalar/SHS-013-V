@@ -14673,36 +14673,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'For Champion Action(C)'.CeateInitiative"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'For Champion Action(C)'.CeateInitiative",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "CeateInitiative",
-                "module": "For Champion Action(C)",
-                "type": "'For Champion Action(C)'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-UnusedVariables",
-          "ruleIndex": 9
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "'For Champion Action(C)'.ShowActionpage"
                 }
               ],

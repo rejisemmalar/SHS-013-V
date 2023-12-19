@@ -8,7 +8,6 @@
         Height: =App.Height-'compForChampionAction(C)'.ComHeaderHeight
         LayoutDirection: =LayoutDirection.Vertical
         LayoutMode: =LayoutMode.Auto
-        Visible: =false
         Width: =App.Width-'compForChampionAction(C)'.VarMenuWidth
         X: ='compForChampionAction(C)'.VarMenuWidth
         Y: ='compForChampionAction(C)'.ComHeaderHeight
@@ -1040,6 +1039,7 @@
         LayoutDirection: =LayoutDirection.Vertical
         LayoutGap: =10
         LayoutMode: =LayoutMode.Auto
+        Visible: =CeateInitiative
         Width: =App.Width-'compForChampionAction(C)'.VarMenuWidth
         X: ='compForChampionAction(C)'.VarMenuWidth
         Y: ='compForChampionAction(C)'.ComHeaderHeight
