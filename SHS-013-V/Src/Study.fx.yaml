@@ -53,11 +53,13 @@ Study As screen:
 
             Container27_22 As groupContainer.horizontalAutoLayoutContainer:
                 DropShadow: =DropShadow.None
+                FillPortions: =0
                 Height: =Parent.Height
                 LayoutGap: =10
                 LayoutMinHeight: =80
                 LayoutMinWidth: =250
                 LayoutMode: =LayoutMode.Auto
+                Width: =550
                 ZIndex: =2
 
                 Container25_18 As groupContainer.manualLayoutContainer:
