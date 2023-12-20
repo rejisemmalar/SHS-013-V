@@ -2469,7 +2469,7 @@
         Button1_2 As button:
             OnSelect: |-
                 =SubmitForm(Form3_1);
-                If(Not(IsBlank(Form3_1.LastSubmit.ID)),updateInitiativeflow.Run(
+                If(Not(IsBlank(Form3_1.LastSubmit.ID)),updateinitiativeflow.Run(
                     Form3_1.LastSubmit.ID,
                     Gallery_study_2.Selected.'Study Name',
                     Gallery_study_2.Selected.'Perf Year'
