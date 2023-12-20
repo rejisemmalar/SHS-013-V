@@ -990,6 +990,7 @@
                     ZIndex: =1
 
                     Checkbox2_1 As checkbox:
+                        Default: =Checkbox2.Value
                         LayoutMinWidth: =50
                         Text: =""
                         Width: =50
